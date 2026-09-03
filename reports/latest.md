@@ -1,6 +1,6 @@
 # Latest tree-shaking conformance report
 
-Generated: `2026-09-03T18:07:18.413Z`
+Generated: `2026-09-03T18:12:19.034Z`
 
 > ✅ = semantics correct and all pruning markers removed; ◐ = semantics correct but expected code remains; ❌ = build/runtime semantics failure; — = unavailable. A missing upstream fixture is never treated as unsupported.
 
