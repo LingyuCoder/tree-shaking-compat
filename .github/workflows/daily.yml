@@ -20,8 +20,8 @@ jobs:
     outputs:
       bun_version: ${{ steps.release_outputs.outputs.bun_version }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Resolve latest stable releases
@@ -35,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/sync-upstream-inventory.mjs
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: prepared-data
           path: |
@@ -52,14 +52,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         with:
           version: 11.8.0
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: prepared-data
           path: .
@@ -68,7 +68,7 @@ jobs:
         with:
           bun-version: ${{ needs.prepare.outputs.bun_version }}
       - name: Cache exact daily toolchain
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: .cache/toolchain
           key: ${{ runner.os }}-node22-toolchain-${{ hashFiles('data/results/versions.json') }}
@@ -76,7 +76,7 @@ jobs:
         run: node scripts/install-toolchain.mjs
       - name: Run ${{ matrix.bundler }} adapter
         run: node scripts/run.mjs --bundlers=${{ matrix.bundler }} --output=.cache/partials/${{ matrix.bundler }}.json
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: result-${{ matrix.bundler }}
@@ -90,15 +90,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: prepared-data
           path: .
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           pattern: result-*
           path: .cache/partials
