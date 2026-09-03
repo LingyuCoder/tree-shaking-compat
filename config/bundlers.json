@@ -1,0 +1,68 @@
+{
+  "bundlers": [
+    {
+      "id": "rollup",
+      "label": "Rollup",
+      "package": "rollup",
+      "adapter": "rollup",
+      "profiles": ["graph", "production"],
+      "productionLayer": "core"
+    },
+    {
+      "id": "rolldown",
+      "label": "Rolldown",
+      "package": "rolldown",
+      "adapter": "rolldown",
+      "profiles": ["graph", "production"],
+      "productionLayer": "core+minifier"
+    },
+    {
+      "id": "webpack",
+      "label": "webpack",
+      "package": "webpack",
+      "adapter": "webpack",
+      "profiles": ["graph", "production"],
+      "productionLayer": "graph+terser"
+    },
+    {
+      "id": "rspack",
+      "label": "Rspack",
+      "package": "@rspack/core",
+      "adapter": "rspack",
+      "profiles": ["graph", "production"],
+      "productionLayer": "graph+swc"
+    },
+    {
+      "id": "esbuild",
+      "label": "esbuild",
+      "package": "esbuild",
+      "adapter": "esbuild",
+      "profiles": ["graph", "production"],
+      "productionLayer": "core+minifier"
+    },
+    {
+      "id": "parcel",
+      "label": "Parcel",
+      "package": "@parcel/core",
+      "adapter": "parcel",
+      "profiles": ["graph", "production"],
+      "productionLayer": "scope-hoist+optimizer"
+    },
+    {
+      "id": "bun",
+      "label": "Bun",
+      "package": null,
+      "adapter": "bun",
+      "profiles": ["graph", "production"],
+      "productionLayer": "core+minifier"
+    },
+    {
+      "id": "turbopack",
+      "label": "Turbopack",
+      "package": "next",
+      "adapter": "turbopack",
+      "profiles": ["production"],
+      "productionLayer": "Next.js production pipeline"
+    }
+  ]
+}

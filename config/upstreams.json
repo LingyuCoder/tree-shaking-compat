@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "directPattern": "tree[- ]?shak|treeshak|dead[- ]?code|\\bdce\\b|side[- ]?effect|unused|pure|no_side_effects|skips? dead branches|remove props|include destructured|path tracking",
+  "upstreams": [
+    {
+      "id": "esbuild",
+      "repository": "evanw/esbuild",
+      "package": "esbuild",
+      "suites": [
+        {
+          "id": "bundler-dce",
+          "kind": "regex-in-file",
+          "path": "internal/bundler_tests/bundler_dce_test.go",
+          "pattern": "func (Test[A-Za-z0-9_]+)\\("
+        }
+      ]
+    },
+    {
+      "id": "parcel",
+      "repository": "parcel-bundler/parcel",
+      "package": "@parcel/core",
+      "suites": [
+        {
+          "id": "scope-hoisting-esm",
+          "kind": "child-directories",
+          "root": "packages/core/integration-tests/test/integration/scope-hoisting/es6"
+        },
+        {
+          "id": "scope-hoisting-commonjs",
+          "kind": "child-directories",
+          "root": "packages/core/integration-tests/test/integration/scope-hoisting/commonjs"
+        }
+      ]
+    },
+    {
+      "id": "turbopack",
+      "repository": "vercel/next.js",
+      "package": "next",
+      "suites": [
+        {
+          "id": "tree-shaker-analyzer",
+          "kind": "child-directories",
+          "root": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer"
+        },
+        {
+          "id": "tree-shaking-execution",
+          "kind": "child-directories",
+          "root": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking"
+        },
+        {
+          "id": "remove-unused-imports",
+          "kind": "child-directories",
+          "root": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports"
+        },
+        {
+          "id": "cjs-remove-unused-imports",
+          "kind": "child-directories",
+          "root": "turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports"
+        },
+        {
+          "id": "cjs-remove-unused-exports",
+          "kind": "child-directories",
+          "root": "turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports"
+        },
+        {
+          "id": "side-effects-optimization",
+          "kind": "child-directories",
+          "root": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization"
+        },
+        {
+          "id": "webpack-cjs-port",
+          "kind": "child-directories",
+          "root": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking"
+        }
+      ]
+    },
+    {
+      "id": "rolldown",
+      "repository": "rolldown/rolldown",
+      "package": "rolldown",
+      "suites": [
+        {
+          "id": "esbuild-dce-port",
+          "kind": "child-directories",
+          "root": "crates/rolldown/tests/esbuild/dce"
+        },
+        {
+          "id": "native-tree-shaking",
+          "kind": "child-directories",
+          "root": "crates/rolldown/tests/rolldown/tree_shaking"
+        },
+        {
+          "id": "rollup-incompatibilities-generated",
+          "kind": "json-string-array",
+          "path": "packages/rollup-tests/src/ignored-treeshaking-tests.json"
+        },
+        {
+          "id": "rollup-incompatibilities-manual",
+          "kind": "quoted-strings-in-file",
+          "path": "packages/rollup-tests/src/ignored-treeshaking-tests.js",
+          "pattern": "[\\\"'](rollup@[^\\\"']+)[\\\"']"
+        }
+      ]
+    },
+    {
+      "id": "rollup",
+      "repository": "rollup/rollup",
+      "package": "rollup",
+      "suites": [
+        {
+          "id": "form-pipeline",
+          "kind": "directories-with-file",
+          "root": "test/form/samples",
+          "fileNames": ["_config.js", "_config.ts"]
+        },
+        {
+          "id": "function-pipeline",
+          "kind": "directories-with-file",
+          "root": "test/function/samples",
+          "fileNames": ["_config.js", "_config.ts"]
+        },
+        {
+          "id": "chunking-pipeline",
+          "kind": "directories-with-file",
+          "root": "test/chunking-form/samples",
+          "fileNames": ["_config.js", "_config.ts"]
+        }
+      ]
+    },
+    {
+      "id": "webpack",
+      "repository": "webpack/webpack",
+      "package": "webpack",
+      "suites": [
+        { "id": "cjs-tree-shaking", "kind": "child-directories", "root": "test/cases/cjs-tree-shaking" },
+        { "id": "inner-graph", "kind": "child-directories", "root": "test/cases/inner-graph" },
+        { "id": "side-effects", "kind": "child-directories", "root": "test/cases/side-effects" },
+        { "id": "config-cjs-tree-shaking", "kind": "child-directories", "root": "test/configCases/cjs-tree-shaking" },
+        { "id": "config-inner-graph", "kind": "child-directories", "root": "test/configCases/inner-graph" },
+        { "id": "config-side-effects", "kind": "child-directories", "root": "test/configCases/side-effects" },
+        { "id": "config-optimization-pipeline", "kind": "child-directories", "root": "test/configCases/optimization" }
+      ]
+    },
+    {
+      "id": "rspack",
+      "repository": "web-infra-dev/rspack",
+      "package": "@rspack/core",
+      "suites": [
+        { "id": "tree-shaking", "kind": "child-directories", "root": "tests/rspack-test/treeShakingCases" },
+        { "id": "config-tree-shaking", "kind": "child-directories", "root": "tests/rspack-test/configCases/tree-shaking" },
+        { "id": "normal-cjs-tree-shaking", "kind": "child-directories", "root": "tests/rspack-test/normalCases/cjs-tree-shaking" },
+        { "id": "config-cjs-tree-shaking", "kind": "child-directories", "root": "tests/rspack-test/configCases/cjs-tree-shaking" },
+        { "id": "normal-inner-graph", "kind": "child-directories", "root": "tests/rspack-test/normalCases/inner-graph" },
+        { "id": "config-inner-graph", "kind": "child-directories", "root": "tests/rspack-test/configCases/inner-graph" },
+        { "id": "normal-side-effects", "kind": "child-directories", "root": "tests/rspack-test/normalCases/side-effects" },
+        { "id": "config-side-effects", "kind": "child-directories", "root": "tests/rspack-test/configCases/side-effects" },
+        { "id": "config-optimization-pipeline", "kind": "child-directories", "root": "tests/rspack-test/configCases/optimization" }
+      ]
+    },
+    {
+      "id": "bun",
+      "repository": "oven-sh/bun",
+      "package": null,
+      "suites": [
+        {
+          "id": "esbuild-dce-port",
+          "kind": "regex-in-file",
+          "path": "test/bundler/esbuild/dce.test.ts",
+          "pattern": "itBundled\\(\\\"(dce/[^\\\"]+)\\\""
+        }
+      ]
+    }
+  ]
+}

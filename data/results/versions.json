@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "resolvedAt": "2026-09-03T17:52:21.869Z",
+  "policy": "latest stable npm dist-tag and latest non-prerelease GitHub release",
+  "node": "v24.20.0",
+  "bundlers": {
+    "rollup": "4.63.1",
+    "rolldown": "1.2.7",
+    "webpack": "5.110.3",
+    "rspack": "2.2.2",
+    "esbuild": "0.28.2",
+    "parcel": "2.16.4",
+    "bun": "1.4.0",
+    "turbopack": "16.3.4"
+  },
+  "packages": {
+    "@parcel/config-default": "2.16.4",
+    "@parcel/core": "2.16.4",
+    "@rollup/plugin-commonjs": "29.0.3",
+    "@rollup/plugin-json": "6.1.0",
+    "@rollup/plugin-node-resolve": "16.0.3",
+    "@rspack/core": "2.2.2",
+    "esbuild": "0.28.2",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "rolldown": "1.2.7",
+    "rollup": "4.63.1",
+    "webpack": "5.110.3"
+  },
+  "bun": {
+    "repository": "oven-sh/bun",
+    "tag": "bun-v1.4.0",
+    "version": "1.4.0",
+    "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0"
+  }
+}

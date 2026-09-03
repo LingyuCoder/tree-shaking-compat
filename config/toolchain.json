@@ -1,0 +1,20 @@
+{
+  "npm": [
+    "rollup",
+    "@rollup/plugin-commonjs",
+    "@rollup/plugin-json",
+    "@rollup/plugin-node-resolve",
+    "rolldown",
+    "webpack",
+    "@rspack/core",
+    "esbuild",
+    "@parcel/core",
+    "@parcel/config-default",
+    "next",
+    "react",
+    "react-dom"
+  ],
+  "github": {
+    "bun": "oven-sh/bun"
+  }
+}

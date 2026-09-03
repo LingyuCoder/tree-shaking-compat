@@ -1,0 +1,20 @@
+{
+  "name": "tree-shaking-compat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily cross-bundler tree-shaking conformance matrix",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@11.8.0",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "versions": "node scripts/resolve-versions.mjs",
+    "install:toolchain": "node scripts/install-toolchain.mjs",
+    "inventory": "node scripts/sync-upstream-inventory.mjs",
+    "test": "node scripts/run.mjs",
+    "report": "node scripts/report.mjs",
+    "daily": "node scripts/daily.mjs"
+  }
+}

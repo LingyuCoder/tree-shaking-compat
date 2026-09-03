@@ -1,0 +1,121 @@
+name: Daily tree-shaking matrix
+
+on:
+  schedule:
+    # 02:00 Asia/Shanghai is 18:00 UTC on the previous calendar day.
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-tree-shaking-matrix
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      bun_version: ${{ steps.release_outputs.outputs.bun_version }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Resolve latest stable releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/resolve-versions.mjs
+      - name: Export resolved release metadata
+        id: release_outputs
+        run: echo "bun_version=$(jq -r '.bundlers.bun' data/results/versions.json)" >> "$GITHUB_OUTPUT"
+      - name: Inventory exact upstream release tests
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync-upstream-inventory.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prepared-data
+          path: |
+            data/results/versions.json
+            data/upstreams/latest.json
+          retention-days: 7
+
+  test:
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        bundler: [rollup, rolldown, webpack, rspack, esbuild, parcel, bun, turbopack]
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.8.0
+      - uses: actions/download-artifact@v4
+        with:
+          name: prepared-data
+          path: .
+      - uses: oven-sh/setup-bun@v2
+        if: matrix.bundler == 'bun'
+        with:
+          bun-version: ${{ needs.prepare.outputs.bun_version }}
+      - name: Cache exact daily toolchain
+        uses: actions/cache@v4
+        with:
+          path: .cache/toolchain
+          key: ${{ runner.os }}-node22-toolchain-${{ hashFiles('data/results/versions.json') }}
+      - name: Install resolved releases
+        run: node scripts/install-toolchain.mjs
+      - name: Run ${{ matrix.bundler }} adapter
+        run: node scripts/run.mjs --bundlers=${{ matrix.bundler }} --output=.cache/partials/${{ matrix.bundler }}.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-${{ matrix.bundler }}
+          path: .cache/partials/${{ matrix.bundler }}.json
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    if: always() && needs.prepare.result == 'success'
+    needs: [prepare, test]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/download-artifact@v4
+        with:
+          name: prepared-data
+          path: .
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: result-*
+          path: .cache/partials
+          merge-multiple: true
+      - name: Merge and render
+        run: |
+          node scripts/merge-results.mjs --inputs=.cache/partials
+          node scripts/report.mjs
+          node scripts/check.mjs
+      - name: Commit changed observations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
+            echo "No result changes"
+          else
+            git commit -m "chore: update daily tree-shaking results"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
