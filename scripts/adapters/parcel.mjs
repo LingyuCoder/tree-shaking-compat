@@ -1,10 +1,15 @@
+import fs from "node:fs/promises";
 import path from "node:path";
 import { importTool, resolveTool } from "../lib/tools.mjs";
 
 export async function build({ workspace, profile }) {
   const { Parcel } = await importTool("@parcel/core");
+  if (profile === "production") {
+    await fs.writeFile(path.join(workspace.sourceDir, ".terserrc"), '{"compress":true,"mangle":false}\n');
+  }
   const bundler = new Parcel({
     entries: workspace.runnerPath,
+    projectRoot: workspace.sourceDir,
     defaultConfig: resolveTool("@parcel/config-default"),
     mode: "production",
     shouldDisableCache: true,

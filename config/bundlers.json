@@ -5,7 +5,8 @@
       "label": "Rollup",
       "package": "rollup",
       "adapter": "rollup",
-      "profiles": ["graph", "production"],
+      "concurrency": 8,
+      "profiles": ["production"],
       "productionLayer": "core"
     },
     {
@@ -13,7 +14,8 @@
       "label": "Rolldown",
       "package": "rolldown",
       "adapter": "rolldown",
-      "profiles": ["graph", "production"],
+      "concurrency": 8,
+      "profiles": ["production"],
       "productionLayer": "core+minifier"
     },
     {
@@ -21,7 +23,9 @@
       "label": "webpack",
       "package": "webpack",
       "adapter": "webpack",
-      "profiles": ["graph", "production"],
+      "isolateCases": true,
+      "concurrency": 3,
+      "profiles": ["production"],
       "productionLayer": "graph+terser"
     },
     {
@@ -29,7 +33,9 @@
       "label": "Rspack",
       "package": "@rspack/core",
       "adapter": "rspack",
-      "profiles": ["graph", "production"],
+      "isolateCases": true,
+      "concurrency": 3,
+      "profiles": ["production"],
       "productionLayer": "graph+swc"
     },
     {
@@ -37,7 +43,8 @@
       "label": "esbuild",
       "package": "esbuild",
       "adapter": "esbuild",
-      "profiles": ["graph", "production"],
+      "concurrency": 16,
+      "profiles": ["production"],
       "productionLayer": "core+minifier"
     },
     {
@@ -45,7 +52,9 @@
       "label": "Parcel",
       "package": "@parcel/core",
       "adapter": "parcel",
-      "profiles": ["graph", "production"],
+      "isolateCases": true,
+      "concurrency": 2,
+      "profiles": ["production"],
       "productionLayer": "scope-hoist+optimizer"
     },
     {
@@ -53,7 +62,8 @@
       "label": "Bun",
       "package": null,
       "adapter": "bun",
-      "profiles": ["graph", "production"],
+      "concurrency": 6,
+      "profiles": ["production"],
       "productionLayer": "core+minifier"
     },
     {

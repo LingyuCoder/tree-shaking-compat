@@ -1,3 +1,4 @@
+import os from "node:os";
 import path from "node:path";
 import { listFiles, readJson, writeJson } from "./lib/io.mjs";
 import { fromRoot, resultsPath } from "./lib/paths.mjs";
@@ -25,10 +26,21 @@ const merged = {
   generatedAt: new Date().toISOString(),
   bundlers: Object.assign({}, ...shards.map((shard) => shard.bundlers)),
 };
+
+function sanitizeForArtifact(value) {
+  if (typeof value === "string") {
+    return value.replaceAll(fromRoot(), "<repo>").replaceAll(os.homedir(), "<home>");
+  }
+  if (Array.isArray(value)) return value.map(sanitizeForArtifact);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(Object.entries(value).map(([key, nested]) => [key, sanitizeForArtifact(nested)]));
+  }
+  return value;
+}
 if (!process.argv.includes("--allow-partial")) {
   const config = await readJson(fromRoot("config/bundlers.json"));
   const missing = config.bundlers.map((item) => item.id).filter((id) => !merged.bundlers[id]);
   if (missing.length) throw new Error(`Missing result shards: ${missing.join(", ")}`);
 }
-await writeJson(output, merged);
+await writeJson(output, sanitizeForArtifact(merged));
 console.log(`Merged ${files.length} shards with ${Object.keys(merged.bundlers).length} bundlers.`);

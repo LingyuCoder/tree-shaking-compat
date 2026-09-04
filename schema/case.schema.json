@@ -9,6 +9,11 @@
     "title": { "type": "string", "minLength": 1 },
     "category": { "type": "string", "minLength": 1 },
     "entry": { "type": "string", "minLength": 1 },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
     "module": { "enum": ["esm", "commonjs"] },
     "files": {
       "type": "object",
@@ -24,6 +29,41 @@
         "present": { "type": "array", "items": { "type": "string" } }
       }
     },
+    "execution": {
+      "type": "object",
+      "properties": {
+        "kind": { "enum": ["module-export", "side-effect", "stdout", "test-harness"] },
+        "runtime": { "type": "boolean" },
+        "stdout": { "type": "string" }
+      }
+    },
+    "oracle": {
+      "type": "object",
+      "properties": {
+        "kind": { "type": "string" },
+        "absent": { "type": "array", "items": { "type": "string" } },
+        "present": { "type": "array", "items": { "type": "string" } },
+        "stringMarkers": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "unsupportedBundlers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "portabilityIssues": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "buildOptions": {
+      "type": "object",
+      "properties": {
+        "ignoreAnnotations": { "type": "boolean" },
+        "external": { "type": "array", "items": { "type": "string" } },
+        "loader": { "type": "object", "additionalProperties": { "type": "string" } },
+        "jsx": true
+      }
+    },
     "provenance": {
       "type": "array",
       "minItems": 1,
@@ -32,7 +72,10 @@
         "required": ["bundler", "url"],
         "properties": {
           "bundler": { "type": "string" },
-          "url": { "type": "string", "format": "uri" }
+          "suite": { "type": "string" },
+          "caseId": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "upstreamStatus": { "type": "string" }
         }
       }
     }

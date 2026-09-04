@@ -2,45 +2,46 @@
 
 [![Daily tree-shaking matrix](https://github.com/LingyuCoder/tree-shaking-compat/actions/workflows/daily.yml/badge.svg)](https://github.com/LingyuCoder/tree-shaking-compat/actions/workflows/daily.yml)
 
-This repository measures tree-shaking behavior across the latest stable releases of Rollup, Rolldown, webpack, Rspack, esbuild, Parcel, Bun, and Turbopack.
+This repository measures production tree-shaking behavior across the latest stable releases of Rollup, Rolldown, webpack, Rspack, esbuild, Parcel, Bun, and Turbopack.
 
-The current result is in **[reports/latest.md](reports/latest.md)**. Machine-readable results live in [`data/results/latest.json`](data/results/latest.json).
+The current result is in **[reports/latest.md](reports/latest.md)**. Machine-readable observations live in [`data/results/latest.json`](data/results/latest.json).
 
-## What is measured
+## Complete-corpus boundary
 
-There are two deliberately separate datasets:
+“Complete” has a reproducible definition here: every case found inside the versioned upstream suite selectors in [`config/upstreams.json`](config/upstreams.json) is inventoried at the exact latest-release commit. Every fixture classified as direct tree-shaking/DCE evidence is mapped into the canonical corpus; explicit upstream incompatibility lists are also retained as negative evidence.
 
-1. **Upstream inventory** — every test inside explicit DCE/tree-shaking suites plus the configured broader scope-hoisting/optimization suite boundaries. Each entry is tied to an exact release commit and source URL. This prevents “no fixture found” from being misreported as “unsupported.”
-2. **Normalized conformance corpus** — portable semantic cases that every bundler can build. Each case has runtime assertions, markers that must disappear, markers that must remain, and links back to upstream evidence.
+The current corpus has 1,248 canonical cases: 1,206 generated from exact upstream release fixtures and 42 focused portable probes. Ports of the same esbuild or Rollup case in multiple projects are deduplicated into one case with multiple provenance links, so copied tests do not inflate pass rates.
 
-Upstream harnesses cannot be compared by copying their pass/fail labels: they use different module formats, plugins, snapshot rules, test runners, and optimization layers. The normalized corpus is the cross-bundler measurement; the inventory records the full evidence surface and the remaining normalization backlog.
+The generated corpus records source files, upstream paths, release commits, oracle type, broad capability family, portability limitations, and known negative evidence in [`corpus/generated/upstream.json`](corpus/generated/upstream.json). The generator verifies that every configured direct source entry is mapped.
 
-## Result semantics
+## The three report views
 
-| Symbol | Meaning |
-| --- | --- |
-| ✅ | Build succeeds, runtime semantics match, removable markers disappear, and required markers remain. |
-| ◐ | Runtime semantics are correct, but expected dead code remains. |
-| ❌ | The release cannot build the case or the emitted bundle changes observable behavior. |
-| — | The public release pipeline cannot express this profile. It does **not** mean unsupported. |
+The report deliberately contains three result tables:
 
-Every available bundler is run in two profiles:
+1. Pass rate grouped by upstream source.
+2. Pass rate grouped by broad capability family.
+3. Every canonical case × every bundler, with exact source links and an Rspack-focused diagnostic.
 
-- `graph`: tree shaking and scope hoisting enabled, final minification disabled.
-- `production`: the bundler's normal production optimizer enabled.
+The symbols are: ✅ portable oracle passed; ◐ runtime passed but removable code remained; ❌ build/runtime/oracle failed; — the case depends on a source-specific harness or configuration that the adapter cannot express; ◇ the fixture is present but has no portable oracle yet. Only ✅, ◐, and ❌ enter pass-rate denominators. This prevents missing assertions or source-specific harnesses from being reported as bundler failures.
 
-This separates graph-native tree shaking from optimization that only appears after Terser, SWC, or another final optimizer. Rollup has no built-in minifier, so both profiles intentionally measure Rollup core. Turbopack is tested through `next build --turbopack`; because there is no stable standalone production API, only its production profile is reported.
+## What is executed
+
+Each case is built with the bundler's production pipeline. Runtime assertions check observable behavior; emitted-code markers check whether dead declarations and effects disappeared while required code remained. Production compression/DCE stays enabled, while identifier mangling is disabled where a public switch exists so upstream identifier markers remain observable. Turbopack is tested through `next build --turbopack` and uses route-specific output traces plus string-stable markers.
+
+Some upstream tests are inseparable from a project's private test runner, loader, alias, filesystem snapshot, or compiler-internal global. They still appear in the detailed table, but are marked — or ◇ and excluded from rates until a portable oracle exists. This is intentional: complete provenance and honest uncertainty are more useful than false passes.
 
 ## Run locally
 
-Requirements: Node.js 22+, Corepack, and Bun on `PATH`.
+Requirements: Node.js 22+, Corepack, Git, and Bun on `PATH` when running the Bun adapter.
 
 ```bash
 corepack pnpm check
 corepack pnpm versions
 corepack pnpm install:toolchain
 corepack pnpm inventory
-corepack pnpm test
+corepack pnpm checkout:upstreams
+corepack pnpm corpus
+node scripts/run.mjs --profiles=production
 corepack pnpm report
 ```
 
@@ -48,34 +49,20 @@ Useful filters:
 
 ```bash
 node scripts/run.mjs --bundlers=rspack,webpack --profiles=production
-node scripts/run.mjs --categories=commonjs,annotations
-node scripts/run.mjs --cases=annotations/pure-call-spread-effects
+node scripts/run.mjs --categories=commonjs,annotations --profiles=production
+node scripts/run.mjs --cases=annotations/pure-call-spread-effects --profiles=production
 ```
 
-`data/results/versions.json` records the exact versions selected from npm's `latest` dist-tag and Bun's latest non-prerelease GitHub release. Dependencies are installed into the ignored `.cache/toolchain` directory so the repository lockfile cannot silently pin an older bundler.
+[`data/results/versions.json`](data/results/versions.json) records the exact versions selected from npm's `latest` dist-tag and Bun's latest GitHub release. Dependencies are installed into the ignored `.cache/toolchain` directory, and upstream repositories are sparse-checked out into `.cache/upstreams` at exact release commits.
 
 ## Daily automation
 
-The scheduled workflow runs at **02:00 Asia/Shanghai** (`18:00 UTC` on the previous calendar day). It resolves releases again, refreshes the upstream inventory, executes all adapters in parallel jobs, merges the observations, regenerates the report, and commits only `data/` and `reports/` when they change.
+The scheduled workflow runs at **02:00 Asia/Shanghai** (`18:00 UTC` on the previous calendar day). It resolves releases, rebuilds the complete upstream corpus, runs all eight production adapters in parallel jobs, merges the observations, regenerates the three tables, validates source coverage, and commits changed corpus/data/report artifacts.
 
-## Adding a case
+## Adding a focused probe
 
-Add a focused case module under [`corpus/`](corpus/). A case should:
+Add a small case module under [`corpus/`](corpus/) when an upstream fixture cannot isolate the semantic distinction by itself. A focused probe should expose `run()`, return a JSON-serializable result, use globally unique emitted-code markers, cite exact upstream evidence, and change one semantic dimension at a time.
 
-- expose a zero-argument `run()` function (or `exports.run` for CommonJS);
-- return a JSON-serializable semantic result;
-- use globally unique markers for code that must be absent or present;
-- cite at least one upstream test or suite;
-- change one semantic dimension at a time, with a bailout sibling when appropriate.
-
-Run `corepack pnpm check` before submitting changes.
-
-## Scope and caveats
-
-- The top-level matrix measures final emitted behavior, not marketing claims or fixture counts.
-- Test count is not a capability score; one path-sensitive Rollup case can cover more analysis depth than many syntax fixtures.
-- CommonJS results for Rollup use the official CommonJS and node-resolve plugins and report those plugin versions in the resolved toolchain.
-- Package `sideEffects` behavior is a contract: fixtures that declare an effectful file side-effect-free expect the file to be dropped.
-- A build failure is kept visible instead of being converted to a skip.
+Run `corepack pnpm check` before submitting changes. Imported upstream fixture snippets retain their original licenses; see [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 MIT licensed.

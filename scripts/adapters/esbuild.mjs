@@ -1,7 +1,7 @@
 import path from "node:path";
 import { importTool } from "../lib/tools.mjs";
 
-export async function build({ workspace, profile }) {
+export async function build({ workspace, profile, item }) {
   const esbuild = await importTool("esbuild");
   const result = await esbuild.build({
     entryPoints: [workspace.runnerPath],
@@ -15,7 +15,12 @@ export async function build({ workspace, profile }) {
     target: "node22",
     format: "esm",
     treeShaking: true,
-    minify: profile === "production",
+    ignoreAnnotations: Boolean(item.buildOptions?.ignoreAnnotations),
+    external: item.buildOptions?.external || [],
+    loader: item.buildOptions?.loader || {},
+    minifySyntax: profile === "production",
+    minifyWhitespace: profile === "production",
+    minifyIdentifiers: false,
     sourcemap: false,
     metafile: true,
     logLevel: "silent",

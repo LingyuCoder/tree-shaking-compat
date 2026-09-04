@@ -18,7 +18,16 @@ export function validateCases(cases = corpus) {
     assert(typeof item.title === "string" && item.title, `${item.id}: missing title`);
     assert(typeof item.category === "string" && item.category, `${item.id}: missing category`);
     assert(validModules.has(item.module), `${item.id}: invalid module kind`);
-    assert(typeof item.entry === "string" && item.files[item.entry], `${item.id}: entry is missing from files`);
+    assert(
+      typeof item.entry === "string" && Object.hasOwn(item.files, item.entry),
+      `${item.id}: entry is missing from files`,
+    );
+    if (item.entries) {
+      assert(Array.isArray(item.entries) && item.entries.length > 0, `${item.id}: entries must be a non-empty array`);
+      for (const entry of item.entries) {
+        assert(Object.hasOwn(item.files, entry), `${item.id}: missing entry file ${entry}`);
+      }
+    }
     assert(item.expect && Object.hasOwn(item.expect, "value"), `${item.id}: missing expected value`);
     assert(Array.isArray(item.expect.absent), `${item.id}: expect.absent must be an array`);
     assert(Array.isArray(item.provenance) && item.provenance.length > 0, `${item.id}: missing provenance`);
@@ -27,10 +36,12 @@ export function validateCases(cases = corpus) {
       assert(!file.startsWith("/") && !file.split("/").includes(".."), `${item.id}: unsafe file path ${file}`);
     }
     for (const marker of [...item.expect.absent, ...(item.expect.present || [])]) {
-      assert(marker.length >= 12, `${item.id}: marker is too short: ${marker}`);
-      const owner = markers.get(marker);
-      assert(!owner || owner === item.id, `${item.id}: marker also belongs to ${owner}: ${marker}`);
-      markers.set(marker, item.id);
+      assert(marker.length >= (item.oracle ? 4 : 12), `${item.id}: marker is too short: ${marker}`);
+      if (!item.oracle) {
+        const owner = markers.get(marker);
+        assert(!owner || owner === item.id, `${item.id}: marker also belongs to ${owner}: ${marker}`);
+        markers.set(marker, item.id);
+      }
     }
   }
   return cases;

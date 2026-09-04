@@ -5,7 +5,9 @@ const steps = [
   ["Resolve latest releases", ["scripts/resolve-versions.mjs"]],
   ["Install exact toolchain", ["scripts/install-toolchain.mjs"]],
   ["Inventory upstream suites", ["scripts/sync-upstream-inventory.mjs"]],
-  ["Run conformance corpus", ["scripts/run.mjs"]],
+  ["Checkout exact upstream fixtures", ["scripts/checkout-upstreams.mjs"]],
+  ["Generate complete upstream corpus", ["scripts/generate-upstream-corpus.mjs"]],
+  ["Run production conformance corpus", ["scripts/run.mjs", "--profiles=production"]],
   ["Generate report", ["scripts/report.mjs"]],
   ["Validate repository", ["scripts/check.mjs"]],
 ];

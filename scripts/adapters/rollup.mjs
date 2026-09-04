@@ -1,7 +1,8 @@
 import path from "node:path";
 import { importTool } from "../lib/tools.mjs";
+import { assetModulePlugin } from "../lib/fixture-options.mjs";
 
-export async function build({ workspace, profile }) {
+export async function build({ workspace, profile, item }) {
   const [{ rollup }, { nodeResolve }, commonjsModule, jsonModule] = await Promise.all([
     importTool("rollup"),
     importTool("@rollup/plugin-node-resolve"),
@@ -13,9 +14,11 @@ export async function build({ workspace, profile }) {
   const warnings = [];
   const bundle = await rollup({
     input: workspace.runnerPath,
-    treeshake: true,
+    external: item.buildOptions?.external || [],
+    treeshake: item.buildOptions?.ignoreAnnotations ? { annotations: false } : true,
     plugins: [
-      nodeResolve({ extensions: [".mjs", ".js", ".cjs", ".json"] }),
+      assetModulePlugin(item, "tree-shaking-fixture-assets"),
+      nodeResolve({ extensions: [".mjs", ".js", ".cjs", ".jsx", ".ts", ".tsx", ".json"] }),
       commonjs({ transformMixedEsModules: true }),
       json({ preferConst: true, compact: profile === "production" }),
     ],

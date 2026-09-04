@@ -13,6 +13,8 @@
     "versions": "node scripts/resolve-versions.mjs",
     "install:toolchain": "node scripts/install-toolchain.mjs",
     "inventory": "node scripts/sync-upstream-inventory.mjs",
+    "checkout:upstreams": "node scripts/checkout-upstreams.mjs",
+    "corpus": "node scripts/generate-upstream-corpus.mjs",
     "test": "node scripts/run.mjs",
     "report": "node scripts/report.mjs",
     "daily": "node scripts/daily.mjs"

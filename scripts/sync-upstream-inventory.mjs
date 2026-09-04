@@ -99,7 +99,8 @@ async function readSourceFile(context, file) {
 }
 
 async function regexInFile(context, selector) {
-  const source = await readSourceFile(context, selector.path);
+  let source = await readSourceFile(context, selector.path);
+  if (selector.ignoreLineComments) source = source.replace(/^\s*\/\/.*$/gm, "");
   const regex = new RegExp(selector.pattern, "g");
   const entries = [];
   for (const match of source.matchAll(regex)) {
@@ -127,6 +128,7 @@ const extractors = {
 };
 
 function classify(upstream, selector, raw) {
+  if (selector.relevance) return selector.relevance;
   const evidence = `${raw.name} ${raw.path}`;
   const directBySuite = !selector.id.includes("pipeline") && upstream.id !== "parcel";
   return directBySuite || directPattern.test(evidence) ? "direct" : "pipeline";
@@ -166,13 +168,15 @@ for (const upstream of config.upstreams) {
       kind: selector.kind,
       count: entries.length,
       directCount: entries.filter((entry) => entry.relevance === "direct").length,
+      negativeCount: entries.filter((entry) => entry.relevance === "negative").length,
       entries,
     });
   }
   const count = suites.reduce((sum, suite) => sum + suite.count, 0);
   const directCount = suites.reduce((sum, suite) => sum + suite.directCount, 0);
-  upstreams.push({ ...upstream, release, count, directCount, suites });
-  console.log(`${directCount} direct / ${count} inventoried at ${release.tag}`);
+  const negativeCount = suites.reduce((sum, suite) => sum + suite.negativeCount, 0);
+  upstreams.push({ ...upstream, release, count, directCount, negativeCount, suites });
+  console.log(`${directCount} direct + ${negativeCount} negative / ${count} inventoried at ${release.tag}`);
 }
 
 const result = {
@@ -181,6 +185,7 @@ const result = {
   definition: {
     direct: "Explicit DCE/tree-shaking suites or path-selected semantic tests.",
     pipeline: "Broader suites that exercise the bundler pipeline but are not counted as direct evidence.",
+    negative: "An upstream-maintained explicit skip or incompatibility record, not a passing source test.",
     normalization: "Upstream tests are inventoried exactly; only portable semantic probes are executed cross-bundler.",
   },
   upstreams,

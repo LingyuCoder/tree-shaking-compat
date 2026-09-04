@@ -91,11 +91,13 @@
         },
         {
           "id": "rollup-incompatibilities-generated",
+          "relevance": "negative",
           "kind": "json-string-array",
           "path": "packages/rollup-tests/src/ignored-treeshaking-tests.json"
         },
         {
           "id": "rollup-incompatibilities-manual",
+          "relevance": "negative",
           "kind": "quoted-strings-in-file",
           "path": "packages/rollup-tests/src/ignored-treeshaking-tests.js",
           "pattern": "[\\\"'](rollup@[^\\\"']+)[\\\"']"
@@ -166,7 +168,8 @@
           "id": "esbuild-dce-port",
           "kind": "regex-in-file",
           "path": "test/bundler/esbuild/dce.test.ts",
-          "pattern": "itBundled\\(\\\"(dce/[^\\\"]+)\\\""
+          "pattern": "itBundled\\(\\\"(dce/[^\\\"]+)\\\"",
+          "ignoreLineComments": true
         }
       ]
     }

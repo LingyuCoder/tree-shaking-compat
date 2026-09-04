@@ -6,6 +6,7 @@ import esm from "./esm.mjs";
 import objects from "./objects.mjs";
 import sideEffects from "./side-effects.mjs";
 import statements from "./statements.mjs";
+import generated from "./generated.mjs";
 
 export default [
   ...esm,
@@ -16,4 +17,5 @@ export default [
   ...annotations,
   ...commonjs,
   ...assets,
+  ...generated,
 ];

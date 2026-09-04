@@ -1,5 +1,6 @@
 import path from "node:path";
 import { requireTool } from "../lib/tools.mjs";
+import { webpackAssetRules } from "../lib/fixture-options.mjs";
 
 function compile(rspack, config) {
   return new Promise((resolve, reject) => {
@@ -17,13 +18,29 @@ function compile(rspack, config) {
   });
 }
 
-export async function build({ workspace, profile }) {
-  const { rspack } = requireTool("@rspack/core");
+function externalResolver(patterns) {
+  return ({ request }, callback) => {
+    const matched = patterns.some(
+      (pattern) =>
+        pattern === "*" ||
+        pattern === request ||
+        request?.startsWith(`${pattern}/`) ||
+        (pattern.endsWith("/*") && request?.startsWith(pattern.slice(0, -1))),
+    );
+    callback(null, matched ? `module ${request}` : undefined);
+  };
+}
+
+export async function build({ workspace, profile, item }) {
+  const { rspack, SwcJsMinimizerRspackPlugin } = requireTool("@rspack/core");
+  const externals = item.buildOptions?.external || [];
   const stats = await compile(rspack, {
     mode: "production",
     context: workspace.sourceDir,
     entry: workspace.runnerPath,
     target: "node",
+    externals: externals.length ? [externalResolver(externals)] : undefined,
+    externalsType: "module",
     devtool: false,
     experiments: { outputModule: true },
     output: {
@@ -39,9 +56,14 @@ export async function build({ workspace, profile }) {
       sideEffects: true,
       concatenateModules: true,
       minimize: profile === "production",
+      minimizer:
+        profile === "production"
+          ? [new SwcJsMinimizerRspackPlugin({ minimizerOptions: { mangle: false } })]
+          : [],
       mangleExports: false,
     },
-    resolve: { extensions: [".mjs", ".js", ".cjs", ".json"] },
+    resolve: { extensions: [".mjs", ".js", ".cjs", ".jsx", ".ts", ".tsx", ".json"] },
+    module: { rules: webpackAssetRules(item) },
     performance: { hints: false },
     infrastructureLogging: { level: "error" },
     stats: "errors-warnings",

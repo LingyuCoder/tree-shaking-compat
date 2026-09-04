@@ -4,11 +4,11 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { selectCases } from "./lib/cases.mjs";
 import { evaluateObservation } from "./lib/evaluate.mjs";
+import { executeCase, unsupportedObservation } from "./lib/execute-case.mjs";
 import { exists, readJson, writeJson } from "./lib/io.mjs";
 import { fromRoot, resultsPath, versionsPath } from "./lib/paths.mjs";
-import { compactError, runCommand } from "./lib/process.mjs";
+import { runCommand } from "./lib/process.mjs";
 import { readToolVersion } from "./lib/tools.mjs";
-import { collectJavaScript, executeBundle, prepareCaseWorkspace } from "./lib/workspace.mjs";
 
 function parseArgs(argv) {
   const parsed = {};
@@ -32,7 +32,9 @@ function hash(value) {
 }
 
 function sanitizeForArtifact(value) {
-  if (typeof value === "string") return value.replaceAll(fromRoot(), "<repo>");
+  if (typeof value === "string") {
+    return value.replaceAll(fromRoot(), "<repo>").replaceAll(os.homedir(), "<home>");
+  }
   if (Array.isArray(value)) return value.map(sanitizeForArtifact);
   if (value && typeof value === "object") {
     return Object.fromEntries(Object.entries(value).map(([key, nested]) => [key, sanitizeForArtifact(nested)]));
@@ -40,31 +42,35 @@ function sanitizeForArtifact(value) {
   return value;
 }
 
-async function runCase(adapter, bundler, profile, item) {
-  const startedAt = Date.now();
-  try {
-    const workspace = await prepareCaseWorkspace(bundler.id, profile, item);
-    const built = await adapter.build({ workspace, profile, item });
-    const emitted = await collectJavaScript(workspace.outDir);
-    const runtime = await executeBundle(built.entryFile, workspace.outDir);
-    return evaluateObservation(item, {
-      build: { ok: true, durationMs: Date.now() - startedAt, error: null },
-      runtime,
-      code: emitted.code,
-      outputHash: hash(emitted.code),
-      files: emitted.files.map((file) => path.relative(workspace.outDir, file)),
-      warnings: built.warnings,
-      note: built.note,
-    });
-  } catch (error) {
-    return evaluateObservation(item, {
-      build: { ok: false, durationMs: Date.now() - startedAt, error: compactError(error) },
-      runtime: null,
-      code: "",
-      files: [],
-      warnings: [],
-    });
+function statusCharacter(status) {
+  return { pass: ".", partial: "p", fail: "F", unsupported: "-", unverified: "?" }[status] || "?";
+}
+
+const workerRunId = crypto.randomUUID();
+
+async function runIsolatedCase(bundler, profile, item) {
+  if (item.unsupportedBundlers?.includes(bundler.id)) {
+    return evaluateObservation(item, unsupportedObservation());
   }
+  const output = fromRoot(".cache", "worker-results", workerRunId, bundler.id, `${hash(item.id)}.json`);
+  const startedAt = Date.now();
+  const run = await runCommand(
+    process.execPath,
+    [fromRoot("scripts/run-case-worker.mjs"), bundler.id, profile, item.id, output],
+    { timeoutMs: 4 * 60 * 1000 },
+  );
+  if (run.ok && (await exists(output))) return readJson(output);
+  return evaluateObservation(item, {
+    build: {
+      ok: false,
+      durationMs: Date.now() - startedAt,
+      error: run.error || run.stderr || run.stdout || `Isolated worker exited with ${run.code}`,
+    },
+    runtime: null,
+    code: "",
+    files: [],
+    warnings: [],
+  });
 }
 
 const options = parseArgs(process.argv.slice(2));
@@ -94,6 +100,19 @@ const result = {
   },
   bundlers: {},
 };
+
+async function mapWithConcurrency(values, concurrency, callback) {
+  const output = new Array(values.length);
+  let cursor = 0;
+  async function worker() {
+    while (cursor < values.length) {
+      const index = cursor++;
+      output[index] = await callback(values[index], index);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, values.length) }, worker));
+  return output;
+}
 
 for (const bundler of selectedBundlers) {
   const expectedVersion = versions.bundlers[bundler.id];
@@ -128,20 +147,35 @@ for (const bundler of selectedBundlers) {
     const profileResults = {};
     bundlerResult.profiles[profile] = profileResults;
     if (typeof adapter.runBatch === "function") {
-      const observations = await adapter.runBatch({ cases: selectedCases, profile, versions });
+      const runnableCases = selectedCases.filter((item) => !item.unsupportedBundlers?.includes(bundler.id));
+      const observations = runnableCases.length
+        ? await adapter.runBatch({ cases: runnableCases, profile, versions })
+        : new Map();
       for (const item of selectedCases) {
-        const evaluated = evaluateObservation(item, observations.get(item.id));
+        const observation = item.unsupportedBundlers?.includes(bundler.id)
+          ? unsupportedObservation()
+          : observations.get(item.id);
+        const evaluated = evaluateObservation(item, observation);
         profileResults[item.id] = evaluated;
-        process.stdout.write(evaluated.status === "pass" ? "." : evaluated.status === "partial" ? "p" : "F");
+        process.stdout.write(statusCharacter(evaluated.status));
       }
       process.stdout.write("\n");
       continue;
     }
 
-    for (const item of selectedCases) {
-      const evaluated = await runCase(adapter, bundler, profile, item);
+    const evaluatedCases = await mapWithConcurrency(
+      selectedCases,
+      Number(process.env.BUNDLER_CASE_CONCURRENCY || bundler.concurrency || 2),
+      (item) =>
+        bundler.isolateCases
+          ? runIsolatedCase(bundler, profile, item)
+          : executeCase(adapter, bundler, profile, item),
+    );
+    for (let index = 0; index < selectedCases.length; index++) {
+      const item = selectedCases[index];
+      const evaluated = evaluatedCases[index];
       profileResults[item.id] = evaluated;
-      process.stdout.write(evaluated.status === "pass" ? "." : evaluated.status === "partial" ? "p" : "F");
+      process.stdout.write(statusCharacter(evaluated.status));
     }
     process.stdout.write("\n");
   }
