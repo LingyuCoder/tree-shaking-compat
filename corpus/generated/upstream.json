@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-04T04:18:27.090Z",
-  "inventoryGeneratedAt": "2026-09-04T04:18:21.509Z",
+  "generatedAt": "2026-09-04T20:38:43.676Z",
+  "inventoryGeneratedAt": "2026-09-04T20:38:38.376Z",
   "definition": "Deduplicated executable corpus generated from every configured upstream tree-shaking suite. Exact upstream paths remain attached as provenance.",
   "sourceCoverage": {
     "esbuild": {
@@ -47,13 +47,13 @@
       "negativeMapped": 0
     },
     "bun": {
-      "direct": 100,
-      "mapped": 100,
+      "direct": 109,
+      "mapped": 109,
       "negative": 0,
       "negativeMapped": 0
     }
   },
-  "count": 1206,
+  "count": 1214,
   "cases": [
     {
       "id": "upstream/esbuild/dce-ignore-annotations",
@@ -89,7 +89,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/IgnoreAnnotations",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -114,7 +114,7 @@
       ],
       "entry": "entry.js",
       "files": {
-        "entry.js": "\n        import(\"./other.js\");\n      ",
+        "entry.js": "\n        import(\"./other.js\").then(m => Object.keys(m));\n      ",
         "other.js": "\n        export function foo() { }\n      "
       },
       "execution": {
@@ -137,7 +137,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/IgnoreAnnotationsDoesNotApplyToRuntime",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -184,7 +184,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PureCallsWithSpread",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -299,7 +299,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "dce/RemoveUnusedPureCommentCallsMinify",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -346,7 +346,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "dce/RemoveUnusedPureCommentCallsMinifyExplitOn",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -406,7 +406,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingReactElements",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -1945,7 +1945,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/Base64LoaderRemoveUnused",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -2013,7 +2013,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DataURLLoaderRemoveUnused",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -2081,7 +2081,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/FileLoaderRemoveUnused",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -2155,7 +2155,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/JSONLoaderRemoveUnused",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -2218,7 +2218,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TextLoaderRemoveUnused",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -3135,7 +3135,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DCEClassStaticBlocks",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -3150,6 +3150,74 @@
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce_class_static_blocks",
           "url": "https://github.com/rolldown/rolldown/tree/26b4c6e56c5553d72a910d0f73d60fa331c0ed88/crates/rolldown/tests/esbuild/dce/dce_class_static_blocks",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
+      "id": "upstream/esbuild/dce-tree-shaking-class-computed-key-reference",
+      "title": "TreeShakingClassComputedKeyReference",
+      "category": "classes",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        import { used } from './lib';\n        console.log(used);\n      ",
+        "lib.js": "\n        import * as Other from './other';\n        export const used = 1;\n        const TypeId = '~lib/TypeId';\n        class REMOVE1 { [TypeId]; }\n        class REMOVE2 { [TypeId] = 'x' }\n        class REMOVE3 { [TypeId]() {} }\n        class REMOVE4 { static [TypeId] = 'x' }\n        class REMOVE5 {\n          [TypeId];\n          [Other.TypeId];\n          constructor() {\n            this[TypeId] = TypeId;\n            this[Other.TypeId] = Other.TypeId;\n          }\n        }\n        export const makeREMOVE5 = () => new REMOVE5();\n        let keep1 = class { [unboundKEEP] = 'x' };\n      ",
+        "other.js": "\n        export const TypeId = '~other/TypeId';\n        export const REMOVE6 = 'only the tree-shaken class references this module';\n      "
+      },
+      "execution": {
+        "kind": "side-effect",
+        "runtime": false
+      },
+      "expect": {
+        "value": null,
+        "absent": [
+          "REMOVE1",
+          "REMOVE2",
+          "REMOVE3",
+          "REMOVE4",
+          "REMOVE5",
+          "makeREMOVE5",
+          "REMOVE6"
+        ],
+        "present": []
+      },
+      "oracle": {
+        "kind": "explicit-dce-markers",
+        "absent": [
+          "REMOVE1",
+          "REMOVE2",
+          "REMOVE3",
+          "REMOVE4",
+          "REMOVE5",
+          "makeREMOVE5",
+          "REMOVE6"
+        ],
+        "present": [
+          "keep1",
+          "unboundKEEP"
+        ],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/TreeShakingClassComputedKeyReference",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -3204,7 +3272,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingClassEnumKey",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -3278,7 +3346,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingClassPrivateProperty",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -3341,7 +3409,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingClassPrivatePropertyDeclaration",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -3432,7 +3500,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingClassProperty",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -3535,7 +3603,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingClassStaticProperty",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -3605,7 +3673,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingLoweredClassStaticField",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -3671,7 +3739,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingLoweredClassStaticFieldAssignment",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -3741,7 +3809,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingLoweredClassStaticFieldMinified",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -6207,6 +6275,161 @@
       }
     },
     {
+      "id": "upstream/esbuild/dce-dceof-destructuring-of-unwrapped-require",
+      "title": "DCEOfDestructuringOfUnwrappedRequire",
+      "category": "commonjs",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        export {}\n        const { x: removeMe1 } = require('react')\n        KEEP1()\n      ",
+        "node_modules/react/index.js": "\n        exports.x = 1\n      ",
+        "node_modules/react/package.json": "{ \"name\": \"react\", \"version\": \"19.0.0\" }"
+      },
+      "execution": {
+        "kind": "side-effect",
+        "runtime": false
+      },
+      "expect": {
+        "value": null,
+        "absent": [
+          "removeMe1"
+        ],
+        "present": []
+      },
+      "oracle": {
+        "kind": "explicit-dce-markers",
+        "absent": [
+          "removeMe1"
+        ],
+        "present": [
+          "KEEP1"
+        ],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/DCEOfDestructuringOfUnwrappedRequire",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
+      "id": "upstream/esbuild/dce-destructuring-of-for-of-rebound-unwrapped-require",
+      "title": "DestructuringOfForOfReboundUnwrappedRequire",
+      "category": "commonjs",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        export {}\n        var ns = require('react')\n        for (var ns of [{ get x() { console.log(\"EFFECT\") } }]) {}\n        const { x } = ns\n        console.log(\"entry\")\n      ",
+        "node_modules/react/index.js": "\n        exports.x = 1\n      ",
+        "node_modules/react/package.json": "{ \"name\": \"react\", \"version\": \"19.0.0\" }"
+      },
+      "execution": {
+        "kind": "stdout",
+        "runtime": true,
+        "stdout": "EFFECT\nentry"
+      },
+      "expect": {
+        "value": "EFFECT\nentry",
+        "absent": [],
+        "present": []
+      },
+      "oracle": {
+        "kind": "build-and-runtime",
+        "absent": [],
+        "present": [],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/DestructuringOfForOfReboundUnwrappedRequire",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
+      "id": "upstream/esbuild/dce-destructuring-of-rebound-unwrapped-require",
+      "title": "DestructuringOfReboundUnwrappedRequire",
+      "category": "commonjs",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        export {}\n        var ns = require('react')\n        ns = { get x() { console.log(\"EFFECT\"); return 2 } }\n        const { x } = ns\n        console.log(\"entry\")\n      ",
+        "node_modules/react/index.js": "\n        exports.x = 1\n      ",
+        "node_modules/react/package.json": "{ \"name\": \"react\", \"version\": \"19.0.0\" }"
+      },
+      "execution": {
+        "kind": "stdout",
+        "runtime": true,
+        "stdout": "EFFECT\nentry"
+      },
+      "expect": {
+        "value": "EFFECT\nentry",
+        "absent": [],
+        "present": []
+      },
+      "oracle": {
+        "kind": "build-and-runtime",
+        "absent": [],
+        "present": [],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/DestructuringOfReboundUnwrappedRequire",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
       "id": "upstream/esbuild/dce-package-json-side-effects-false-keep-bare-import-and-require-common-js",
       "title": "PackageJsonSideEffectsFalseKeepBareImportAndRequireCommonJS",
       "category": "commonjs",
@@ -6242,7 +6465,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseKeepBareImportAndRequireCommonJS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -6306,7 +6529,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseKeepBareImportAndRequireES6",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -6370,7 +6593,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseKeepNamedImportCommonJS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -6434,7 +6657,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseKeepStarImportCommonJS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -6504,7 +6727,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseRemoveBareImportCommonJS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -6574,7 +6797,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseRemoveNamedImportCommonJS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -6644,7 +6867,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseRemoveStarImportCommonJS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -6708,7 +6931,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsTrueKeepCommonJS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -21162,7 +21385,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DCEVarExports",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -21234,7 +21457,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/ImportReExportOfNamespaceImport",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -21302,7 +21525,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/RemoveUnusedImportMeta",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -21371,7 +21594,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/RemoveUnusedImports",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -21443,7 +21666,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/RemoveUnusedImportsEval",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -21518,7 +21741,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/RemoveUnusedImportsEvalTS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -21590,7 +21813,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingImportIdentifier",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -27482,7 +27705,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/InlineEmptyFunctionCalls",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -27549,7 +27772,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/InlineFunctionCallBehaviorChanges",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -27616,7 +27839,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/InlineFunctionCallForInitDecl",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -27716,7 +27939,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/InlineIdentityFunctionCalls",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -27780,7 +28003,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/NestedFunctionInliningWithSpread",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -27854,7 +28077,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TopLevelFunctionInliningWithSpread",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -27917,7 +28140,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingNoBundleIIFE",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -31901,6 +32124,295 @@
       }
     },
     {
+      "id": "upstream/esbuild/dce-dceof-destructuring",
+      "title": "DCEOfDestructuring",
+      "category": "object-paths",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        // Identifier bindings\n        var remove1\n        var remove2 = null\n        var KEEP1 = x\n\n        // Array patterns over an array literal use the built-in array iterator\n        // and are side-effect free\n        var [remove3] = []\n        var [remove4 = 0] = [null]\n        var [remove5, , remove6] = [null, undefined, 0]\n        var [...remove7] = []\n        var [KEEP2] = x\n        var [KEEP3 = x] = [null]\n        var [[KEEP4]] = [[]]\n        var [{ KEEP5 }] = [{}]\n        var [KEEP6] = {}\n\n        // Object patterns over an object literal are side-effect free when\n        // every key names a data property of the literal\n        var { remove8 } = { remove8: 1 }\n        var { remove9 = 0 } = { remove9: 1 }\n        var { remove10: remove11 } = { remove10: 1 }\n        var { remove12 } = { remove12() {} }\n        var { remove13, remove14 } = { remove13: 1, remove14: 2, other: 3 }\n        var { remove15 } = { get remove15() { return 1 }, remove15: 1 }\n        var { remove16: { remove17 } } = { remove16: { remove17: 1 } }\n        var { remove18: [remove19] } = { remove18: [1] }\n\n        // Anything else in an object pattern can invoke a getter\n        var { KEEP7 } = {}\n        var { KEEP8 = 0 } = {}\n        var { KEEP9 } = x\n        var { KEEP10: { KEEP11 } } = {}\n        var { ...KEEP12 } = {}\n        var { KEEP13 } = { get KEEP13() { return 1 } }\n        var { KEEP14 } = { KEEP14: 1, get KEEP14() { return 1 } }\n        var { KEEP15 } = { __proto__: null }\n        var { KEEP16 } = { other: 1 }\n        var { [\"KEEP17\"]: KEEP18 } = { KEEP17: 1 }\n        var { ...KEEP19 } = { KEEP20: 1 }\n        var { KEEP21: { KEEP22 } } = { KEEP21: undefined }\n        var { KEEP23: [KEEP24] } = { KEEP23: null }\n        var { \"0\": KEEP25 } = { \"0\": 1, get 0() { return 2 } }\n      "
+      },
+      "execution": {
+        "kind": "side-effect",
+        "runtime": false
+      },
+      "expect": {
+        "value": null,
+        "absent": [
+          "remove1",
+          "remove2",
+          "remove3",
+          "remove4",
+          "remove5",
+          "remove6",
+          "remove7",
+          "remove8",
+          "remove9",
+          "remove10",
+          "remove11",
+          "remove12",
+          "remove13",
+          "remove14",
+          "remove15",
+          "remove16",
+          "remove17",
+          "remove18",
+          "remove19"
+        ],
+        "present": []
+      },
+      "oracle": {
+        "kind": "explicit-dce-markers",
+        "absent": [
+          "remove1",
+          "remove2",
+          "remove3",
+          "remove4",
+          "remove5",
+          "remove6",
+          "remove7",
+          "remove8",
+          "remove9",
+          "remove10",
+          "remove11",
+          "remove12",
+          "remove13",
+          "remove14",
+          "remove15",
+          "remove16",
+          "remove17",
+          "remove18",
+          "remove19"
+        ],
+        "present": [
+          "KEEP1",
+          "KEEP2",
+          "KEEP3",
+          "KEEP4",
+          "KEEP5",
+          "KEEP6",
+          "KEEP7",
+          "KEEP8",
+          "KEEP9",
+          "KEEP10",
+          "KEEP11",
+          "KEEP12",
+          "KEEP13",
+          "KEEP14",
+          "KEEP15",
+          "KEEP16"
+        ],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/DCEOfDestructuring",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+          "upstreamStatus": "active"
+        },
+        {
+          "bundler": "esbuild",
+          "suite": "bundler-dce",
+          "caseId": "bundler-dce/TestDCEOfDestructuring",
+          "url": "https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go",
+          "upstreamStatus": "active"
+        },
+        {
+          "bundler": "rolldown",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce_of_destructuring",
+          "url": "https://github.com/rolldown/rolldown/tree/26b4c6e56c5553d72a910d0f73d60fa331c0ed88/crates/rolldown/tests/esbuild/dce/dce_of_destructuring",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
+      "id": "upstream/esbuild/dce-dceof-destructuring-of-import-namespace",
+      "title": "DCEOfDestructuringOfImportNamespace",
+      "category": "object-paths",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        import * as ns from './lib.js'\n        import * as cjs from './cjs.js'\n        import { sub } from './reexport.js'\n        import * as ns2 from './lib3.js'\n\n        // An unused destructuring of a module namespace reads like a member\n        // access and is side-effect free\n        const { removeMe1 } = ns\n        const { shorthand: removeMe2, other: removeMe3 } = ns\n        var { x: removeMe4 } = cjs\n        let { inner: removeMe5 } = sub\n\n        // Anything that can run user code must stay\n        const { [KEEP0]: KEEP1 } = ns2\n        const { ...KEEP2 } = ns2\n        const { nested: { KEEP3 } } = ns2\n        const { withDefault: KEEP4 = keep4() } = ns2\n        const plain = keep5()\n        const { KEEP6 } = plain\n      ",
+        "lib.js": "\n        export const removeMe1 = 1\n        export const shorthand = 2, other = 3\n      ",
+        "cjs.js": "\n        exports.x = 1\n      ",
+        "reexport.js": "\n        export * as sub from './lib2.js'\n      ",
+        "lib2.js": "\n        export const inner = 7\n      ",
+        "lib3.js": "\n        export const nested = { a: 6 }, withDefault = 5\n      "
+      },
+      "execution": {
+        "kind": "side-effect",
+        "runtime": false
+      },
+      "expect": {
+        "value": null,
+        "absent": [
+          "removeMe1",
+          "removeMe2",
+          "removeMe3",
+          "removeMe4",
+          "removeMe5"
+        ],
+        "present": []
+      },
+      "oracle": {
+        "kind": "explicit-dce-markers",
+        "absent": [
+          "removeMe1",
+          "removeMe2",
+          "removeMe3",
+          "removeMe4",
+          "removeMe5"
+        ],
+        "present": [
+          "KEEP0",
+          "KEEP1",
+          "KEEP2",
+          "KEEP3",
+          "KEEP4",
+          "keep4",
+          "keep5",
+          "KEEP6"
+        ],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/DCEOfDestructuringOfImportNamespace",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
+      "id": "upstream/esbuild/dce-destructuring-of-import-namespace-direct-eval",
+      "title": "DestructuringOfImportNamespaceDirectEval",
+      "category": "object-paths",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        import * as ns from './lib.js'\n        const { helper } = ns\n        eval('helper()')\n      ",
+        "lib.js": "\n        export function helper() { console.log(\"HELPER RAN\") }\n      "
+      },
+      "execution": {
+        "kind": "stdout",
+        "runtime": true,
+        "stdout": "HELPER RAN"
+      },
+      "expect": {
+        "value": "HELPER RAN",
+        "absent": [],
+        "present": []
+      },
+      "oracle": {
+        "kind": "build-and-runtime",
+        "absent": [],
+        "present": [],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/DestructuringOfImportNamespaceDirectEval",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
+      "id": "upstream/esbuild/dce-destructuring-of-import-namespace-runtime",
+      "title": "DestructuringOfImportNamespaceRuntime",
+      "category": "object-paths",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        import * as ns from './lib.js'\n        const { one, two: renamed } = ns\n        const { unused } = ns\n        console.log(one(), renamed)\n      ",
+        "lib.js": "\n        export function one() { return 1 }\n        export const two = 2\n        export const unused = 3\n      "
+      },
+      "execution": {
+        "kind": "stdout",
+        "runtime": true,
+        "stdout": "1 2"
+      },
+      "expect": {
+        "value": "1 2",
+        "absent": [],
+        "present": []
+      },
+      "oracle": {
+        "kind": "build-and-runtime",
+        "absent": [],
+        "present": [],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/DestructuringOfImportNamespaceRuntime",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
       "id": "upstream/esbuild/dce-tree-shaking-object-property",
       "title": "TreeShakingObjectProperty",
       "category": "object-paths",
@@ -31977,7 +32489,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingObjectProperty",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -32039,7 +32551,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/UnreferencedObjectLiteral",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -32051,80 +32563,6 @@
         "jsx": null,
         "external": [],
         "loader": {}
-      }
-    },
-    {
-      "id": "upstream/esbuild/dceof-destructuring",
-      "title": "DCEOfDestructuring",
-      "category": "object-paths",
-      "description": "Imported from esbuild/bundler-dce.",
-      "module": "esm",
-      "entries": [
-        "entry.js"
-      ],
-      "entry": "entry.js",
-      "files": {
-        "entry.js": "// Identifier bindings\nvar remove1\nvar remove2 = null\nvar KEEP1 = x\n\n// Array patterns\nvar [remove3] = []\nvar [remove4, ...remove5] = [...[1, 2], 3]\nvar [, , remove6] = [, , 3]\nvar [KEEP2] = [x]\nvar [KEEP3] = [...{}]\n\n// Object patterns (not handled right now)\nvar { KEEP4 } = {}"
-      },
-      "execution": {
-        "kind": "side-effect",
-        "runtime": false
-      },
-      "expect": {
-        "value": null,
-        "absent": [
-          "remove1",
-          "remove2",
-          "remove3",
-          "remove4",
-          "remove5",
-          "remove6"
-        ],
-        "present": [
-          "KEEP2",
-          "KEEP3",
-          "KEEP4"
-        ]
-      },
-      "oracle": {
-        "kind": "upstream-snapshot",
-        "absent": [
-          "remove1",
-          "remove2",
-          "remove3",
-          "remove4",
-          "remove5",
-          "remove6"
-        ],
-        "present": [
-          "KEEP2",
-          "KEEP3",
-          "KEEP4"
-        ],
-        "stringMarkers": [],
-        "upstreamExpected": true,
-        "runtimeHarness": false
-      },
-      "provenance": [
-        {
-          "bundler": "esbuild",
-          "suite": "bundler-dce",
-          "caseId": "bundler-dce/TestDCEOfDestructuring",
-          "url": "https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go",
-          "upstreamStatus": "active"
-        },
-        {
-          "bundler": "rolldown",
-          "suite": "esbuild-dce-port",
-          "caseId": "esbuild-dce-port/dce_of_destructuring",
-          "url": "https://github.com/rolldown/rolldown/tree/26b4c6e56c5553d72a910d0f73d60fa331c0ed88/crates/rolldown/tests/esbuild/dce/dce_of_destructuring",
-          "upstreamStatus": "active"
-        }
-      ],
-      "portabilityIssues": [],
-      "unsupportedBundlers": [],
-      "buildOptions": {
-        "external": []
       }
     },
     {
@@ -36293,6 +36731,54 @@
       }
     },
     {
+      "id": "upstream/esbuild/dce-dceof-destructuring-side-effects",
+      "title": "DCEOfDestructuringSideEffects",
+      "category": "side-effects",
+      "description": "Imported from Bun's executable port of the esbuild DCE suite.",
+      "module": "esm",
+      "entries": [
+        "entry.js"
+      ],
+      "entry": "entry.js",
+      "files": {
+        "entry.js": "\n        const obj = { get x() { console.log(\"EFFECT1\"); return 1 } }\n        const { x } = obj\n        const { y } = { get y() { console.log(\"EFFECT2\"); return 2 } }\n        const iter = { [Symbol.iterator]() { console.log(\"EFFECT3\"); return [][Symbol.iterator]() } }\n        const [a] = iter\n        const [[b]] = [iter]\n        const [{ x: c }] = [obj]\n        export function used() {}\n      "
+      },
+      "execution": {
+        "kind": "stdout",
+        "runtime": true,
+        "stdout": "EFFECT1\nEFFECT2\nEFFECT3\nEFFECT3\nEFFECT1"
+      },
+      "expect": {
+        "value": "EFFECT1\nEFFECT2\nEFFECT3\nEFFECT3\nEFFECT1",
+        "absent": [],
+        "present": []
+      },
+      "oracle": {
+        "kind": "build-and-runtime",
+        "absent": [],
+        "present": [],
+        "stringMarkers": []
+      },
+      "provenance": [
+        {
+          "bundler": "bun",
+          "suite": "esbuild-dce-port",
+          "caseId": "esbuild-dce-port/dce/DCEOfDestructuringSideEffects",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+          "upstreamStatus": "active"
+        }
+      ],
+      "upstreamTodo": false,
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "ignoreAnnotations": false,
+        "jsx": null,
+        "external": [],
+        "loader": {}
+      }
+    },
+    {
       "id": "upstream/esbuild/dce-package-json-side-effects-array-glob",
       "title": "PackageJsonSideEffectsArrayGlob",
       "category": "side-effects",
@@ -36341,7 +36827,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayGlob",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -36411,7 +36897,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeep",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -36483,7 +36969,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeepMainImplicitMain",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -36554,7 +37040,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeepMainImplicitModule",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -36625,7 +37111,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeepMainUseMain",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -36696,7 +37182,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeepMainUseModule",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -36768,7 +37254,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeepModuleImplicitMain",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -36839,7 +37325,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeepModuleImplicitModule",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -36910,7 +37396,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeepModuleUseMain",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -36981,7 +37467,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayKeepModuleUseModule",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37051,7 +37537,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsArrayRemove",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37120,7 +37606,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseAllFork",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37185,7 +37671,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseCrossPlatformSlash",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37255,7 +37741,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseIntermediateFilesChainAll",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37322,7 +37808,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseIntermediateFilesChainOne",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37391,7 +37877,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseIntermediateFilesDiamond",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37461,7 +37947,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseIntermediateFilesUnused",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37526,7 +38012,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseIntermediateFilesUsed",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37590,7 +38076,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseKeepNamedImportES6",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37654,7 +38140,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseKeepStarImportES6",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37725,7 +38211,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseNoWarningInNodeModulesESBuildIssue999",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -37778,7 +38264,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseOneFork",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37848,7 +38334,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseRemoveBareImportES6",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37918,7 +38404,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseRemoveNamedImportES6",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -37988,7 +38474,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsFalseRemoveStarImportES6",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -38058,7 +38544,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsGlobBasicPattern",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -38110,7 +38596,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsGlobBraceExpansion",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -38168,7 +38654,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsGlobDeepPattern",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -38224,7 +38710,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsGlobExtensionPattern",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -38274,7 +38760,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsGlobInvalidPattern",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -38328,7 +38814,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsGlobMixedPatterns",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -38380,7 +38866,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsGlobNoMatches",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         }
       ],
@@ -38433,7 +38919,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsGlobQuestionMark",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -38482,7 +38968,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsKeepExportDefaultExpr",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -38552,7 +39038,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsNestedDirectoryRemove",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -38622,7 +39108,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/PackageJsonSideEffectsTrueKeepES6",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -56409,7 +56895,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/CallWithNoArg",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -56458,7 +56944,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/ConstValueInliningAssign",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -56556,7 +57042,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/ConstValueInliningBundle",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -56629,7 +57115,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/ConstValueInliningDirectEval",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -56736,7 +57222,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/ConstValueInliningNoBundle",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -56798,7 +57284,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/ConstructWithNoArg",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -56852,7 +57338,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/CrossModuleConstantFolding",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         }
       ],
@@ -56914,7 +57400,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DCETemplateLiteral",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -56993,7 +57479,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DCETypeOf",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57061,7 +57547,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DCETypeOfCompareStringGuardCondition",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57122,7 +57608,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DCETypeOfEqualsString",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57193,7 +57679,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DCETypeOfEqualsStringGuardCondition",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57260,7 +57746,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DCETypeOfEqualsStringMangle",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57323,7 +57809,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/DeadCodeFollowingJump",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57390,7 +57876,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/MultipleDeclarationTreeShaking",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57463,7 +57949,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/MultipleDeclarationTreeShakingMinifySyntax",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57526,7 +58012,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/RemoveTrailingReturn",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -57594,7 +58080,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingBinaryOperators",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57669,7 +58155,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingInESMWrapper",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {
@@ -57732,7 +58218,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingNoBundleCJS",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -57795,7 +58281,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingNoBundleESM",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "todo"
         },
         {
@@ -57858,7 +58344,7 @@
           "bundler": "bun",
           "suite": "esbuild-dce-port",
           "caseId": "esbuild-dce-port/dce/TreeShakingUnaryOperators",
-          "url": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+          "url": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
           "upstreamStatus": "active"
         },
         {

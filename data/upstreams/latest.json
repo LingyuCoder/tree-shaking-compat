@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T04:18:21.509Z",
+  "generatedAt": "2026-09-04T20:38:38.376Z",
   "definition": {
     "direct": "Explicit DCE/tree-shaking suites or path-selected semantic tests.",
     "pipeline": "Broader suites that exercise the bundler pipeline but are not counted as direct evidence.",
@@ -28146,8 +28146,8 @@
           "id": "esbuild-dce-port",
           "root": "test/bundler/esbuild/dce.test.ts",
           "kind": "regex-in-file",
-          "count": 100,
-          "directCount": 100,
+          "count": 109,
+          "directCount": 109,
           "negativeCount": 0,
           "entries": [
             {
@@ -28155,7 +28155,7 @@
               "name": "dce/Base64LoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28163,7 +28163,7 @@
               "name": "dce/CallWithNoArg",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28171,7 +28171,7 @@
               "name": "dce/ConstructWithNoArg",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28179,7 +28179,7 @@
               "name": "dce/ConstValueInliningAssign",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28187,7 +28187,7 @@
               "name": "dce/ConstValueInliningBundle",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28195,7 +28195,7 @@
               "name": "dce/ConstValueInliningDirectEval",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28203,7 +28203,7 @@
               "name": "dce/ConstValueInliningNoBundle",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28211,7 +28211,7 @@
               "name": "dce/CrossModuleConstantFolding",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28219,7 +28219,7 @@
               "name": "dce/DataURLLoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28227,7 +28227,39 @@
               "name": "dce/DCEClassStaticBlocks",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/DCEOfDestructuring",
+              "name": "dce/DCEOfDestructuring",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/DCEOfDestructuringOfImportNamespace",
+              "name": "dce/DCEOfDestructuringOfImportNamespace",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/DCEOfDestructuringOfUnwrappedRequire",
+              "name": "dce/DCEOfDestructuringOfUnwrappedRequire",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/DCEOfDestructuringSideEffects",
+              "name": "dce/DCEOfDestructuringSideEffects",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28235,7 +28267,7 @@
               "name": "dce/DCETemplateLiteral",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28243,7 +28275,7 @@
               "name": "dce/DCETypeOf",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28251,7 +28283,7 @@
               "name": "dce/DCETypeOfCompareStringGuardCondition",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28259,7 +28291,7 @@
               "name": "dce/DCETypeOfEqualsString",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28267,7 +28299,7 @@
               "name": "dce/DCETypeOfEqualsStringGuardCondition",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28275,7 +28307,7 @@
               "name": "dce/DCETypeOfEqualsStringMangle",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28283,7 +28315,7 @@
               "name": "dce/DCEVarExports",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28291,7 +28323,39 @@
               "name": "dce/DeadCodeFollowingJump",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/DestructuringOfForOfReboundUnwrappedRequire",
+              "name": "dce/DestructuringOfForOfReboundUnwrappedRequire",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/DestructuringOfImportNamespaceDirectEval",
+              "name": "dce/DestructuringOfImportNamespaceDirectEval",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/DestructuringOfImportNamespaceRuntime",
+              "name": "dce/DestructuringOfImportNamespaceRuntime",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/DestructuringOfReboundUnwrappedRequire",
+              "name": "dce/DestructuringOfReboundUnwrappedRequire",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28299,7 +28363,7 @@
               "name": "dce/FileLoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28307,7 +28371,7 @@
               "name": "dce/IgnoreAnnotations",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28315,7 +28379,7 @@
               "name": "dce/IgnoreAnnotationsDoesNotApplyToRuntime",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28323,7 +28387,7 @@
               "name": "dce/ImportReExportOfNamespaceImport",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28331,7 +28395,7 @@
               "name": "dce/InlineEmptyFunctionCalls",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28339,7 +28403,7 @@
               "name": "dce/InlineFunctionCallBehaviorChanges",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28347,7 +28411,7 @@
               "name": "dce/InlineFunctionCallForInitDecl",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28355,7 +28419,7 @@
               "name": "dce/InlineIdentityFunctionCalls",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28363,7 +28427,7 @@
               "name": "dce/JSONLoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28371,7 +28435,7 @@
               "name": "dce/MultipleDeclarationTreeShaking",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28379,7 +28443,7 @@
               "name": "dce/MultipleDeclarationTreeShakingMinifySyntax",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28387,7 +28451,7 @@
               "name": "dce/NestedFunctionInliningWithSpread",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28395,7 +28459,7 @@
               "name": "dce/PackageJsonSideEffectsArrayGlob",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28403,7 +28467,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeep",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28411,7 +28475,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepMainImplicitMain",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28419,7 +28483,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepMainImplicitModule",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28427,7 +28491,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepMainUseMain",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28435,7 +28499,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepMainUseModule",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28443,7 +28507,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepModuleImplicitMain",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28451,7 +28515,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepModuleImplicitModule",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28459,7 +28523,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepModuleUseMain",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28467,7 +28531,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepModuleUseModule",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28475,7 +28539,7 @@
               "name": "dce/PackageJsonSideEffectsArrayRemove",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28483,7 +28547,7 @@
               "name": "dce/PackageJsonSideEffectsFalseAllFork",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28491,7 +28555,7 @@
               "name": "dce/PackageJsonSideEffectsFalseCrossPlatformSlash",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28499,7 +28563,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesChainAll",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28507,7 +28571,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesChainOne",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28515,7 +28579,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesDiamond",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28523,7 +28587,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28531,7 +28595,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesUsed",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28539,7 +28603,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepBareImportAndRequireCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28547,7 +28611,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepBareImportAndRequireES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28555,7 +28619,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepNamedImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28563,7 +28627,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepNamedImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28571,7 +28635,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepStarImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28579,7 +28643,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepStarImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28587,7 +28651,7 @@
               "name": "dce/PackageJsonSideEffectsFalseNoWarningInNodeModulesESBuildIssue999",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28595,7 +28659,7 @@
               "name": "dce/PackageJsonSideEffectsFalseOneFork",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28603,7 +28667,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveBareImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28611,7 +28675,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveBareImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28619,7 +28683,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveNamedImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28627,7 +28691,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveNamedImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28635,7 +28699,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveStarImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28643,7 +28707,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveStarImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28651,7 +28715,7 @@
               "name": "dce/PackageJsonSideEffectsGlobBasicPattern",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28659,7 +28723,7 @@
               "name": "dce/PackageJsonSideEffectsGlobBraceExpansion",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28667,7 +28731,7 @@
               "name": "dce/PackageJsonSideEffectsGlobDeepPattern",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28675,7 +28739,7 @@
               "name": "dce/PackageJsonSideEffectsGlobExtensionPattern",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28683,7 +28747,7 @@
               "name": "dce/PackageJsonSideEffectsGlobInvalidPattern",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28691,7 +28755,7 @@
               "name": "dce/PackageJsonSideEffectsGlobMixedPatterns",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28699,7 +28763,7 @@
               "name": "dce/PackageJsonSideEffectsGlobNoMatches",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28707,7 +28771,7 @@
               "name": "dce/PackageJsonSideEffectsGlobQuestionMark",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28715,7 +28779,7 @@
               "name": "dce/PackageJsonSideEffectsKeepExportDefaultExpr",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28723,7 +28787,7 @@
               "name": "dce/PackageJsonSideEffectsNestedDirectoryRemove",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28731,7 +28795,7 @@
               "name": "dce/PackageJsonSideEffectsTrueKeepCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28739,7 +28803,7 @@
               "name": "dce/PackageJsonSideEffectsTrueKeepES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28747,7 +28811,7 @@
               "name": "dce/PureCallsWithSpread",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28755,7 +28819,7 @@
               "name": "dce/RemoveTrailingReturn",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28763,7 +28827,7 @@
               "name": "dce/RemoveUnusedImportMeta",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28771,7 +28835,7 @@
               "name": "dce/RemoveUnusedImports",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28779,7 +28843,7 @@
               "name": "dce/RemoveUnusedImportsEval",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28787,7 +28851,7 @@
               "name": "dce/RemoveUnusedImportsEvalTS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28795,7 +28859,7 @@
               "name": "dce/TextLoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28803,7 +28867,7 @@
               "name": "dce/TopLevelFunctionInliningWithSpread",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28811,7 +28875,15 @@
               "name": "dce/TreeShakingBinaryOperators",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "esbuild-dce-port/dce/TreeShakingClassComputedKeyReference",
+              "name": "dce/TreeShakingClassComputedKeyReference",
+              "path": "test/bundler/esbuild/dce.test.ts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28819,7 +28891,7 @@
               "name": "dce/TreeShakingClassEnumKey",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28827,7 +28899,7 @@
               "name": "dce/TreeShakingClassPrivateProperty",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28835,7 +28907,7 @@
               "name": "dce/TreeShakingClassPrivatePropertyDeclaration",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28843,7 +28915,7 @@
               "name": "dce/TreeShakingClassProperty",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28851,7 +28923,7 @@
               "name": "dce/TreeShakingClassStaticProperty",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28859,7 +28931,7 @@
               "name": "dce/TreeShakingImportIdentifier",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28867,7 +28939,7 @@
               "name": "dce/TreeShakingInESMWrapper",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28875,7 +28947,7 @@
               "name": "dce/TreeShakingLoweredClassStaticField",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28883,7 +28955,7 @@
               "name": "dce/TreeShakingLoweredClassStaticFieldAssignment",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28891,7 +28963,7 @@
               "name": "dce/TreeShakingLoweredClassStaticFieldMinified",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28899,7 +28971,7 @@
               "name": "dce/TreeShakingNoBundleCJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28907,7 +28979,7 @@
               "name": "dce/TreeShakingNoBundleESM",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28915,7 +28987,7 @@
               "name": "dce/TreeShakingNoBundleIIFE",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28923,7 +28995,7 @@
               "name": "dce/TreeShakingObjectProperty",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28931,7 +29003,7 @@
               "name": "dce/TreeShakingReactElements",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28939,7 +29011,7 @@
               "name": "dce/TreeShakingUnaryOperators",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -28947,21 +29019,21 @@
               "name": "dce/UnreferencedObjectLiteral",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/34cbb9a40b4bd1bd767d134a7065e66c2432a676/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/4661e494f052c83c80dade1318e5710238340be6/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             }
           ]
         }
       ],
       "release": {
-        "tag": "bun-v1.4.0",
-        "version": "Bun v1.4",
-        "commit": "34cbb9a40b4bd1bd767d134a7065e66c2432a676",
-        "publishedAt": "2026-08-20T14:07:21Z",
-        "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0"
+        "tag": "bun-v1.4.1",
+        "version": "Bun v1.4.1",
+        "commit": "4661e494f052c83c80dade1318e5710238340be6",
+        "publishedAt": "2026-09-04T08:33:19Z",
+        "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1"
       },
-      "count": 100,
-      "directCount": 100,
+      "count": 109,
+      "directCount": 109,
       "negativeCount": 0
     }
   ]

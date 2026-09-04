@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "resolvedAt": "2026-09-04T04:18:05.652Z",
+  "resolvedAt": "2026-09-04T20:38:20.911Z",
   "policy": "latest stable npm dist-tag and latest non-prerelease GitHub release",
   "node": "v22.23.2",
   "bundlers": {
@@ -10,7 +10,7 @@
     "rspack": "2.2.2",
     "esbuild": "0.28.2",
     "parcel": "2.16.4",
-    "bun": "1.4.0",
+    "bun": "1.4.1",
     "turbopack": "16.3.4"
   },
   "packages": {
@@ -30,8 +30,8 @@
   },
   "bun": {
     "repository": "oven-sh/bun",
-    "tag": "bun-v1.4.0",
-    "version": "1.4.0",
-    "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0"
+    "tag": "bun-v1.4.1",
+    "version": "1.4.1",
+    "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1"
   }
 }
