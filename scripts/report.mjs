@@ -45,9 +45,7 @@ function rateCell(selected, bundler) {
   const assessed = statuses.filter((status) => assessedStatuses.has(status)).length;
   if (!assessed) return "—";
   const passed = statuses.filter((status) => status === "pass").length;
-  const partial = statuses.filter((status) => status === "partial").length;
-  const failed = statuses.filter((status) => status === "fail").length;
-  return `${passed}/${assessed} (${((passed / assessed) * 100).toFixed(1)}%) · ◐${partial} · ❌${failed}`;
+  return `${passed}/${assessed} (${((passed / assessed) * 100).toFixed(1)}%)`;
 }
 
 function oracleLabel(item) {
