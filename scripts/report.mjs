@@ -8,6 +8,7 @@ const results = await readJson(resultsPath);
 const inventory = (await exists(inventoryPath)) ? await readJson(inventoryPath) : null;
 const bundlerOrder = ["rollup", "rolldown", "webpack", "rspack", "esbuild", "parcel", "bun", "turbopack"];
 const bundlers = bundlerOrder.filter((id) => results.bundlers[id]);
+const detailBundlers = [...bundlers.filter((id) => id !== "rspack"), ...bundlers.filter((id) => id === "rspack")];
 const corpusCases = results.corpus.cases;
 const portableCases = corpusCases.filter(hasPortableOracle);
 const cases = portableCases.filter(isSourceCalibrated);
@@ -179,11 +180,11 @@ lines.push(
   "",
 );
 lines.push(
-  `| Case | Validated source | Family | Oracle | ${bundlers.map((id) => results.bundlers[id].label).join(" | ")} | Rspack diagnostic |`,
-  `| --- | --- | --- | --- | ${bundlers.map(() => "---:").join(" | ")} | --- |`,
+  `| Case | Validated source | Family | Oracle | ${detailBundlers.map((id) => results.bundlers[id].label).join(" | ")} | Rspack diagnostic |`,
+  `| --- | --- | --- | --- | ${detailBundlers.map(() => "---:").join(" | ")} | --- |`,
 );
 for (const item of detailedCases) {
-  const cells = bundlers.map((id) => symbols[statusOf(id, item.id)] || "◇");
+  const cells = detailBundlers.map((id) => symbols[statusOf(id, item.id)] || "◇");
   lines.push(
     `| ${caseLink(item)} | ${sourceLinks(item)} | ${escapeCell(item.category)} | ${oracleLabel(item)} | ${cells.join(" | ")} | ${rspackDiagnostic(item)} |`,
   );
