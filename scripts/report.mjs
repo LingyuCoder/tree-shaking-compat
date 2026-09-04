@@ -9,7 +9,8 @@ const inventory = (await exists(inventoryPath)) ? await readJson(inventoryPath) 
 const bundlerOrder = ["rollup", "rolldown", "webpack", "rspack", "esbuild", "parcel", "bun", "turbopack"];
 const bundlers = bundlerOrder.filter((id) => results.bundlers[id]);
 const corpusCases = results.corpus.cases;
-const cases = corpusCases.filter(hasPortableOracle);
+const portableCases = corpusCases.filter(hasPortableOracle);
+const cases = portableCases.filter(isSourceCalibrated);
 const symbols = { pass: "✅", partial: "◐", fail: "❌", unsupported: "—", unverified: "◇" };
 const assessedStatuses = new Set(["pass", "partial", "fail"]);
 
@@ -19,6 +20,20 @@ function productionResult(bundler, caseId) {
 
 function statusOf(bundler, caseId) {
   return productionResult(bundler, caseId)?.status || "unverified";
+}
+
+function baselineSources(item) {
+  return [
+    ...new Set(
+      (item.provenance || [])
+        .map((source) => source.bundler)
+        .filter((bundler) => results.bundlers[bundler] && statusOf(bundler, item.id) === "pass"),
+    ),
+  ];
+}
+
+function isSourceCalibrated(item) {
+  return baselineSources(item).length > 0;
 }
 
 function escapeCell(value) {
@@ -52,19 +67,16 @@ function hasPortableOracle(item) {
 }
 
 function sourceLinks(item) {
-  const seen = new Set();
-  const labels = [];
-  for (const source of item.provenance || []) {
-    if (seen.has(source.bundler)) continue;
-    seen.add(source.bundler);
-    labels.push(escapeCell(source.bundler));
-  }
-  return labels.join(", ");
+  return baselineSources(item).map(escapeCell).join(", ");
 }
 
 function caseLink(item) {
   const canonicalSource = item.id.split("/")[1];
-  const url = item.provenance?.find((source) => source.bundler === canonicalSource)?.url || item.provenance?.[0]?.url;
+  const validated = new Set(baselineSources(item));
+  const url =
+    item.provenance?.find((source) => source.bundler === canonicalSource && validated.has(source.bundler))?.url ||
+    item.provenance?.find((source) => validated.has(source.bundler))?.url ||
+    item.provenance?.[0]?.url;
   const id = escapeCell(item.id);
   return url ? `[${id}](${url})` : id;
 }
@@ -97,15 +109,16 @@ function rspackDiagnostic(item) {
 const lines = [];
 const generatedCount = cases.filter((item) => item.id.startsWith("upstream/")).length;
 const supplementalCount = cases.length - generatedCount;
-const filteredCount = corpusCases.length - cases.length;
+const noOracleCount = corpusCases.length - portableCases.length;
+const uncalibratedCount = portableCases.length - cases.length;
 lines.push("# Latest tree-shaking conformance report", "");
 lines.push(`Generated: \`${results.generatedAt}\``, "");
 lines.push(
-  `This production-only report contains **${cases.length} cases with a portable oracle**: ${generatedCount} exact-release upstream fixtures and ${supplementalCount} focused cross-bundler probes. Every reportable case appears exactly once in Table 3.`,
+  `This production-only report contains **${cases.length} source-calibrated cases**: ${generatedCount} exact-release upstream fixtures and ${supplementalCount} focused cross-bundler probes. A case enters the matrix only after at least one of its source bundlers passes the same portable oracle. Every reportable case appears exactly once in Table 3.`,
   "",
 );
 lines.push(
-  `${filteredCount} additional inventoried cases without a portable oracle remain in the machine-readable corpus and are intentionally omitted from all three tables and all statistics.`,
+  `${noOracleCount} inventoried cases without a portable oracle and ${uncalibratedCount} portable-oracle cases that do not pass any source baseline remain in the machine-readable corpus. Both groups are intentionally omitted from all three tables and all statistics.`,
   "",
 );
 lines.push(
@@ -122,21 +135,24 @@ lines.push(
 );
 
 lines.push("## 1. Pass rate by upstream source (production)", "");
-lines.push("Only cases with a portable oracle are counted. A deduplicated case is counted in every source row that carries its provenance, so source-row case counts intentionally overlap.", "");
+lines.push("Each source row contains only cases that pass that source bundler's own baseline, so every diagonal is 100%. A deduplicated case can be calibrated by more than one source, so source-row case counts intentionally overlap.", "");
 lines.push(
-  `| Source | Cases | ${bundlers.map((id) => results.bundlers[id].label).join(" | ")} |`,
+  `| Source | Calibrated cases | ${bundlers.map((id) => results.bundlers[id].label).join(" | ")} |`,
   `| --- | ---: | ${bundlers.map(() => "---:").join(" | ")} |`,
 );
 const upstreamById = new Map((inventory?.upstreams || []).map((item) => [item.id, item]));
 const upstreamRows = bundlerOrder.map((id) => upstreamById.get(id) || { id });
 for (const upstream of upstreamRows) {
-  const selected = cases.filter((item) => item.provenance?.some((source) => source.bundler === upstream.id));
+  const selected = cases.filter((item) => baselineSources(item).includes(upstream.id));
   const sourceName = upstream.repository
     ? `[${upstream.id}](https://github.com/${upstream.repository})`
     : upstream.id;
   lines.push(
     `| ${sourceName} | ${selected.length} | ${bundlers.map((id) => rateCell(selected, id)).join(" | ")} |`,
   );
+  if (selected.some((item) => statusOf(upstream.id, item.id) !== "pass")) {
+    throw new Error(`${upstream.id}: source-calibrated table contains a non-passing diagonal case.`);
+  }
 }
 
 const categories = [...new Set(cases.map((item) => item.category))].sort(
@@ -165,7 +181,7 @@ lines.push(
   "",
 );
 lines.push(
-  `| Case | Source | Family | Oracle | ${bundlers.map((id) => results.bundlers[id].label).join(" | ")} | Rspack diagnostic |`,
+  `| Case | Validated source | Family | Oracle | ${bundlers.map((id) => results.bundlers[id].label).join(" | ")} | Rspack diagnostic |`,
   `| --- | --- | --- | --- | ${bundlers.map(() => "---:").join(" | ")} | --- |`,
 );
 for (const item of detailedCases) {
@@ -181,6 +197,9 @@ if (detailedCases.length !== cases.length || new Set(detailedCases.map((item) =>
 if (detailedCases.some((item) => oracleLabel(item) === "no portable oracle")) {
   throw new Error("Detailed report matrix contains a case without a portable oracle.");
 }
+if (detailedCases.some((item) => !isSourceCalibrated(item))) {
+  throw new Error("Detailed report matrix contains a case that did not pass any source baseline.");
+}
 
 lines.push(
   "",
@@ -191,5 +210,5 @@ lines.push(
 await fs.mkdir(fromRoot("reports"), { recursive: true });
 await fs.writeFile(fromRoot("reports/latest.md"), `${lines.join("\n").trimEnd()}\n`);
 console.log(
-  `Wrote reports/latest.md (${cases.length} portable-oracle cases × ${bundlers.length} bundlers; ${filteredCount} unverified cases filtered; exactly 3 result tables)`,
+  `Wrote reports/latest.md (${cases.length} source-calibrated cases × ${bundlers.length} bundlers; ${noOracleCount} no-oracle and ${uncalibratedCount} uncalibrated cases filtered; exactly 3 result tables)`,
 );
