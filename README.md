@@ -12,6 +12,8 @@ The current result is in **[reports/latest.md](reports/latest.md)**. Machine-rea
 
 The current corpus has 1,248 canonical cases: 1,206 generated from exact upstream release fixtures and 42 focused portable probes. Ports of the same esbuild or Rollup case in multiple projects are deduplicated into one case with multiple provenance links, so copied tests do not inflate pass rates.
 
+The human-readable report currently includes the 646 cases that have a portable runtime or emitted-code oracle. The other 602 inventoried cases remain available in the machine-readable corpus, but are filtered out of all three report tables and all statistics until a reliable oracle is available.
+
 The generated corpus records source files, upstream paths, release commits, oracle type, broad capability family, portability limitations, and known negative evidence in [`corpus/generated/upstream.json`](corpus/generated/upstream.json). The generator verifies that every configured direct source entry is mapped.
 
 ## The three report views
@@ -22,13 +24,13 @@ The report deliberately contains three result tables:
 2. Pass rate grouped by broad capability family.
 3. Every canonical case × every bundler, with exact source links and an Rspack-focused diagnostic.
 
-The symbols are: ✅ portable oracle passed; ◐ runtime passed but removable code remained; ❌ build/runtime/oracle failed; — the case depends on a source-specific harness or configuration that the adapter cannot express; ◇ the fixture is present but has no portable oracle yet. Only ✅, ◐, and ❌ enter pass-rate denominators. This prevents missing assertions or source-specific harnesses from being reported as bundler failures.
+The symbols are: ✅ portable oracle passed; ◐ runtime passed but removable code remained; ❌ build/runtime/oracle failed; — the case depends on a source-specific harness or configuration that the adapter cannot express; ◇ an individual adapter could not apply the case's available oracle. Only ✅, ◐, and ❌ enter pass-rate denominators. Cases without any portable oracle are omitted from the report entirely.
 
 ## What is executed
 
 Each case is built with the bundler's production pipeline. Runtime assertions check observable behavior; emitted-code markers check whether dead declarations and effects disappeared while required code remained. Production compression/DCE stays enabled, while identifier mangling is disabled where a public switch exists so upstream identifier markers remain observable. Turbopack is tested through `next build --turbopack` and uses route-specific output traces plus string-stable markers.
 
-Some upstream tests are inseparable from a project's private test runner, loader, alias, filesystem snapshot, or compiler-internal global. They still appear in the detailed table, but are marked — or ◇ and excluded from rates until a portable oracle exists. This is intentional: complete provenance and honest uncertainty are more useful than false passes.
+Some upstream tests are inseparable from a project's private test runner, loader, alias, filesystem snapshot, or compiler-internal global. They remain in the complete machine-readable corpus, but cases without a portable oracle are omitted from the human-readable report and its rates. Source-specific adapter limitations for otherwise reportable cases remain visible as — or ◇.
 
 ## Run locally
 

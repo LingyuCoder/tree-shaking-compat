@@ -6,11 +6,10 @@ import { fromRoot, inventoryPath, resultsPath } from "./lib/paths.mjs";
 if (!(await exists(resultsPath))) throw new Error("Missing data/results/latest.json; run pnpm test first.");
 const results = await readJson(resultsPath);
 const inventory = (await exists(inventoryPath)) ? await readJson(inventoryPath) : null;
-const generatedCorpusPath = fromRoot("corpus/generated/upstream.json");
-const generatedCorpus = (await exists(generatedCorpusPath)) ? await readJson(generatedCorpusPath) : null;
 const bundlerOrder = ["rollup", "rolldown", "webpack", "rspack", "esbuild", "parcel", "bun", "turbopack"];
 const bundlers = bundlerOrder.filter((id) => results.bundlers[id]);
-const cases = results.corpus.cases;
+const corpusCases = results.corpus.cases;
+const cases = corpusCases.filter(hasPortableOracle);
 const symbols = { pass: "✅", partial: "◐", fail: "❌", unsupported: "—", unverified: "◇" };
 const assessedStatuses = new Set(["pass", "partial", "fail"]);
 
@@ -44,6 +43,12 @@ function oracleLabel(item) {
   if (markers && item.oracle?.kind === "upstream-snapshot") return "snapshot markers";
   if (markers) return "DCE markers";
   return "no portable oracle";
+}
+
+function hasPortableOracle(item) {
+  const runtime = item.execution?.runtime !== false;
+  const markers = (item.expect?.absent?.length || 0) + (item.expect?.present?.length || 0);
+  return runtime || markers > 0;
 }
 
 function sourceLinks(item) {
@@ -92,10 +97,15 @@ function rspackDiagnostic(item) {
 const lines = [];
 const generatedCount = cases.filter((item) => item.id.startsWith("upstream/")).length;
 const supplementalCount = cases.length - generatedCount;
+const filteredCount = corpusCases.length - cases.length;
 lines.push("# Latest tree-shaking conformance report", "");
 lines.push(`Generated: \`${results.generatedAt}\``, "");
 lines.push(
-  `This production-only matrix contains **${cases.length} canonical cases**: ${generatedCount} exact-release upstream fixtures and ${supplementalCount} focused cross-bundler probes. Every canonical case appears exactly once in Table 3.`,
+  `This production-only report contains **${cases.length} cases with a portable oracle**: ${generatedCount} exact-release upstream fixtures and ${supplementalCount} focused cross-bundler probes. Every reportable case appears exactly once in Table 3.`,
+  "",
+);
+lines.push(
+  `${filteredCount} additional inventoried cases without a portable oracle remain in the machine-readable corpus and are intentionally omitted from all three tables and all statistics.`,
   "",
 );
 lines.push(
@@ -103,7 +113,7 @@ lines.push(
   "",
 );
 lines.push(
-  "> ✅ = portable oracle passed; ◐ = runtime passed but removable code remained; ❌ = build/runtime/oracle failure; — = source-specific and not portable to that adapter; ◇ = built or inventoried, but no portable oracle. Pass rates use ✅ / (✅ + ◐ + ❌); — and ◇ stay visible but are excluded from the denominator.",
+  "> ✅ = portable oracle passed; ◐ = runtime passed but removable code remained; ❌ = build/runtime/oracle failure; — = source-specific and not portable to that adapter; ◇ = this adapter could not apply the case's available oracle. Pass rates use ✅ / (✅ + ◐ + ❌); — and ◇ are excluded from the denominator.",
   "",
 );
 lines.push(
@@ -112,23 +122,20 @@ lines.push(
 );
 
 lines.push("## 1. Pass rate by upstream source (production)", "");
-lines.push("A deduplicated canonical case is counted in every source row that carries its provenance, so source-row case counts intentionally overlap.", "");
+lines.push("Only cases with a portable oracle are counted. A deduplicated case is counted in every source row that carries its provenance, so source-row case counts intentionally overlap.", "");
 lines.push(
-  `| Source | Mapped release fixtures | Canonical cases | ${bundlers.map((id) => results.bundlers[id].label).join(" | ")} |`,
-  `| --- | ---: | ---: | ${bundlers.map(() => "---:").join(" | ")} |`,
+  `| Source | Cases | ${bundlers.map((id) => results.bundlers[id].label).join(" | ")} |`,
+  `| --- | ---: | ${bundlers.map(() => "---:").join(" | ")} |`,
 );
 const upstreamById = new Map((inventory?.upstreams || []).map((item) => [item.id, item]));
 const upstreamRows = bundlerOrder.map((id) => upstreamById.get(id) || { id });
 for (const upstream of upstreamRows) {
   const selected = cases.filter((item) => item.provenance?.some((source) => source.bundler === upstream.id));
-  const coverage = generatedCorpus?.sourceCoverage?.[upstream.id];
-  const mapped = coverage ? `${coverage.mapped}/${coverage.direct}` : "n/a";
-  const negative = coverage?.negative ? ` + ${coverage.negativeMapped}/${coverage.negative} explicit gaps` : "";
   const sourceName = upstream.repository
     ? `[${upstream.id}](https://github.com/${upstream.repository})`
     : upstream.id;
   lines.push(
-    `| ${sourceName} | ${mapped}${negative} | ${selected.length} | ${bundlers.map((id) => rateCell(selected, id)).join(" | ")} |`,
+    `| ${sourceName} | ${selected.length} | ${bundlers.map((id) => rateCell(selected, id)).join(" | ")} |`,
   );
 }
 
@@ -171,6 +178,9 @@ for (const item of detailedCases) {
 if (detailedCases.length !== cases.length || new Set(detailedCases.map((item) => item.id)).size !== cases.length) {
   throw new Error("Detailed report matrix lost or duplicated a case.");
 }
+if (detailedCases.some((item) => oracleLabel(item) === "no portable oracle")) {
+  throw new Error("Detailed report matrix contains a case without a portable oracle.");
+}
 
 lines.push(
   "",
@@ -180,4 +190,6 @@ lines.push(
 
 await fs.mkdir(fromRoot("reports"), { recursive: true });
 await fs.writeFile(fromRoot("reports/latest.md"), `${lines.join("\n").trimEnd()}\n`);
-console.log(`Wrote reports/latest.md (${cases.length} cases × ${bundlers.length} bundlers; exactly 3 result tables)`);
+console.log(
+  `Wrote reports/latest.md (${cases.length} portable-oracle cases × ${bundlers.length} bundlers; ${filteredCount} unverified cases filtered; exactly 3 result tables)`,
+);
