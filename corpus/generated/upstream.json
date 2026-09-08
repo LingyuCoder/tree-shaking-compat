@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-07T21:24:16.094Z",
-  "inventoryGeneratedAt": "2026-09-07T21:24:08.681Z",
+  "generatedAt": "2026-09-08T21:00:19.237Z",
+  "inventoryGeneratedAt": "2026-09-08T21:00:11.998Z",
   "definition": "Deduplicated executable corpus generated from every configured upstream tree-shaking suite. Exact upstream paths remain attached as provenance.",
   "sourceCoverage": {
     "esbuild": {
@@ -41,8 +41,8 @@
       "negativeMapped": 0
     },
     "rspack": {
-      "direct": 218,
-      "mapped": 218,
+      "direct": 219,
+      "mapped": 219,
       "negative": 0,
       "negativeMapped": 0
     },
@@ -53,7 +53,7 @@
       "negativeMapped": 0
     }
   },
-  "count": 1214,
+  "count": 1215,
   "cases": [
     {
       "id": "upstream/esbuild/dce-ignore-annotations",
@@ -1295,7 +1295,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/pure-functions-consumer-hint-drop",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/pure-functions-consumer-hint-drop",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/pure-functions-consumer-hint-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -1344,7 +1344,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/pure-functions-severed-export",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/pure-functions-severed-export",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/pure-functions-severed-export",
           "upstreamStatus": "active"
         }
       ],
@@ -1393,7 +1393,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/user-mark-pure-functions",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions",
           "upstreamStatus": "active"
         }
       ],
@@ -1450,7 +1450,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/user-mark-pure-functions-args",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-args",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-args",
           "upstreamStatus": "active"
         }
       ],
@@ -1507,7 +1507,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/user-mark-pure-functions-destructuring",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-destructuring",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-destructuring",
           "upstreamStatus": "active"
         }
       ],
@@ -1566,7 +1566,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/user-mark-pure-functions-import-alias",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-import-alias",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-import-alias",
           "upstreamStatus": "active"
         }
       ],
@@ -1624,7 +1624,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/user-mark-pure-functions-imported",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-imported",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-imported",
           "upstreamStatus": "active"
         }
       ],
@@ -1681,7 +1681,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/user-mark-pure-functions-local",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-local",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-local",
           "upstreamStatus": "active"
         }
       ],
@@ -1741,7 +1741,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/user-mark-pure-functions-undefined",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-undefined",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/user-mark-pure-functions-undefined",
           "upstreamStatus": "active"
         }
       ],
@@ -1797,7 +1797,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/pure_comments_magic_comments",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/pure_comments_magic_comments",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/pure_comments_magic_comments",
           "upstreamStatus": "active"
         }
       ],
@@ -1843,7 +1843,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/pure_comments_new_expr",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/pure_comments_new_expr",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/pure_comments_new_expr",
           "upstreamStatus": "active"
         }
       ],
@@ -2755,7 +2755,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/asset-is-dep-of-css-source",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/asset-is-dep-of-css-source",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/asset-is-dep-of-css-source",
           "upstreamStatus": "active"
         }
       ],
@@ -2806,7 +2806,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/assets1",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/assets1",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/assets1",
           "upstreamStatus": "active"
         }
       ],
@@ -2859,7 +2859,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/import-by-name-json",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/import-by-name-json",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/import-by-name-json",
           "upstreamStatus": "active"
         }
       ],
@@ -2918,7 +2918,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/json-empty-array",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/json-empty-array",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/json-empty-array",
           "upstreamStatus": "active"
         }
       ],
@@ -2966,7 +2966,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/json-with-prototype-methods",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/json-with-prototype-methods",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/json-with-prototype-methods",
           "upstreamStatus": "active"
         }
       ],
@@ -3019,7 +3019,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/css",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/css",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/css",
           "upstreamStatus": "active"
         }
       ],
@@ -3073,7 +3073,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/with-assets",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/with-assets",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/with-assets",
           "upstreamStatus": "active"
         }
       ],
@@ -5379,7 +5379,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/class",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/class",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/class",
           "upstreamStatus": "active"
         }
       ],
@@ -5435,7 +5435,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultClass",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/defaultClass",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/defaultClass",
           "upstreamStatus": "active"
         }
       ],
@@ -5489,7 +5489,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/class-dynamic-props",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/class-dynamic-props",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/class-dynamic-props",
           "upstreamStatus": "active"
         }
       ],
@@ -5538,7 +5538,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/class-static-block",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/class-static-block",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/class-static-block",
           "upstreamStatus": "active"
         }
       ],
@@ -5600,7 +5600,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/extend-class",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/extend-class",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/extend-class",
           "upstreamStatus": "active"
         }
       ],
@@ -5662,7 +5662,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/extend-class2",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/extend-class2",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/extend-class2",
           "upstreamStatus": "active"
         }
       ],
@@ -5725,7 +5725,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/static-of-class",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/static-of-class",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/static-of-class",
           "upstreamStatus": "active"
         }
       ],
@@ -5772,7 +5772,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/class-extend",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/class-extend",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/class-extend",
           "upstreamStatus": "active"
         }
       ],
@@ -5822,7 +5822,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/rollup-unused-inner-functions-and-classes",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/rollup-unused-inner-functions-and-classes",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/rollup-unused-inner-functions-and-classes",
           "upstreamStatus": "active"
         }
       ],
@@ -5876,7 +5876,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/static-class",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/static-class",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/static-class",
           "upstreamStatus": "active"
         }
       ],
@@ -5922,7 +5922,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/unused-class-rename",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/unused-class-rename",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/unused-class-rename",
           "upstreamStatus": "active"
         }
       ],
@@ -7863,7 +7863,7 @@
           "bundler": "rspack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/cjs-interop",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/cjs-tree-shaking/cjs-interop",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/cjs-tree-shaking/cjs-interop",
           "upstreamStatus": "active"
         }
       ],
@@ -7913,7 +7913,7 @@
           "bundler": "rspack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/export-require-bailout",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/cjs-tree-shaking/export-require-bailout",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/cjs-tree-shaking/export-require-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -7960,7 +7960,7 @@
           "bundler": "rspack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/export-require-unused",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/cjs-tree-shaking/export-require-unused",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/cjs-tree-shaking/export-require-unused",
           "upstreamStatus": "active"
         }
       ],
@@ -8009,7 +8009,7 @@
           "bundler": "rspack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/react-pattern",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/cjs-tree-shaking/react-pattern",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/cjs-tree-shaking/react-pattern",
           "upstreamStatus": "active"
         }
       ],
@@ -8068,7 +8068,7 @@
           "bundler": "rspack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/rspack-issue-5282",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/cjs-tree-shaking/rspack-issue-5282",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/cjs-tree-shaking/rspack-issue-5282",
           "upstreamStatus": "active"
         }
       ],
@@ -8118,7 +8118,7 @@
           "bundler": "rspack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effects-free",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/cjs-tree-shaking/side-effects-free",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/cjs-tree-shaking/side-effects-free",
           "upstreamStatus": "active"
         }
       ],
@@ -8135,6 +8135,65 @@
         "bun",
         "turbopack"
       ],
+      "buildOptions": {
+        "external": []
+      }
+    },
+    {
+      "id": "upstream/rspack/config-tree-shaking-cjs-export-default-reassign",
+      "title": "cjs-export-default-reassign",
+      "category": "commonjs",
+      "description": "Imported from rspack/config-tree-shaking.",
+      "module": "esm",
+      "entries": [
+        "index.js"
+      ],
+      "entry": "index.js",
+      "files": {
+        "computed-proto-export-write.cjs": "exports['__proto__'] = {};\nexports.value = 'COMPUTED_PROTO_EXPORT_WRITE_SENTINEL';\n",
+        "dep.cjs": "'use strict';\n// Standard `@babel/preset-env` output shape for `export default <expr>`:\n// the default is initialised to `void 0`, then reassigned through a chained\n// `var _default = (exports.default = value)` whose local is never read.\n// Regression guard for https://github.com/web-infra-dev/rspack/issues/14589\nObject.defineProperty(exports, '__esModule', { value: true });\nexports['default'] = void 0;\nvar value = 42;\nvar _default = (exports['default'] = value);\n",
+        "dynamic-key.cjs": "exports[globalThis.__getCjsDynamicExportKey()] = 1;\n",
+        "esm-exports-assignment.js": "export {};\nexports.value = 'ESM_EXPORTS_ASSIGNMENT_SENTINEL';\n",
+        "impure-named-exports.cjs": "exports.value = globalThis.__recordCjsImpureRhs();\n",
+        "index.js": "import def from './dep.cjs';\nimport { foo } from './named.cjs';\nimport './setup.js';\nimport './pure-module-exports.cjs';\nimport './pure-named-exports.cjs';\nimport './impure-named-exports.cjs';\nimport './dynamic-key.cjs';\nimport './shadowed-cjs-globals.cjs';\nimport './esm-exports-assignment.js';\nimport './nested-export-write.cjs';\nimport './reassigned-module-exports-write.cjs';\nimport './proto-export-write.cjs';\nimport './computed-proto-export-write.cjs';\nimport './pure-chained-exports.cjs';\n\nafterAll(() => {\n  delete globalThis.__CJS_DYNAMIC_KEY_READ_COUNT__;\n  delete globalThis.__CJS_IMPURE_RHS_COUNT__;\n  delete globalThis.__CJS_SHADOWED_WRITE_COUNT__;\n  delete globalThis.__getCjsDynamicExportKey;\n  delete globalThis.__recordCjsImpureRhs;\n});\n\nit('keeps the reassigned CJS default export value (innerGraph on, production)', () => {\n  // #14589: the chained `var _default = (exports.default = value)` write must\n  // not be folded into the unused `_default` local and dropped.\n  expect(def).toBe(42);\n});\n\nit('keeps a reassigned CJS named export value', () => {\n  expect(foo).toBe(7);\n});\n\nit('drops modules containing only pure CJS export assignments', () => {\n  const source = require('fs').readFileSync(__filename, 'utf-8');\n  const sentinels = [\n    ['PURE', 'MODULE', 'EXPORTS', 'SENTINEL'],\n    ['PURE', 'COMPUTED', 'MODULE', 'EXPORTS', 'SENTINEL'],\n    ['PURE', 'NAMED', 'EXPORTS', 'SENTINEL'],\n    ['PURE', 'CHAINED', 'EXPORTS', 'SENTINEL'],\n  ];\n\n  for (const parts of sentinels) {\n    expect(source).not.toContain(parts.join('_'));\n  }\n});\n\nit('keeps side effects detected by the existing parser', () => {\n  expect(globalThis.__CJS_IMPURE_RHS_COUNT__).toBe(1);\n  expect(globalThis.__CJS_DYNAMIC_KEY_READ_COUNT__).toBe(1);\n  expect(globalThis.__CJS_SHADOWED_WRITE_COUNT__).toBe(2);\n});\n\nit('does not relax other assignment targets', () => {\n  const source = require('fs').readFileSync(__filename, 'utf-8');\n  const sentinels = [\n    ['ESM', 'EXPORTS', 'ASSIGNMENT', 'SENTINEL'],\n    ['NESTED', 'EXPORT', 'WRITE', 'SENTINEL'],\n    ['REASSIGNED', 'MODULE', 'EXPORTS', 'SENTINEL'],\n    ['PROTO', 'EXPORT', 'WRITE', 'SENTINEL'],\n    ['COMPUTED', 'PROTO', 'EXPORT', 'WRITE', 'SENTINEL'],\n  ];\n\n  for (const parts of sentinels) {\n    expect(source).toContain(parts.join('_'));\n  }\n});\n",
+        "named.cjs": "'use strict';\n// A named export reassigned the same way: `exports.foo` must survive too.\nObject.defineProperty(exports, '__esModule', { value: true });\nexports.foo = void 0;\nvar foo = 7;\nexports.foo = foo;\n",
+        "nested-export-write.cjs": "exports.value = {};\nexports.value.nested = 'NESTED_EXPORT_WRITE_SENTINEL';\n",
+        "proto-export-write.cjs": "exports.__proto__ = {};\nexports.value = 'PROTO_EXPORT_WRITE_SENTINEL';\n",
+        "pure-chained-exports.cjs": "module.exports = module.exports = 'PURE_CHAINED_EXPORTS_SENTINEL';\n",
+        "pure-module-exports.cjs": "module.exports = 'PURE_MODULE_EXPORTS_SENTINEL';\nmodule['exports'] = 'PURE_COMPUTED_MODULE_EXPORTS_SENTINEL';\n",
+        "pure-named-exports.cjs": "const value = 'PURE_NAMED_EXPORTS_SENTINEL';\nexports.value = { value };\n",
+        "reassigned-module-exports-write.cjs": "module.exports = {};\nmodule.exports.value = 'REASSIGNED_MODULE_EXPORTS_SENTINEL';\n",
+        "setup.js": "globalThis.__CJS_DYNAMIC_KEY_READ_COUNT__ = 0;\nglobalThis.__CJS_IMPURE_RHS_COUNT__ = 0;\nglobalThis.__CJS_SHADOWED_WRITE_COUNT__ = 0;\n\nglobalThis.__getCjsDynamicExportKey = () => {\n  globalThis.__CJS_DYNAMIC_KEY_READ_COUNT__ += 1;\n  return 'dynamic';\n};\n\nglobalThis.__recordCjsImpureRhs = () => {\n  globalThis.__CJS_IMPURE_RHS_COUNT__ += 1;\n  return 1;\n};\n",
+        "shadowed-cjs-globals.cjs": "var exports = {\n  set value(value) {\n    globalThis.__CJS_SHADOWED_WRITE_COUNT__ += value;\n  },\n};\nexports.value = 1;\n\nvar module = {\n  set exports(value) {\n    globalThis.__CJS_SHADOWED_WRITE_COUNT__ += value;\n  },\n};\nmodule.exports = 1;\n"
+      },
+      "execution": {
+        "kind": "test-harness",
+        "runtime": false
+      },
+      "expect": {
+        "value": null,
+        "absent": [],
+        "present": []
+      },
+      "oracle": {
+        "kind": "build-and-runtime",
+        "absent": [],
+        "present": [],
+        "stringMarkers": [],
+        "upstreamExpected": false,
+        "runtimeHarness": true
+      },
+      "provenance": [
+        {
+          "bundler": "rspack",
+          "suite": "config-tree-shaking",
+          "caseId": "config-tree-shaking/cjs-export-default-reassign",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/cjs-export-default-reassign",
+          "upstreamStatus": "active"
+        }
+      ],
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
       "buildOptions": {
         "external": []
       }
@@ -8179,7 +8238,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/commonjs-reexport-interop",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/commonjs-reexport-interop",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/commonjs-reexport-interop",
           "upstreamStatus": "active"
         }
       ],
@@ -8230,7 +8289,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/side-effects-dynamic-cjs",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/side-effects-dynamic-cjs",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/side-effects-dynamic-cjs",
           "upstreamStatus": "active"
         }
       ],
@@ -8288,7 +8347,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/bailouts",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/bailouts",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/bailouts",
           "upstreamStatus": "active"
         }
       ],
@@ -8336,7 +8395,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/cjs-to-esm",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/cjs-to-esm",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/cjs-to-esm",
           "upstreamStatus": "active"
         }
       ],
@@ -8389,7 +8448,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/complex-member",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/complex-member",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/complex-member",
           "upstreamStatus": "active"
         }
       ],
@@ -8437,7 +8496,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/esModule-getter",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/esModule-getter",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/esModule-getter",
           "upstreamStatus": "active"
         }
       ],
@@ -8485,7 +8544,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/esm-to-cjs",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/esm-to-cjs",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/esm-to-cjs",
           "upstreamStatus": "active"
         }
       ],
@@ -8537,7 +8596,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/export-require",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/export-require",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/export-require",
           "upstreamStatus": "active"
         }
       ],
@@ -8602,7 +8661,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/exports",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/exports",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/exports",
           "upstreamStatus": "active"
         }
       ],
@@ -8651,7 +8710,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/full-require",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/full-require",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/full-require",
           "upstreamStatus": "active"
         }
       ],
@@ -8710,7 +8769,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/importing",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/importing",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/importing",
           "upstreamStatus": "active"
         }
       ],
@@ -8761,7 +8820,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/mjs",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/mjs",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/mjs",
           "upstreamStatus": "active"
         }
       ],
@@ -8810,7 +8869,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/mutate",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/mutate",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/mutate",
           "upstreamStatus": "active"
         }
       ],
@@ -8873,7 +8932,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/namespace",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/namespace",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/namespace",
           "upstreamStatus": "active"
         }
       ],
@@ -8923,7 +8982,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/non-root-this",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/non-root-this",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/non-root-this",
           "upstreamStatus": "active"
         }
       ],
@@ -8971,7 +9030,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/object-define-property-replace",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/object-define-property-replace",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/object-define-property-replace",
           "upstreamStatus": "active"
         }
       ],
@@ -9020,7 +9079,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/objects",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/objects",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/objects",
           "upstreamStatus": "active"
         }
       ],
@@ -9069,7 +9128,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/parsing",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/parsing",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/parsing",
           "upstreamStatus": "active"
         }
       ],
@@ -9119,7 +9178,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/reexport-mangle-exports",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/reexport-mangle-exports",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/reexport-mangle-exports",
           "upstreamStatus": "active"
         }
       ],
@@ -9185,7 +9244,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/reexports",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/reexports",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -9243,7 +9302,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/reexports-check-used",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/reexports-check-used",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/reexports-check-used",
           "upstreamStatus": "active"
         }
       ],
@@ -9304,7 +9363,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/require-destructuring",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/require-destructuring",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/require-destructuring",
           "upstreamStatus": "active"
         }
       ],
@@ -9360,7 +9419,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/require-var-member-access",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/require-var-member-access",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/require-var-member-access",
           "upstreamStatus": "active"
         }
       ],
@@ -9425,7 +9484,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/self-reference",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/self-reference",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/self-reference",
           "upstreamStatus": "active"
         }
       ],
@@ -9486,7 +9545,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/sub-properties",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/sub-properties",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/sub-properties",
           "upstreamStatus": "active"
         }
       ],
@@ -9535,7 +9594,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/top-level-this",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/top-level-this",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/top-level-this",
           "upstreamStatus": "active"
         }
       ],
@@ -9585,7 +9644,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/transpiled",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/transpiled",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/transpiled",
           "upstreamStatus": "active"
         }
       ],
@@ -9633,7 +9692,7 @@
           "bundler": "rspack",
           "suite": "normal-cjs-tree-shaking",
           "caseId": "normal-cjs-tree-shaking/weird-names",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/cjs-tree-shaking/weird-names",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/cjs-tree-shaking/weird-names",
           "upstreamStatus": "active"
         }
       ],
@@ -9691,7 +9750,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/cjs-export-computed-property",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/cjs-export-computed-property",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/cjs-export-computed-property",
           "upstreamStatus": "active"
         }
       ],
@@ -9794,7 +9853,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/cjs-tree-shaking-basic",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/cjs-tree-shaking-basic",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/cjs-tree-shaking-basic",
           "upstreamStatus": "active"
         }
       ],
@@ -9847,7 +9906,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/export-all-from-side-effects-free-commonjs",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/export-all-from-side-effects-free-commonjs",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/export-all-from-side-effects-free-commonjs",
           "upstreamStatus": "active"
         }
       ],
@@ -9900,7 +9959,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/handle-side-effects-commonjs-imported-unused",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/handle-side-effects-commonjs-imported-unused",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/handle-side-effects-commonjs-imported-unused",
           "upstreamStatus": "active"
         }
       ],
@@ -9953,7 +10012,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/handle-side-effects-commonjs-required",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/handle-side-effects-commonjs-required",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/handle-side-effects-commonjs-required",
           "upstreamStatus": "active"
         }
       ],
@@ -16561,7 +16620,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/altaskitButton",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/altaskitButton",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/altaskitButton",
           "upstreamStatus": "active"
         }
       ],
@@ -16628,7 +16687,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/basic",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/basic",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/basic",
           "upstreamStatus": "active"
         }
       ],
@@ -16684,7 +16743,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/blockScopes",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/blockScopes",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/blockScopes",
           "upstreamStatus": "active"
         }
       ],
@@ -16740,7 +16799,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/const",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/const",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/const",
           "upstreamStatus": "active"
         }
       ],
@@ -16789,7 +16848,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultArrow",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/defaultArrow",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/defaultArrow",
           "upstreamStatus": "active"
         }
       ],
@@ -16838,7 +16897,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultExpression",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/defaultExpression",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/defaultExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -16887,7 +16946,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultId",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/defaultId",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/defaultId",
           "upstreamStatus": "active"
         }
       ],
@@ -16936,7 +16995,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/eval-bailout",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/eval-bailout",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/eval-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -17004,7 +17063,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-11678",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/issue-11678",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/issue-11678",
           "upstreamStatus": "active"
         }
       ],
@@ -17102,7 +17161,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-12669",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/issue-12669",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/issue-12669",
           "upstreamStatus": "active"
         }
       ],
@@ -17162,7 +17221,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-12669-mini",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/issue-12669-mini",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/issue-12669-mini",
           "upstreamStatus": "active"
         }
       ],
@@ -17222,7 +17281,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-15089",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/issue-15089",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/issue-15089",
           "upstreamStatus": "active"
         }
       ],
@@ -17267,7 +17326,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-17565",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/issue-17565",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/issue-17565",
           "upstreamStatus": "active"
         }
       ],
@@ -17323,7 +17382,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/localReference",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/localReference",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/localReference",
           "upstreamStatus": "active"
         }
       ],
@@ -17379,7 +17438,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/nested",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/nested",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/nested",
           "upstreamStatus": "active"
         }
       ],
@@ -17440,7 +17499,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pr-18342",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/pr-18342",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/pr-18342",
           "upstreamStatus": "active"
         }
       ],
@@ -17485,7 +17544,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/pure",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/pure",
           "upstreamStatus": "active"
         }
       ],
@@ -17541,7 +17600,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/ramdaIdentical",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/ramdaIdentical",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/ramdaIdentical",
           "upstreamStatus": "active"
         }
       ],
@@ -17597,7 +17656,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/specifier",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/specifier",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/specifier",
           "upstreamStatus": "active"
         }
       ],
@@ -17653,7 +17712,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/varNotWritten",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/varNotWritten",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/varNotWritten",
           "upstreamStatus": "active"
         }
       ],
@@ -17702,7 +17761,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/varWritten",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/varWritten",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/varWritten",
           "upstreamStatus": "active"
         }
       ],
@@ -17756,7 +17815,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/circular",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/circular",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/circular",
           "upstreamStatus": "active"
         }
       ],
@@ -17813,7 +17872,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/circular2",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/circular2",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/circular2",
           "upstreamStatus": "active"
         }
       ],
@@ -17862,7 +17921,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/pure-in-removed",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/pure-in-removed",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/pure-in-removed",
           "upstreamStatus": "active"
         }
       ],
@@ -17912,7 +17971,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/simple",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/simple",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/simple",
           "upstreamStatus": "active"
         }
       ],
@@ -21105,7 +21164,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/dynamic-import-unused",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/dynamic-import-unused",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/dynamic-import-unused",
           "upstreamStatus": "active"
         }
       ],
@@ -21155,7 +21214,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/side-effects-free-dynamic-import",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/side-effects-free-dynamic-import",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/side-effects-free-dynamic-import",
           "upstreamStatus": "active"
         }
       ],
@@ -24467,7 +24526,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/export",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/export",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/export",
           "upstreamStatus": "active"
         }
       ],
@@ -24523,7 +24582,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/importAll",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/importAll",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/importAll",
           "upstreamStatus": "active"
         }
       ],
@@ -24587,7 +24646,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/deferred-pure-reexport-chain",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/deferred-pure-reexport-chain",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/deferred-pure-reexport-chain",
           "upstreamStatus": "active"
         }
       ],
@@ -24639,7 +24698,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/export-default-alias",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/export-default-alias",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/export-default-alias",
           "upstreamStatus": "active"
         }
       ],
@@ -24685,7 +24744,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/export-star-of-external-module",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/export-star-of-external-module",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/export-star-of-external-module",
           "upstreamStatus": "active"
         }
       ],
@@ -24743,7 +24802,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/export-default-named",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/export-default-named",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/export-default-named",
           "upstreamStatus": "active"
         }
       ],
@@ -24806,7 +24865,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/reexport-namespace-and-default",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/reexport-namespace-and-default",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/reexport-namespace-and-default",
           "upstreamStatus": "active"
         }
       ],
@@ -24862,7 +24921,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/conflicted_name_by_re_export_all_should_be_hidden",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/conflicted_name_by_re_export_all_should_be_hidden",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/conflicted_name_by_re_export_all_should_be_hidden",
           "upstreamStatus": "active"
         }
       ],
@@ -24923,7 +24982,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/cyclic-reference-export-all",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/cyclic-reference-export-all",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/cyclic-reference-export-all",
           "upstreamStatus": "active"
         }
       ],
@@ -24977,7 +25036,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/default_export",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/default_export",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/default_export",
           "upstreamStatus": "active"
         }
       ],
@@ -25031,7 +25090,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/default-namespace-reexport",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/default-namespace-reexport",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/default-namespace-reexport",
           "upstreamStatus": "active"
         }
       ],
@@ -25087,7 +25146,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/explicit_named_export_higher_priority_1",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/explicit_named_export_higher_priority_1",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/explicit_named_export_higher_priority_1",
           "upstreamStatus": "active"
         }
       ],
@@ -25135,7 +25194,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/explicit_named_export_higher_priority_2",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/explicit_named_export_higher_priority_2",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/explicit_named_export_higher_priority_2",
           "upstreamStatus": "active"
         }
       ],
@@ -25183,7 +25242,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/export-imported-import-all-as",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/export-imported-import-all-as",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/export-imported-import-all-as",
           "upstreamStatus": "active"
         }
       ],
@@ -25237,7 +25296,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/export-named-decl-as",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/export-named-decl-as",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/export-named-decl-as",
           "upstreamStatus": "active"
         }
       ],
@@ -25285,7 +25344,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/export_star",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/export_star",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/export_star",
           "upstreamStatus": "active"
         }
       ],
@@ -25348,7 +25407,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/export-star-chain",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/export-star-chain",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/export-star-chain",
           "upstreamStatus": "active"
         }
       ],
@@ -25407,7 +25466,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/export_star_conflict_export_no_error",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/export_star_conflict_export_no_error",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/export_star_conflict_export_no_error",
           "upstreamStatus": "active"
         }
       ],
@@ -25455,7 +25514,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/export_star2",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/export_star2",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/export_star2",
           "upstreamStatus": "active"
         }
       ],
@@ -25508,7 +25567,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/import-as-default",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/import-as-default",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/import-as-default",
           "upstreamStatus": "active"
         }
       ],
@@ -25556,7 +25615,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/import-export-all-as-a-empty-module",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/import-export-all-as-a-empty-module",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/import-export-all-as-a-empty-module",
           "upstreamStatus": "active"
         }
       ],
@@ -25609,7 +25668,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/import-optional-chaining",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/import-optional-chaining",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/import-optional-chaining",
           "upstreamStatus": "active"
         }
       ],
@@ -25663,7 +25722,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/import-star-as-and-export",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/import-star-as-and-export",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/import-star-as-and-export",
           "upstreamStatus": "active"
         }
       ],
@@ -25712,7 +25771,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/inherit_export_map_should_lookup_in_dfs_order",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/inherit_export_map_should_lookup_in_dfs_order",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/inherit_export_map_should_lookup_in_dfs_order",
           "upstreamStatus": "active"
         }
       ],
@@ -25767,7 +25826,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/named_export_alias",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/named_export_alias",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/named_export_alias",
           "upstreamStatus": "active"
         }
       ],
@@ -25824,7 +25883,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/named-export-decl-with-src-eval",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/named-export-decl-with-src-eval",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/named-export-decl-with-src-eval",
           "upstreamStatus": "active"
         }
       ],
@@ -25874,7 +25933,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/namespace-access-var-decl-rhs",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/namespace-access-var-decl-rhs",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/namespace-access-var-decl-rhs",
           "upstreamStatus": "active"
         }
       ],
@@ -25922,7 +25981,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/nested-import-3",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/nested-import-3",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/nested-import-3",
           "upstreamStatus": "active"
         }
       ],
@@ -25969,7 +26028,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/nested-import-4",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/nested-import-4",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/nested-import-4",
           "upstreamStatus": "active"
         }
       ],
@@ -26072,7 +26131,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/reexport-all-as",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/reexport-all-as",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/reexport-all-as",
           "upstreamStatus": "active"
         }
       ],
@@ -26176,7 +26235,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/reexport-all-as-multi-level-nested",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/reexport-all-as-multi-level-nested",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/reexport-all-as-multi-level-nested",
           "upstreamStatus": "active"
         }
       ],
@@ -26223,7 +26282,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/reexport_default_as",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/reexport_default_as",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/reexport_default_as",
           "upstreamStatus": "active"
         }
       ],
@@ -26278,7 +26337,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/reexport_entry_elimination",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/reexport_entry_elimination",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/reexport_entry_elimination",
           "upstreamStatus": "active"
         }
       ],
@@ -26326,7 +26385,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/rename-export-from-import",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/rename-export-from-import",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/rename-export-from-import",
           "upstreamStatus": "active"
         }
       ],
@@ -26372,7 +26431,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/rollup-unmodified-default-exports",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/rollup-unmodified-default-exports",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/rollup-unmodified-default-exports",
           "upstreamStatus": "active"
         }
       ],
@@ -26418,7 +26477,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/rollup-unmodified-default-exports-function-argument",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/rollup-unmodified-default-exports-function-argument",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/rollup-unmodified-default-exports-function-argument",
           "upstreamStatus": "active"
         }
       ],
@@ -26465,7 +26524,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/rollup-unused-called-import",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/rollup-unused-called-import",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/rollup-unused-called-import",
           "upstreamStatus": "active"
         }
       ],
@@ -26511,7 +26570,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/rollup-unused-default-exports",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/rollup-unused-default-exports",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/rollup-unused-default-exports",
           "upstreamStatus": "active"
         }
       ],
@@ -26558,7 +26617,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/simple-namespace-access",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/simple-namespace-access",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/simple-namespace-access",
           "upstreamStatus": "active"
         }
       ],
@@ -26606,7 +26665,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/tree-shaking-lazy-import",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/tree-shaking-lazy-import",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/tree-shaking-lazy-import",
           "upstreamStatus": "active"
         }
       ],
@@ -26660,7 +26719,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-inner-graph-export-default-named",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-inner-graph-export-default-named",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-inner-graph-export-default-named",
           "upstreamStatus": "active"
         }
       ],
@@ -26723,7 +26782,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-reexport-namespace-and-default",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-reexport-namespace-and-default",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-reexport-namespace-and-default",
           "upstreamStatus": "active"
         }
       ],
@@ -31606,7 +31665,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultFunction",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/defaultFunction",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/defaultFunction",
           "upstreamStatus": "active"
         }
       ],
@@ -31655,7 +31714,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultFunctionExpression",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/defaultFunctionExpression",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/defaultFunctionExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -31704,7 +31763,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultNamedFunction",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/defaultNamedFunction",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/defaultNamedFunction",
           "upstreamStatus": "active"
         }
       ],
@@ -31753,7 +31812,7 @@
           "bundler": "rspack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultNamedFunctionExpression",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/inner-graph/defaultNamedFunctionExpression",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/inner-graph/defaultNamedFunctionExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -31803,7 +31862,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/pure-iife-return",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/pure-iife-return",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/pure-iife-return",
           "upstreamStatus": "active"
         }
       ],
@@ -31850,7 +31909,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/var-function-expr",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/var-function-expr",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/var-function-expr",
           "upstreamStatus": "active"
         }
       ],
@@ -50221,7 +50280,7 @@
           "bundler": "rspack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/define-plugin",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/side-effects/define-plugin",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/side-effects/define-plugin",
           "upstreamStatus": "active"
         }
       ],
@@ -50273,7 +50332,7 @@
           "bundler": "rspack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/issue-13063",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/side-effects/issue-13063",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/side-effects/issue-13063",
           "upstreamStatus": "active"
         }
       ],
@@ -50332,7 +50391,7 @@
           "bundler": "rspack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-override",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/side-effects/side-effects-override",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/side-effects/side-effects-override",
           "upstreamStatus": "active"
         }
       ],
@@ -50385,7 +50444,7 @@
           "bundler": "rspack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-unsorted-modules",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/side-effects/side-effects-unsorted-modules",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/side-effects/side-effects-unsorted-modules",
           "upstreamStatus": "active"
         }
       ],
@@ -50444,7 +50503,7 @@
           "bundler": "rspack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-values",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/side-effects/side-effects-values",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/side-effects/side-effects-values",
           "upstreamStatus": "active"
         }
       ],
@@ -50492,7 +50551,7 @@
           "bundler": "rspack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/skip-side-effect-only-import",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/side-effects/skip-side-effect-only-import",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/side-effects/skip-side-effect-only-import",
           "upstreamStatus": "active"
         }
       ],
@@ -50543,7 +50602,7 @@
           "bundler": "rspack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/type-reexports",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/side-effects/type-reexports",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/side-effects/type-reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -50602,7 +50661,7 @@
           "bundler": "rspack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/url",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/side-effects/url",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/side-effects/url",
           "upstreamStatus": "active"
         }
       ],
@@ -50677,7 +50736,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/auto-analyze-side-effects-free",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free",
           "upstreamStatus": "active"
         }
       ],
@@ -50737,7 +50796,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/auto-analyze-side-effects-free-destructuring-assign",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free-destructuring-assign",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free-destructuring-assign",
           "upstreamStatus": "active"
         }
       ],
@@ -50794,7 +50853,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/auto-analyze-side-effects-free-disabled",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free-disabled",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free-disabled",
           "upstreamStatus": "active"
         }
       ],
@@ -50851,7 +50910,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/auto-analyze-side-effects-free-local-helper",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free-local-helper",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free-local-helper",
           "upstreamStatus": "active"
         }
       ],
@@ -50909,7 +50968,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/multiple-same-export-side-effect",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/multiple-same-export-side-effect",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/multiple-same-export-side-effect",
           "upstreamStatus": "active"
         }
       ],
@@ -50957,7 +51016,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/multiple-same-import-side-effect",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/multiple-same-import-side-effect",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/multiple-same-import-side-effect",
           "upstreamStatus": "active"
         }
       ],
@@ -51009,7 +51068,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/no-side-effects-notation",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/no-side-effects-notation",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/no-side-effects-notation",
           "upstreamStatus": "active"
         }
       ],
@@ -51069,7 +51128,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/side-effects-consume-shared",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/side-effects-consume-shared",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/side-effects-consume-shared",
           "upstreamStatus": "active"
         }
       ],
@@ -51118,7 +51177,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/side-effects-disabled-active",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/side-effects-disabled-active",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/side-effects-disabled-active",
           "upstreamStatus": "active"
         }
       ],
@@ -51167,7 +51226,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/side-effects-rule",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/side-effects-rule",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/side-effects-rule",
           "upstreamStatus": "active"
         }
       ],
@@ -51219,7 +51278,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/side-effects-same-target-export",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/side-effects-same-target-export",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/side-effects-same-target-export",
           "upstreamStatus": "active"
         }
       ],
@@ -51270,7 +51329,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/no-side-effects",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/no-side-effects",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/no-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -51361,7 +51420,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/dynamic-reexports",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/dynamic-reexports",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/dynamic-reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -51429,7 +51488,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/empty-modules",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/empty-modules",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/empty-modules",
           "upstreamStatus": "active"
         }
       ],
@@ -51480,7 +51539,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/issue-11673",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/issue-11673",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/issue-11673",
           "upstreamStatus": "active"
         }
       ],
@@ -51532,7 +51591,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/issue-12071",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/issue-12071",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/issue-12071",
           "upstreamStatus": "active"
         }
       ],
@@ -51585,7 +51644,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/issue-12114",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/issue-12114",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/issue-12114",
           "upstreamStatus": "active"
         }
       ],
@@ -51649,7 +51708,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/issue-12570",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/issue-12570",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/issue-12570",
           "upstreamStatus": "active"
         }
       ],
@@ -51704,7 +51763,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/issue-12570-second-try",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/issue-12570-second-try",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/issue-12570-second-try",
           "upstreamStatus": "active"
         }
       ],
@@ -51755,7 +51814,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/missing-module-7499",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/missing-module-7499",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/missing-module-7499",
           "upstreamStatus": "active"
         }
       ],
@@ -51807,7 +51866,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/order-issue-7665",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/order-issue-7665",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/order-issue-7665",
           "upstreamStatus": "active"
         }
       ],
@@ -51858,7 +51917,7 @@
           "bundler": "rspack",
           "suite": "normal-side-effects",
           "caseId": "normal-side-effects/wrong-module-10146",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/side-effects/wrong-module-10146",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/side-effects/wrong-module-10146",
           "upstreamStatus": "active"
         }
       ],
@@ -51916,7 +51975,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/array-side-effects",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/array-side-effects",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/array-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -51970,7 +52029,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/assign-with-side-effects",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/assign-with-side-effects",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/assign-with-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -52026,7 +52085,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/import-var-assign-side-effects",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/import-var-assign-side-effects",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/import-var-assign-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -52081,7 +52140,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/module-rule-side-effects1",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/module-rule-side-effects1",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/module-rule-side-effects1",
           "upstreamStatus": "active"
         }
       ],
@@ -52136,7 +52195,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/module-rule-side-effects2",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/module-rule-side-effects2",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/module-rule-side-effects2",
           "upstreamStatus": "active"
         }
       ],
@@ -52185,7 +52244,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/side-effects-analyzed",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/side-effects-analyzed",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/side-effects-analyzed",
           "upstreamStatus": "active"
         }
       ],
@@ -52239,7 +52298,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/side-effects-export-default-expr",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/side-effects-export-default-expr",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/side-effects-export-default-expr",
           "upstreamStatus": "active"
         }
       ],
@@ -52288,7 +52347,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/side-effects-flagged-only",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/side-effects-flagged-only",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/side-effects-flagged-only",
           "upstreamStatus": "active"
         }
       ],
@@ -52349,7 +52408,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/side-effects-prune",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/side-effects-prune",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/side-effects-prune",
           "upstreamStatus": "active"
         }
       ],
@@ -52408,7 +52467,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/side-effects-two",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/side-effects-two",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/side-effects-two",
           "upstreamStatus": "active"
         }
       ],
@@ -52456,7 +52515,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/transitive_side_effects_when_analyze",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/transitive_side_effects_when_analyze",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/transitive_side_effects_when_analyze",
           "upstreamStatus": "active"
         }
       ],
@@ -52503,7 +52562,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/tree-shaking-false-with-side-effect-true",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/tree-shaking-false-with-side-effect-true",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/tree-shaking-false-with-side-effect-true",
           "upstreamStatus": "active"
         }
       ],
@@ -52554,7 +52613,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-innergraph-no-side-effects",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-innergraph-no-side-effects",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-innergraph-no-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -52599,7 +52658,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-side-effects-all-used",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-side-effects-all-used",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-side-effects-all-used",
           "upstreamStatus": "active"
         }
       ],
@@ -52649,7 +52708,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-side-effects-simple-unused",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-side-effects-simple-unused",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-side-effects-simple-unused",
           "upstreamStatus": "active"
         }
       ],
@@ -64483,7 +64542,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/advanced-tree-shaking-preserve-impure-baseline",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/advanced-tree-shaking-preserve-impure-baseline",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/advanced-tree-shaking-preserve-impure-baseline",
           "upstreamStatus": "active"
         }
       ],
@@ -64533,7 +64592,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/deferred-pure-keep-and-drop-siblings",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/deferred-pure-keep-and-drop-siblings",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/deferred-pure-keep-and-drop-siblings",
           "upstreamStatus": "active"
         }
       ],
@@ -64591,7 +64650,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/deferred-pure-keeps-local-dependency",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/deferred-pure-keeps-local-dependency",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/deferred-pure-keeps-local-dependency",
           "upstreamStatus": "active"
         }
       ],
@@ -64640,7 +64699,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/deferred-pure-keeps-nested-pure-binding",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/deferred-pure-keeps-nested-pure-binding",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/deferred-pure-keeps-nested-pure-binding",
           "upstreamStatus": "active"
         }
       ],
@@ -64689,7 +64748,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/inner-graph-static-block",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/inner-graph-static-block",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/inner-graph-static-block",
           "upstreamStatus": "active"
         }
       ],
@@ -64740,7 +64799,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/issue-13287",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/issue-13287",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/issue-13287",
           "upstreamStatus": "active"
         }
       ],
@@ -64788,7 +64847,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/issue-5782",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/issue-5782",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/issue-5782",
           "upstreamStatus": "active"
         }
       ],
@@ -64837,7 +64896,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/member-expr-computed-prop",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/member-expr-computed-prop",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/member-expr-computed-prop",
           "upstreamStatus": "active"
         }
       ],
@@ -64894,7 +64953,7 @@
           "bundler": "rspack",
           "suite": "config-tree-shaking",
           "caseId": "config-tree-shaking/new-url",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/configCases/tree-shaking/new-url",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/configCases/tree-shaking/new-url",
           "upstreamStatus": "active"
         }
       ],
@@ -64945,7 +65004,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/switch",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/switch",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/switch",
           "upstreamStatus": "active"
         }
       ],
@@ -64994,7 +65053,7 @@
           "bundler": "rspack",
           "suite": "normal-inner-graph",
           "caseId": "normal-inner-graph/try-globals",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/normalCases/inner-graph/try-globals",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/normalCases/inner-graph/try-globals",
           "upstreamStatus": "active"
         }
       ],
@@ -65054,7 +65113,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/basic",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/basic",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/basic",
           "upstreamStatus": "active"
         }
       ],
@@ -65103,7 +65162,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/bb",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/bb",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/bb",
           "upstreamStatus": "active"
         }
       ],
@@ -65150,7 +65209,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/context-module",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/context-module",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/context-module",
           "upstreamStatus": "active"
         }
       ],
@@ -65208,7 +65267,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/context-module-elimated",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/context-module-elimated",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/context-module-elimated",
           "upstreamStatus": "active"
         }
       ],
@@ -65260,7 +65319,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/issue-4637",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/issue-4637",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/issue-4637",
           "upstreamStatus": "active"
         }
       ],
@@ -65309,7 +65368,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/issue-7016",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/issue-7016",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/issue-7016",
           "upstreamStatus": "active"
         }
       ],
@@ -65355,7 +65414,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/issues_3198",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/issues_3198",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/issues_3198",
           "upstreamStatus": "active"
         }
       ],
@@ -65411,7 +65470,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/local-binding-reachable1",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/local-binding-reachable1",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/local-binding-reachable1",
           "upstreamStatus": "active"
         }
       ],
@@ -65467,7 +65526,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/local-binding-reachable2",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/local-binding-reachable2",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/local-binding-reachable2",
           "upstreamStatus": "active"
         }
       ],
@@ -65523,7 +65582,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/prune-bailout-module",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/prune-bailout-module",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/prune-bailout-module",
           "upstreamStatus": "active"
         }
       ],
@@ -65580,7 +65639,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/react-redux-like",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/react-redux-like",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/react-redux-like",
           "upstreamStatus": "active"
         }
       ],
@@ -65626,7 +65685,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/rollup-unused-var",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/rollup-unused-var",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/rollup-unused-var",
           "upstreamStatus": "active"
         }
       ],
@@ -65674,7 +65733,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/transitive-bailout",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/transitive-bailout",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/transitive-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -65729,7 +65788,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/tree-shaking-interop",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/tree-shaking-interop",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/tree-shaking-interop",
           "upstreamStatus": "active"
         }
       ],
@@ -65781,7 +65840,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/ts-target-es5",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/ts-target-es5",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/ts-target-es5",
           "upstreamStatus": "active"
         }
       ],
@@ -65832,7 +65891,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-inner-graph-switch",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-inner-graph-switch",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-inner-graph-switch",
           "upstreamStatus": "active"
         }
       ],
@@ -65882,7 +65941,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-innergraph-circular",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-innergraph-circular",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-innergraph-circular",
           "upstreamStatus": "active"
         }
       ],
@@ -65939,7 +65998,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-innergraph-circular2",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-innergraph-circular2",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-innergraph-circular2",
           "upstreamStatus": "active"
         }
       ],
@@ -65988,7 +66047,7 @@
           "bundler": "rspack",
           "suite": "tree-shaking",
           "caseId": "tree-shaking/webpack-innergraph-try-globals",
-          "url": "https://github.com/web-infra-dev/rspack/tree/b4dd1a0e4978a93daa1e4428943169ed1b4fcd37/tests/rspack-test/treeShakingCases/webpack-innergraph-try-globals",
+          "url": "https://github.com/web-infra-dev/rspack/tree/62bd14faa3e602b181ec84c99813081bf6e9e2fd/tests/rspack-test/treeShakingCases/webpack-innergraph-try-globals",
           "upstreamStatus": "active"
         }
       ],
