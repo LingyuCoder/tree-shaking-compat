@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "resolvedAt": "2026-09-10T20:43:09.331Z",
+  "resolvedAt": "2026-09-11T20:48:57.716Z",
   "policy": "latest stable npm dist-tag and latest non-prerelease GitHub release",
   "node": "v22.23.2",
   "bundlers": {
@@ -11,7 +11,7 @@
     "esbuild": "0.28.2",
     "parcel": "2.16.4",
     "bun": "1.4.2",
-    "turbopack": "16.3.4"
+    "turbopack": "16.3.5"
   },
   "packages": {
     "@parcel/config-default": "2.16.4",
@@ -21,7 +21,7 @@
     "@rollup/plugin-node-resolve": "16.0.3",
     "@rspack/core": "2.2.3",
     "esbuild": "0.28.2",
-    "next": "16.3.4",
+    "next": "16.3.5",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "rolldown": "1.2.8",
