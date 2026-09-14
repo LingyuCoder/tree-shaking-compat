@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "resolvedAt": "2026-09-13T20:36:32.139Z",
+  "resolvedAt": "2026-09-14T21:42:30.074Z",
   "policy": "latest stable npm dist-tag and latest non-prerelease GitHub release",
   "node": "v22.23.2",
   "bundlers": {
-    "rollup": "4.63.2",
+    "rollup": "4.63.3",
     "rolldown": "1.2.8",
-    "webpack": "5.110.3",
-    "rspack": "2.2.3",
+    "webpack": "5.111.0",
+    "rspack": "2.2.4",
     "esbuild": "0.28.2",
     "parcel": "2.16.4",
     "bun": "1.4.2",
@@ -19,14 +19,14 @@
     "@rollup/plugin-commonjs": "29.0.3",
     "@rollup/plugin-json": "6.1.0",
     "@rollup/plugin-node-resolve": "16.0.3",
-    "@rspack/core": "2.2.3",
+    "@rspack/core": "2.2.4",
     "esbuild": "0.28.2",
     "next": "16.3.5",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "rolldown": "1.2.8",
-    "rollup": "4.63.2",
-    "webpack": "5.110.3"
+    "rollup": "4.63.3",
+    "webpack": "5.111.0"
   },
   "bun": {
     "repository": "oven-sh/bun",
