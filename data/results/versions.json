@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "resolvedAt": "2026-09-17T21:11:51.871Z",
+  "resolvedAt": "2026-09-18T20:44:28.149Z",
   "policy": "latest stable npm dist-tag and latest non-prerelease GitHub release",
   "node": "v22.23.2",
   "bundlers": {
     "rollup": "4.63.3",
     "rolldown": "1.2.9",
-    "webpack": "5.111.0",
+    "webpack": "5.111.1",
     "rspack": "2.2.6",
     "esbuild": "0.28.2",
     "parcel": "2.16.4",
@@ -26,7 +26,7 @@
     "react-dom": "19.3.0",
     "rolldown": "1.2.9",
     "rollup": "4.63.3",
-    "webpack": "5.111.0"
+    "webpack": "5.111.1"
   },
   "bun": {
     "repository": "oven-sh/bun",

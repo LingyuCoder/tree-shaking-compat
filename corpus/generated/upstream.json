@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-17T21:12:14.277Z",
-  "inventoryGeneratedAt": "2026-09-17T21:12:08.753Z",
+  "generatedAt": "2026-09-18T20:44:50.137Z",
+  "inventoryGeneratedAt": "2026-09-18T20:44:44.091Z",
   "definition": "Deduplicated executable corpus generated from every configured upstream tree-shaking suite. Exact upstream paths remain attached as provenance.",
   "sourceCoverage": {
     "esbuild": {
@@ -1891,7 +1891,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-functions-option",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/pure-functions-option",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/pure-functions-option",
           "upstreamStatus": "active"
         }
       ],
@@ -5967,7 +5967,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/class",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/class",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/class",
           "upstreamStatus": "active"
         }
       ],
@@ -6023,7 +6023,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultClass",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/defaultClass",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/defaultClass",
           "upstreamStatus": "active"
         }
       ],
@@ -6077,7 +6077,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/class-dynamic-props",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/class-dynamic-props",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/class-dynamic-props",
           "upstreamStatus": "active"
         }
       ],
@@ -6139,7 +6139,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/extend-class",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/extend-class",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/extend-class",
           "upstreamStatus": "active"
         }
       ],
@@ -6201,7 +6201,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/extend-class2",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/extend-class2",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/extend-class2",
           "upstreamStatus": "active"
         }
       ],
@@ -6264,7 +6264,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/static-of-class",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/static-of-class",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/static-of-class",
           "upstreamStatus": "active"
         }
       ],
@@ -11557,7 +11557,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/bailouts",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/bailouts",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/bailouts",
           "upstreamStatus": "active"
         }
       ],
@@ -11605,7 +11605,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/cjs-to-esm",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/cjs-to-esm",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/cjs-to-esm",
           "upstreamStatus": "active"
         }
       ],
@@ -11680,7 +11680,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/deep-reexports",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/deep-reexports",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/deep-reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -11737,7 +11737,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/esModule-getter",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/esModule-getter",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/esModule-getter",
           "upstreamStatus": "active"
         }
       ],
@@ -11785,7 +11785,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/esm-to-cjs",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/esm-to-cjs",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/esm-to-cjs",
           "upstreamStatus": "active"
         }
       ],
@@ -11850,7 +11850,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/exports",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/exports",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/exports",
           "upstreamStatus": "active"
         }
       ],
@@ -11898,7 +11898,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/importing",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/importing",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/importing",
           "upstreamStatus": "active"
         }
       ],
@@ -11949,7 +11949,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/mjs",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/mjs",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/mjs",
           "upstreamStatus": "active"
         }
       ],
@@ -11997,7 +11997,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/mutate",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/mutate",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/mutate",
           "upstreamStatus": "active"
         }
       ],
@@ -12049,7 +12049,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/namespace",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/namespace",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/namespace",
           "upstreamStatus": "active"
         }
       ],
@@ -12097,7 +12097,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/non-root-this",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/non-root-this",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/non-root-this",
           "upstreamStatus": "active"
         }
       ],
@@ -12145,7 +12145,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-define-property-replace",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/object-define-property-replace",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/object-define-property-replace",
           "upstreamStatus": "active"
         }
       ],
@@ -12197,7 +12197,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/object-literal",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/object-literal",
           "upstreamStatus": "active"
         }
       ],
@@ -12254,7 +12254,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-accessors",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/object-literal-accessors",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/object-literal-accessors",
           "upstreamStatus": "active"
         }
       ],
@@ -12311,7 +12311,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-async-method",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/object-literal-async-method",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/object-literal-async-method",
           "upstreamStatus": "active"
         }
       ],
@@ -12371,7 +12371,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-bailout",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/object-literal-bailout",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/object-literal-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -12428,7 +12428,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-esmodule",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/object-literal-esmodule",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/object-literal-esmodule",
           "upstreamStatus": "active"
         }
       ],
@@ -12486,7 +12486,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-nested-require",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/object-literal-nested-require",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/object-literal-nested-require",
           "upstreamStatus": "active"
         }
       ],
@@ -12544,7 +12544,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-nested-require-kept",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
           "upstreamStatus": "active"
         }
       ],
@@ -12602,7 +12602,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/objects",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/objects",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/objects",
           "upstreamStatus": "active"
         }
       ],
@@ -12651,7 +12651,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/parsing",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/parsing",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/parsing",
           "upstreamStatus": "active"
         }
       ],
@@ -12702,7 +12702,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/reexport-require-binding",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/reexport-require-binding",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/reexport-require-binding",
           "upstreamStatus": "active"
         }
       ],
@@ -12762,7 +12762,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/reexport-require-json",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/reexport-require-json",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/reexport-require-json",
           "upstreamStatus": "active"
         }
       ],
@@ -12819,7 +12819,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/reexports",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/reexports",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -12888,7 +12888,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/reexports-define-property",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/reexports-define-property",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/reexports-define-property",
           "upstreamStatus": "active"
         }
       ],
@@ -12949,7 +12949,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/remove-unused-requires",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/remove-unused-requires",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/remove-unused-requires",
           "upstreamStatus": "active"
         }
       ],
@@ -13013,7 +13013,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/require-destructuring",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/require-destructuring",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/require-destructuring",
           "upstreamStatus": "active"
         }
       ],
@@ -13072,7 +13072,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/require-member-access",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/require-member-access",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/require-member-access",
           "upstreamStatus": "active"
         }
       ],
@@ -13130,7 +13130,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/require-member-access-deferred",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/require-member-access-deferred",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/require-member-access-deferred",
           "upstreamStatus": "active"
         }
       ],
@@ -13198,7 +13198,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/this-in-exported-function",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/this-in-exported-function",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/this-in-exported-function",
           "upstreamStatus": "active"
         }
       ],
@@ -13258,7 +13258,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/this-in-exported-function-modern",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/this-in-exported-function-modern",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/this-in-exported-function-modern",
           "upstreamStatus": "active"
         }
       ],
@@ -13317,7 +13317,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/transpiled",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/transpiled",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/transpiled",
           "upstreamStatus": "active"
         }
       ],
@@ -13365,7 +13365,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/weird-names",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/cjs-tree-shaking/weird-names",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/cjs-tree-shaking/weird-names",
           "upstreamStatus": "active"
         }
       ],
@@ -13414,7 +13414,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/drop-unused-require-edge-cases",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
           "upstreamStatus": "active"
         }
       ],
@@ -13471,7 +13471,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/object-literal-bailout-module-library",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
           "upstreamStatus": "active"
         }
       ],
@@ -13519,7 +13519,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/object-literal-local-alias",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/object-literal-local-alias",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/object-literal-local-alias",
           "upstreamStatus": "active"
         }
       ],
@@ -13567,7 +13567,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/object-literal-no-spread",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/object-literal-no-spread",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/object-literal-no-spread",
           "upstreamStatus": "active"
         }
       ],
@@ -13617,7 +13617,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/require-member-access-trimming",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/require-member-access-trimming",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/require-member-access-trimming",
           "upstreamStatus": "active"
         }
       ],
@@ -13677,7 +13677,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
           "upstreamStatus": "active"
         }
       ],
@@ -13734,7 +13734,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effect-free-dynamic-import",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
           "upstreamStatus": "active"
         }
       ],
@@ -13792,7 +13792,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
           "upstreamStatus": "active"
         }
       ],
@@ -13850,7 +13850,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effect-free-unused-export-require",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
           "upstreamStatus": "active"
         }
       ],
@@ -13908,7 +13908,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/strict-this-context-on-require",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/strict-this-context-on-require",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/strict-this-context-on-require",
           "upstreamStatus": "active"
         }
       ],
@@ -13966,7 +13966,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-eager-reexport-keeps-effect",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
           "upstreamStatus": "active"
         }
       ],
@@ -14024,7 +14024,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-getter-reexport-drop",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -14082,7 +14082,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-reexport-concatenated-drop",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -14140,7 +14140,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-reexport-forms-drop",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -14199,7 +14199,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -18025,7 +18025,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/altaskitButton",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/altaskitButton",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/altaskitButton",
           "upstreamStatus": "active"
         }
       ],
@@ -18092,7 +18092,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/basic",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/basic",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/basic",
           "upstreamStatus": "active"
         }
       ],
@@ -18148,7 +18148,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/blockScopes",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/blockScopes",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/blockScopes",
           "upstreamStatus": "active"
         }
       ],
@@ -18204,7 +18204,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/const",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/const",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/const",
           "upstreamStatus": "active"
         }
       ],
@@ -18256,7 +18256,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/cross-module-pure-normal",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/cross-module-pure-normal",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/cross-module-pure-normal",
           "upstreamStatus": "active"
         }
       ],
@@ -18310,7 +18310,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultArrow",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/defaultArrow",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/defaultArrow",
           "upstreamStatus": "active"
         }
       ],
@@ -18359,7 +18359,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultExpression",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/defaultExpression",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/defaultExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -18408,7 +18408,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultId",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/defaultId",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/defaultId",
           "upstreamStatus": "active"
         }
       ],
@@ -18457,7 +18457,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/default-pure-expression",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/default-pure-expression",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/default-pure-expression",
           "upstreamStatus": "active"
         }
       ],
@@ -18506,7 +18506,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/eval-bailout",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/eval-bailout",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/eval-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -18562,7 +18562,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/impure-symbol",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/impure-symbol",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/impure-symbol",
           "upstreamStatus": "active"
         }
       ],
@@ -18623,7 +18623,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-11678",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/issue-11678",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/issue-11678",
           "upstreamStatus": "active"
         }
       ],
@@ -18721,7 +18721,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-12669",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/issue-12669",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/issue-12669",
           "upstreamStatus": "active"
         }
       ],
@@ -18781,7 +18781,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-12669-mini",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/issue-12669-mini",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/issue-12669-mini",
           "upstreamStatus": "active"
         }
       ],
@@ -18813,7 +18813,7 @@
       ],
       "entry": "module.js",
       "files": {
-        "module.js": "import { x, y } from \"./dependency\";\n\n// `x` is referenced inside an inline `define` callback. Without the fix\n// for issue #17063, webpack's `HarmonyDetectionParserPlugin` skipped\n// walking the arguments of `define(...)` calls in ES modules, so the\n// reference to `x` would never be tracked and tree-shaking would drop\n// it from `./dependency`.\nfunction useX() {\n\tdefine(function () {\n\t\treturn x;\n\t});\n}\n\n// `callback` is a top-level function expression that closes over `y`.\n// innerGraph only treats `y` as used when `callback` itself is referenced\n// at top level — and the only reference is via `define(callback)`, which\n// the buggy code also skipped.\nconst callback = function () {\n\treturn y;\n};\n\nfunction useY() {\n\tdefine(callback);\n}\n\nexport { useX, useY };\n"
+        "module.js": "import { x, y } from \"./dependency\";\n\n// `x` is referenced inside an inline `define` callback. Before the fix for #17063,\n// `HarmonyDetectionParserPlugin` skipped walking the arguments of `define(...)` in\n// ES modules, so the reference was never tracked and tree-shaking dropped it.\nfunction useX() {\n\tdefine(function () {\n\t\treturn x;\n\t});\n}\n\n// `callback` is a top-level function expression closing over `y`. innerGraph\n// treats `y` as used only when `callback` is referenced at top level, and the only\n// reference is `define(callback)` — which the buggy code also skipped.\nconst callback = function () {\n\treturn y;\n};\n\nfunction useY() {\n\tdefine(callback);\n}\n\nexport { useX, useY };\n"
       },
       "execution": {
         "kind": "side-effect",
@@ -18837,7 +18837,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-17063",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/issue-17063",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/issue-17063",
           "upstreamStatus": "active"
         }
       ],
@@ -18893,7 +18893,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-17565",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/issue-17565",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/issue-17565",
           "upstreamStatus": "active"
         }
       ],
@@ -18951,7 +18951,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-20151",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/issue-20151",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/issue-20151",
           "upstreamStatus": "active"
         }
       ],
@@ -19000,7 +19000,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/localReference",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/localReference",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/localReference",
           "upstreamStatus": "active"
         }
       ],
@@ -19056,7 +19056,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/nested",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/nested",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/nested",
           "upstreamStatus": "active"
         }
       ],
@@ -19117,7 +19117,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pr-18342",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/pr-18342",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/pr-18342",
           "upstreamStatus": "active"
         }
       ],
@@ -19162,7 +19162,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/pure",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/pure",
           "upstreamStatus": "active"
         }
       ],
@@ -19218,7 +19218,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-expressions",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/pure-expressions",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/pure-expressions",
           "upstreamStatus": "active"
         }
       ],
@@ -19267,7 +19267,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-expressions-extended",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/pure-expressions-extended",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/pure-expressions-extended",
           "upstreamStatus": "active"
         }
       ],
@@ -19316,7 +19316,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/ramdaIdentical",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/ramdaIdentical",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/ramdaIdentical",
           "upstreamStatus": "active"
         }
       ],
@@ -19372,7 +19372,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/specifier",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/specifier",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/specifier",
           "upstreamStatus": "active"
         }
       ],
@@ -19428,7 +19428,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/varNotWritten",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/varNotWritten",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/varNotWritten",
           "upstreamStatus": "active"
         }
       ],
@@ -19477,7 +19477,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/varWritten",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/varWritten",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/varWritten",
           "upstreamStatus": "active"
         }
       ],
@@ -19530,7 +19530,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/array-expression",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/array-expression",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/array-expression",
           "upstreamStatus": "active"
         }
       ],
@@ -19589,7 +19589,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/circular",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/circular",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/circular",
           "upstreamStatus": "active"
         }
       ],
@@ -19646,7 +19646,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/circular2",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/circular2",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/circular2",
           "upstreamStatus": "active"
         }
       ],
@@ -19695,7 +19695,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/pure-in-removed",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/pure-in-removed",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/pure-in-removed",
           "upstreamStatus": "active"
         }
       ],
@@ -19745,7 +19745,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/simple",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/simple",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/simple",
           "upstreamStatus": "active"
         }
       ],
@@ -27385,7 +27385,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/cross-module-pure-namespace-import",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/cross-module-pure-namespace-import",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/cross-module-pure-namespace-import",
           "upstreamStatus": "active"
         }
       ],
@@ -27444,7 +27444,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/cross-module-pure-reexport-target",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/cross-module-pure-reexport-target",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/cross-module-pure-reexport-target",
           "upstreamStatus": "active"
         }
       ],
@@ -27498,7 +27498,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/export",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/export",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/export",
           "upstreamStatus": "active"
         }
       ],
@@ -27554,7 +27554,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/importAll",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/importAll",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/importAll",
           "upstreamStatus": "active"
         }
       ],
@@ -27622,7 +27622,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/export-default-named",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/export-default-named",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/export-default-named",
           "upstreamStatus": "active"
         }
       ],
@@ -27685,7 +27685,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/reexport-namespace-and-default",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/reexport-namespace-and-default",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/reexport-namespace-and-default",
           "upstreamStatus": "active"
         }
       ],
@@ -31954,7 +31954,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultFunction",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/defaultFunction",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/defaultFunction",
           "upstreamStatus": "active"
         }
       ],
@@ -32003,7 +32003,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultFunctionExpression",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/defaultFunctionExpression",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/defaultFunctionExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -32052,7 +32052,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultNamedFunction",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/defaultNamedFunction",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/defaultNamedFunction",
           "upstreamStatus": "active"
         }
       ],
@@ -32101,7 +32101,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultNamedFunctionExpression",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/defaultNamedFunctionExpression",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/defaultNamedFunctionExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -36693,7 +36693,7 @@
       ],
       "entry": "module.js",
       "files": {
-        "module.js": "import { a, b, c } from \"dep\";\n\n// A PURE annotation attached to a preceding property's value must not leak\n// into a later property's computed key check. Without the fix, `Boolean(b)`\n// is treated as pure (because the comment before `Boolean(a)` falls into the\n// scanned range) and the whole object is wrongly considered pure.\nexport const leak = {\n\tfirst: /*#__PURE__*/ Boolean(a),\n\t[Boolean(b)]: c\n};\n"
+        "module.js": "import { a, b, c } from \"dep\";\n\n// A PURE annotation on a preceding property's value must not leak into a later\n// property's computed key check. Without the fix `Boolean(b)` reads as pure and\n// the whole object is wrongly considered pure.\nexport const leak = {\n\tfirst: /*#__PURE__*/ Boolean(a),\n\t[Boolean(b)]: c\n};\n"
       },
       "execution": {
         "kind": "side-effect",
@@ -36717,7 +36717,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-expressions-object-leak",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/pure-expressions-object-leak",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/pure-expressions-object-leak",
           "upstreamStatus": "active"
         }
       ],
@@ -36770,7 +36770,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/object-expression",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/object-expression",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/object-expression",
           "upstreamStatus": "active"
         }
       ],
@@ -54466,7 +54466,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/no-side-effects-annotation",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/no-side-effects-annotation",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/no-side-effects-annotation",
           "upstreamStatus": "active"
         }
       ],
@@ -54525,7 +54525,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/asset-module",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/asset-module",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/asset-module",
           "upstreamStatus": "active"
         }
       ],
@@ -54582,7 +54582,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/cache-optimization-bailout",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/cache-optimization-bailout",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/cache-optimization-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -54629,7 +54629,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/deep-import-chain",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/deep-import-chain",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/deep-import-chain",
           "upstreamStatus": "active"
         }
       ],
@@ -54692,7 +54692,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/issue-13063",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/issue-13063",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/issue-13063",
           "upstreamStatus": "active"
         }
       ],
@@ -54743,7 +54743,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/issue-21869",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/issue-21869",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/issue-21869",
           "upstreamStatus": "active"
         }
       ],
@@ -54797,7 +54797,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-exports-presence-warn",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/lazy-barrel-exports-presence-warn",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/lazy-barrel-exports-presence-warn",
           "upstreamStatus": "active"
         }
       ],
@@ -54866,7 +54866,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-missing-specifier",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/lazy-barrel-missing-specifier",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/lazy-barrel-missing-specifier",
           "upstreamStatus": "active"
         }
       ],
@@ -54929,7 +54929,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-reexport-consumer",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/lazy-barrel-reexport-consumer",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/lazy-barrel-reexport-consumer",
           "upstreamStatus": "active"
         }
       ],
@@ -55004,7 +55004,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-requested-names",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/lazy-barrel-requested-names",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/lazy-barrel-requested-names",
           "upstreamStatus": "active"
         }
       ],
@@ -55057,7 +55057,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-shared-target",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/lazy-barrel-shared-target",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/lazy-barrel-shared-target",
           "upstreamStatus": "active"
         }
       ],
@@ -55120,7 +55120,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-side-effects-disabled",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/lazy-barrel-side-effects-disabled",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/lazy-barrel-side-effects-disabled",
           "upstreamStatus": "active"
         }
       ],
@@ -55195,7 +55195,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-unused-specifier",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/lazy-barrel-unused-specifier",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/lazy-barrel-unused-specifier",
           "upstreamStatus": "active"
         }
       ],
@@ -55293,7 +55293,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/nested-package-json-sideEffects",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/nested-package-json-sideEffects",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/nested-package-json-sideEffects",
           "upstreamStatus": "active"
         }
       ],
@@ -55357,7 +55357,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/nested-package-json-sideEffects-outside-context",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
           "upstreamStatus": "active"
         }
       ],
@@ -55419,7 +55419,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/nested-package-json-sideEffects-symlinked",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
           "upstreamStatus": "active"
         }
       ],
@@ -55479,7 +55479,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/no-side-effects-annotation",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/no-side-effects-annotation",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/no-side-effects-annotation",
           "upstreamStatus": "active"
         }
       ],
@@ -55557,7 +55557,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-globs",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/side-effects-globs",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-globs",
           "upstreamStatus": "active"
         }
       ],
@@ -55616,7 +55616,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-override",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/side-effects-override",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-override",
           "upstreamStatus": "active"
         }
       ],
@@ -55669,7 +55669,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-unsorted-modules",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/side-effects-unsorted-modules",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-unsorted-modules",
           "upstreamStatus": "active"
         }
       ],
@@ -55728,7 +55728,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-values",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/side-effects-values",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-values",
           "upstreamStatus": "active"
         }
       ],
@@ -55783,7 +55783,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/star-reexport-fan-out-skip",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/star-reexport-fan-out-skip",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/star-reexport-fan-out-skip",
           "upstreamStatus": "active"
         }
       ],
@@ -55847,7 +55847,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/star-reexport-passthrough-skip",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/star-reexport-passthrough-skip",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/star-reexport-passthrough-skip",
           "upstreamStatus": "active"
         }
       ],
@@ -55911,7 +55911,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/star-reexport-passthrough-skip-mixed",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
           "upstreamStatus": "active"
         }
       ],
@@ -55976,7 +55976,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/star-reexport-passthrough-skip-multi",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/star-reexport-passthrough-skip-multi",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/star-reexport-passthrough-skip-multi",
           "upstreamStatus": "active"
         }
       ],
@@ -56038,7 +56038,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/type-reexports",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/type-reexports",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/type-reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -56097,7 +56097,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/url",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/side-effects/url",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/url",
           "upstreamStatus": "active"
         }
       ],
@@ -56159,7 +56159,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/no-side-effects",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/no-side-effects",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/no-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -56247,7 +56247,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/dynamic-reexports",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/dynamic-reexports",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/dynamic-reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -56309,7 +56309,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/empty-modules",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/empty-modules",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/empty-modules",
           "upstreamStatus": "active"
         }
       ],
@@ -56360,7 +56360,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-11673",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/issue-11673",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/issue-11673",
           "upstreamStatus": "active"
         }
       ],
@@ -56412,7 +56412,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-12071",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/issue-12071",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/issue-12071",
           "upstreamStatus": "active"
         }
       ],
@@ -56465,7 +56465,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-12114",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/issue-12114",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/issue-12114",
           "upstreamStatus": "active"
         }
       ],
@@ -56529,7 +56529,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-12570",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/issue-12570",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/issue-12570",
           "upstreamStatus": "active"
         }
       ],
@@ -56584,7 +56584,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-12570-second-try",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/issue-12570-second-try",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/issue-12570-second-try",
           "upstreamStatus": "active"
         }
       ],
@@ -56635,7 +56635,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/missing-module-7499",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/missing-module-7499",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/missing-module-7499",
           "upstreamStatus": "active"
         }
       ],
@@ -56686,7 +56686,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/nested-namespace-reexport",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/nested-namespace-reexport",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/nested-namespace-reexport",
           "upstreamStatus": "active"
         }
       ],
@@ -56738,7 +56738,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/order-issue-7665",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/order-issue-7665",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/order-issue-7665",
           "upstreamStatus": "active"
         }
       ],
@@ -56790,7 +56790,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/star-reexport-passthrough",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/star-reexport-passthrough",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/star-reexport-passthrough",
           "upstreamStatus": "active"
         }
       ],
@@ -56841,7 +56841,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/wrong-module-10146",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/side-effects/wrong-module-10146",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/wrong-module-10146",
           "upstreamStatus": "active"
         }
       ],
@@ -68254,7 +68254,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-template-literal",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/configCases/inner-graph/pure-template-literal",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/inner-graph/pure-template-literal",
           "upstreamStatus": "active"
         }
       ],
@@ -68309,7 +68309,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/switch",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/switch",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/switch",
           "upstreamStatus": "active"
         }
       ],
@@ -68358,7 +68358,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/try-globals",
-          "url": "https://github.com/webpack/webpack/tree/92561183fc7cf44dce57f9d05b4819ba7693c961/test/cases/inner-graph/try-globals",
+          "url": "https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/try-globals",
           "upstreamStatus": "active"
         }
       ],
