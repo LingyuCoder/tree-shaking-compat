@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "resolvedAt": "2026-09-23T21:22:34.463Z",
+  "resolvedAt": "2026-09-24T21:23:41.749Z",
   "policy": "latest stable npm dist-tag and latest non-prerelease GitHub release",
   "node": "v22.23.2",
   "bundlers": {
-    "rollup": "4.63.4",
-    "rolldown": "1.2.10",
+    "rollup": "4.63.5",
+    "rolldown": "1.2.11",
     "webpack": "5.111.1",
     "rspack": "2.2.7",
     "esbuild": "0.28.2",
@@ -24,8 +24,8 @@
     "next": "16.3.6",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "rolldown": "1.2.10",
-    "rollup": "4.63.4",
+    "rolldown": "1.2.11",
+    "rollup": "4.63.5",
     "webpack": "5.111.1"
   },
   "bun": {
