@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "resolvedAt": "2026-09-25T21:23:58.465Z",
+  "resolvedAt": "2026-09-26T20:55:25.601Z",
   "policy": "latest stable npm dist-tag and latest non-prerelease GitHub release",
   "node": "v22.23.2",
   "bundlers": {
