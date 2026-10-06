@@ -1,12 +1,12 @@
 # Latest tree-shaking conformance report
 
-Generated: `2026-10-06T00:06:14.925Z`
+Generated: `2026-10-06T22:43:33.592Z`
 
 This production-only report contains **529 source-calibrated cases**: 488 exact-release upstream fixtures and 41 focused cross-bundler probes. A case enters the matrix only after at least one of its source bundlers passes the same portable oracle. Every reportable case appears exactly once in Table 3.
 
 605 inventoried cases without a portable oracle and 125 portable-oracle cases that do not pass any source baseline remain in the machine-readable corpus. Both groups are intentionally omitted from all three tables and all statistics.
 
-Releases: Rollup `4.64.0`; Rolldown `1.2.12`; webpack `5.111.1`; Rspack `2.2.8`; esbuild `0.28.2`; Parcel `2.16.4`; Bun `1.4.2`; Turbopack `16.3.8`.
+Releases: Rollup `4.64.0`; Rolldown `1.2.12`; webpack `5.111.1`; Rspack `2.2.8`; esbuild `0.28.2`; Parcel `2.16.4`; Bun `1.4.2`; Turbopack `16.4.0`.
 
 > ✅ = portable oracle passed; ◐ = runtime passed but removable code remained; ❌ = build/runtime/oracle failure; — = source-specific and not portable to that adapter; ◇ = this adapter could not apply the case's available oracle. Pass rates use ✅ / (✅ + ◐ + ❌); — and ◇ are excluded from the denominator.
 
@@ -20,8 +20,8 @@ Each source row contains only cases that pass that source bundler's own baseline
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | [rollup](https://github.com/rollup/rollup) | 184 | 184/184 (100.0%) | 90/184 (48.9%) | 124/184 (67.4%) | 122/184 (66.3%) | 57/184 (31.0%) | 131/184 (71.2%) | 59/184 (32.1%) | 43/122 (35.2%) |
 | [rolldown](https://github.com/rolldown/rolldown) | 108 | 94/108 (87.0%) | 108/108 (100.0%) | 96/108 (88.9%) | 98/108 (90.7%) | 90/108 (83.3%) | 88/104 (84.6%) | 85/108 (78.7%) | 61/80 (76.3%) |
-| [webpack](https://github.com/webpack/webpack) | 99 | 48/71 (67.6%) | 47/71 (66.2%) | 99/99 (100.0%) | 82/99 (82.8%) | 52/71 (73.2%) | 27/71 (38.0%) | 43/71 (60.6%) | 55/71 (77.5%) |
-| [rspack](https://github.com/web-infra-dev/rspack) | 143 | 103/126 (81.7%) | 98/126 (77.8%) | 136/143 (95.1%) | 143/143 (100.0%) | 107/126 (84.9%) | 61/126 (48.4%) | 96/126 (76.2%) | 106/125 (84.8%) |
+| [webpack](https://github.com/webpack/webpack) | 99 | 48/71 (67.6%) | 47/71 (66.2%) | 99/99 (100.0%) | 82/99 (82.8%) | 52/71 (73.2%) | 27/71 (38.0%) | 43/71 (60.6%) | 57/71 (80.3%) |
+| [rspack](https://github.com/web-infra-dev/rspack) | 143 | 103/126 (81.7%) | 98/126 (77.8%) | 136/143 (95.1%) | 143/143 (100.0%) | 107/126 (84.9%) | 61/126 (48.4%) | 96/126 (76.2%) | 107/125 (85.6%) |
 | [esbuild](https://github.com/evanw/esbuild) | 85 | 69/85 (81.2%) | 78/85 (91.8%) | 75/85 (88.2%) | 76/85 (89.4%) | 85/85 (100.0%) | 70/81 (86.4%) | 73/85 (85.9%) | 47/56 (83.9%) |
 | [parcel](https://github.com/parcel-bundler/parcel) | 19 | 16/19 (84.2%) | 17/19 (89.5%) | 19/19 (100.0%) | 19/19 (100.0%) | 16/19 (84.2%) | 19/19 (100.0%) | 17/19 (89.5%) | 17/19 (89.5%) |
 | [bun](https://github.com/oven-sh/bun) | 78 | 62/78 (79.5%) | 64/78 (82.1%) | 63/78 (80.8%) | 64/78 (82.1%) | 68/78 (87.2%) | 60/74 (81.1%) | 78/78 (100.0%) | 42/54 (77.8%) |
@@ -32,7 +32,7 @@ Each source row contains only cases that pass that source bundler's own baseline
 | Capability family | Cases | Rollup | Rolldown | webpack | Rspack | esbuild | Parcel | Bun | Turbopack |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | esm | 56 | 44/47 (93.6%) | 41/47 (87.2%) | 49/56 (87.5%) | 49/56 (87.5%) | 33/47 (70.2%) | 30/47 (63.8%) | 36/47 (76.6%) | 29/41 (70.7%) |
-| side-effects | 127 | 111/124 (89.5%) | 92/124 (74.2%) | 103/127 (81.1%) | 105/127 (82.7%) | 84/124 (67.7%) | 66/124 (53.2%) | 76/124 (61.3%) | 78/107 (72.9%) |
+| side-effects | 127 | 111/124 (89.5%) | 92/124 (74.2%) | 103/127 (81.1%) | 105/127 (82.7%) | 84/124 (67.7%) | 66/124 (53.2%) | 76/124 (61.3%) | 81/107 (75.7%) |
 | dynamic-import | 13 | 10/13 (76.9%) | 9/13 (69.2%) | 6/13 (46.2%) | 5/13 (38.5%) | 2/13 (15.4%) | 2/13 (15.4%) | 10/13 (76.9%) | 4/13 (30.8%) |
 | commonjs | 105 | 54/86 (62.8%) | 51/86 (59.3%) | 99/105 (94.3%) | 91/105 (86.7%) | 68/86 (79.1%) | 20/86 (23.3%) | 59/86 (68.6%) | 68/85 (80.0%) |
 | annotations | 13 | 10/12 (83.3%) | 12/12 (100.0%) | 11/13 (84.6%) | 9/13 (69.2%) | 12/12 (100.0%) | 8/12 (66.7%) | 8/12 (66.7%) | 4/8 (50.0%) |
@@ -182,7 +182,7 @@ Rows are grouped by capability family and put Rspack failures/misses first, so e
 | [upstream/rollup/function-pipeline-namespace-member-side-effects-call](https://github.com/rollup/rollup/tree/77773bf8ee9130c4edbde14c017855c41e500692/test/function/samples/namespace-member-side-effects/call) | rollup | side-effects | DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [upstream/rollup/function-pipeline-namespace-member-side-effects-missing-access](https://github.com/rollup/rollup/tree/77773bf8ee9130c4edbde14c017855c41e500692/test/function/samples/namespace-member-side-effects/missing-access) | rollup | side-effects | DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [upstream/rollup/function-pipeline-namespace-member-side-effects-unknown-access](https://github.com/rollup/rollup/tree/77773bf8ee9130c4edbde14c017855c41e500692/test/function/samples/namespace-member-side-effects/unknown-access) | rollup | side-effects | DCE markers | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ |  |
-| [upstream/rspack/config-side-effects-side-effects-unsorted-modules](https://github.com/web-infra-dev/rspack/tree/a6e6347cb6335b637e6bb03ceafc12a75581b745/tests/rspack-test/configCases/side-effects/side-effects-unsorted-modules) | rspack | side-effects | upstream runtime | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |  |
+| [upstream/rspack/config-side-effects-side-effects-unsorted-modules](https://github.com/web-infra-dev/rspack/tree/a6e6347cb6335b637e6bb03ceafc12a75581b745/tests/rspack-test/configCases/side-effects/side-effects-unsorted-modules) | rspack | side-effects | upstream runtime | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |  |
 | [upstream/rspack/config-side-effects-side-effects-values](https://github.com/web-infra-dev/rspack/tree/a6e6347cb6335b637e6bb03ceafc12a75581b745/tests/rspack-test/configCases/side-effects/side-effects-values) | rspack | side-effects | upstream runtime | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |  |
 | [upstream/rspack/config-side-effects-skip-side-effect-only-import](https://github.com/web-infra-dev/rspack/tree/a6e6347cb6335b637e6bb03ceafc12a75581b745/tests/rspack-test/configCases/side-effects/skip-side-effect-only-import) | rspack | side-effects | upstream runtime | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |  |
 | [upstream/rspack/config-tree-shaking-auto-analyze-side-effects-free-disabled](https://github.com/web-infra-dev/rspack/tree/a6e6347cb6335b637e6bb03ceafc12a75581b745/tests/rspack-test/configCases/tree-shaking/auto-analyze-side-effects-free-disabled) | rspack | side-effects | upstream runtime | — | — | ✅ | — | — | — | — | ✅ |  |
@@ -219,8 +219,8 @@ Rows are grouped by capability family and put Rspack failures/misses first, so e
 | [upstream/webpack/config-side-effects-issue-21869](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/issue-21869) | webpack | side-effects | upstream runtime | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |  |
 | [upstream/webpack/config-side-effects-lazy-barrel-requested-names](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/lazy-barrel-requested-names) | webpack | side-effects | upstream runtime | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |  |
 | [upstream/webpack/config-side-effects-no-side-effects-annotation](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/no-side-effects-annotation) | webpack | side-effects | upstream runtime | — | — | ✅ | — | — | — | — | ✅ |  |
-| [upstream/webpack/config-side-effects-side-effects-globs](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-globs) | webpack | side-effects | upstream runtime | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |  |
-| [upstream/webpack/config-side-effects-side-effects-unsorted-modules](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-unsorted-modules) | webpack | side-effects | upstream runtime | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |  |
+| [upstream/webpack/config-side-effects-side-effects-globs](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-globs) | webpack | side-effects | upstream runtime | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |  |
+| [upstream/webpack/config-side-effects-side-effects-unsorted-modules](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-unsorted-modules) | webpack | side-effects | upstream runtime | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |  |
 | [upstream/webpack/config-side-effects-side-effects-values](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/configCases/side-effects/side-effects-values) | webpack | side-effects | upstream runtime | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |  |
 | [upstream/webpack/inner-graph-no-side-effects](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/inner-graph/no-side-effects) | webpack | side-effects | upstream runtime | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |  |
 | [upstream/webpack/side-effects-empty-modules](https://github.com/webpack/webpack/tree/5a106753839fd7e1b86138c3a5f6b348341147a7/test/cases/side-effects/empty-modules) | webpack | side-effects | upstream runtime | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ |  |
