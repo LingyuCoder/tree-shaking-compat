@@ -1,6 +1,6 @@
 # Latest tree-shaking conformance report
 
-Generated: `2026-10-08T23:21:03.223Z`
+Generated: `2026-10-09T22:40:05.843Z`
 
 This production-only report contains **534 source-calibrated cases**: 493 exact-release upstream fixtures and 41 focused cross-bundler probes. A case enters the matrix only after at least one of its source bundlers passes the same portable oracle. Every reportable case appears exactly once in Table 3.
 
