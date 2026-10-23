@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T21:24:41.587Z",
+  "generatedAt": "2026-10-23T21:16:19.593Z",
   "definition": {
     "direct": "Explicit DCE/tree-shaking suites or path-selected semantic tests.",
     "pipeline": "Broader suites that exercise the bundler pipeline but are not counted as direct evidence.",
@@ -3322,7 +3322,7 @@
               "name": "1",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/1",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/1",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/1",
               "normalization": "not-normalized"
             },
             {
@@ -3330,7 +3330,7 @@
               "name": "2",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/2",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/2",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/2",
               "normalization": "not-normalized"
             },
             {
@@ -3338,7 +3338,7 @@
               "name": "3",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/3",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/3",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/3",
               "normalization": "not-normalized"
             },
             {
@@ -3346,7 +3346,7 @@
               "name": "amphtml-document",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/amphtml-document",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/amphtml-document",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/amphtml-document",
               "normalization": "not-normalized"
             },
             {
@@ -3354,7 +3354,7 @@
               "name": "app-route",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/app-route",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/app-route",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/app-route",
               "normalization": "not-normalized"
             },
             {
@@ -3362,7 +3362,7 @@
               "name": "assign-before-decl-fn",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-fn",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-fn",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-fn",
               "normalization": "not-normalized"
             },
             {
@@ -3370,7 +3370,7 @@
               "name": "assign-before-decl-var",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-var",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-var",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-var",
               "normalization": "not-normalized"
             },
             {
@@ -3378,7 +3378,7 @@
               "name": "combined-export",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/combined-export",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/combined-export",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/combined-export",
               "normalization": "not-normalized"
             },
             {
@@ -3386,7 +3386,7 @@
               "name": "complex",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/complex",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/complex",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/complex",
               "normalization": "not-normalized"
             },
             {
@@ -3394,7 +3394,7 @@
               "name": "dce",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/dce",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/dce",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/dce",
               "normalization": "not-normalized"
             },
             {
@@ -3402,7 +3402,7 @@
               "name": "effects-1",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/effects-1",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/effects-1",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/effects-1",
               "normalization": "not-normalized"
             },
             {
@@ -3410,7 +3410,7 @@
               "name": "export-named",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/export-named",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/export-named",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/export-named",
               "normalization": "not-normalized"
             },
             {
@@ -3418,7 +3418,7 @@
               "name": "failed-1",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-1",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-1",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-1",
               "normalization": "not-normalized"
             },
             {
@@ -3426,7 +3426,7 @@
               "name": "failed-2",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-2",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-2",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-2",
               "normalization": "not-normalized"
             },
             {
@@ -3434,7 +3434,7 @@
               "name": "failed-3",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-3",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-3",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-3",
               "normalization": "not-normalized"
             },
             {
@@ -3442,7 +3442,7 @@
               "name": "grouping",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/grouping",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/grouping",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/grouping",
               "normalization": "not-normalized"
             },
             {
@@ -3450,7 +3450,7 @@
               "name": "import-with-clause",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/import-with-clause",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/import-with-clause",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/import-with-clause",
               "normalization": "not-normalized"
             },
             {
@@ -3458,7 +3458,7 @@
               "name": "ipc-evaluate",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-evaluate",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-evaluate",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-evaluate",
               "normalization": "not-normalized"
             },
             {
@@ -3466,7 +3466,7 @@
               "name": "ipc-index",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-index",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-index",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-index",
               "normalization": "not-normalized"
             },
             {
@@ -3474,7 +3474,7 @@
               "name": "let-bug-1",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/let-bug-1",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/let-bug-1",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/let-bug-1",
               "normalization": "not-normalized"
             },
             {
@@ -3482,7 +3482,7 @@
               "name": "logger",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/logger",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/logger",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/logger",
               "normalization": "not-normalized"
             },
             {
@@ -3490,7 +3490,7 @@
               "name": "mui-sys",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/mui-sys",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/mui-sys",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/mui-sys",
               "normalization": "not-normalized"
             },
             {
@@ -3498,7 +3498,7 @@
               "name": "multi-export",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/multi-export",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/multi-export",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/multi-export",
               "normalization": "not-normalized"
             },
             {
@@ -3506,7 +3506,7 @@
               "name": "nanoid",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nanoid",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nanoid",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nanoid",
               "normalization": "not-normalized"
             },
             {
@@ -3514,7 +3514,7 @@
               "name": "next-response",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/next-response",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/next-response",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/next-response",
               "normalization": "not-normalized"
             },
             {
@@ -3522,7 +3522,7 @@
               "name": "nextjs-tracer",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nextjs-tracer",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nextjs-tracer",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nextjs-tracer",
               "normalization": "not-normalized"
             },
             {
@@ -3530,7 +3530,7 @@
               "name": "node-fetch",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-fetch",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-fetch",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-fetch",
               "normalization": "not-normalized"
             },
             {
@@ -3538,7 +3538,7 @@
               "name": "node-globals",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-globals",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-globals",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-globals",
               "normalization": "not-normalized"
             },
             {
@@ -3546,7 +3546,7 @@
               "name": "otel-core",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/otel-core",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/otel-core",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/otel-core",
               "normalization": "not-normalized"
             },
             {
@@ -3554,7 +3554,7 @@
               "name": "route-handler",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-handler",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-handler",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-handler",
               "normalization": "not-normalized"
             },
             {
@@ -3562,7 +3562,7 @@
               "name": "route-kind",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-kind",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-kind",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-kind",
               "normalization": "not-normalized"
             },
             {
@@ -3570,7 +3570,7 @@
               "name": "shared-2",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-2",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-2",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-2",
               "normalization": "not-normalized"
             },
             {
@@ -3578,7 +3578,7 @@
               "name": "shared-and-side-effects",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-and-side-effects",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-and-side-effects",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-and-side-effects",
               "normalization": "not-normalized"
             },
             {
@@ -3586,7 +3586,7 @@
               "name": "shared-regression",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-regression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-regression",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-regression",
               "normalization": "not-normalized"
             },
             {
@@ -3594,7 +3594,7 @@
               "name": "simple",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple",
               "normalization": "not-normalized"
             },
             {
@@ -3602,7 +3602,7 @@
               "name": "simple-vars-1",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple-vars-1",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple-vars-1",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple-vars-1",
               "normalization": "not-normalized"
             },
             {
@@ -3610,7 +3610,7 @@
               "name": "template-pages",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/template-pages",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/template-pages",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/template-pages",
               "normalization": "not-normalized"
             },
             {
@@ -3618,7 +3618,7 @@
               "name": "test-config-1",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/test-config-1",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/test-config-1",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/test-config-1",
               "normalization": "not-normalized"
             },
             {
@@ -3626,7 +3626,7 @@
               "name": "tla-1",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/tla-1",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/tla-1",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/tla-1",
               "normalization": "not-normalized"
             },
             {
@@ -3634,7 +3634,7 @@
               "name": "typeof-1",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/typeof-1",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/typeof-1",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/typeof-1",
               "normalization": "not-normalized"
             },
             {
@@ -3642,7 +3642,7 @@
               "name": "write-order",
               "path": "turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/write-order",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/write-order",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/write-order",
               "normalization": "not-normalized"
             }
           ]
@@ -3660,7 +3660,7 @@
               "name": "comptime",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/comptime",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/comptime",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/comptime",
               "normalization": "not-normalized"
             },
             {
@@ -3668,7 +3668,7 @@
               "name": "duplicate-modules",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/duplicate-modules",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/duplicate-modules",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/duplicate-modules",
               "normalization": "not-normalized"
             },
             {
@@ -3676,7 +3676,7 @@
               "name": "dynamic-import",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/dynamic-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/dynamic-import",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/dynamic-import",
               "normalization": "not-normalized"
             },
             {
@@ -3684,7 +3684,7 @@
               "name": "follow-keeps-side-effect",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/follow-keeps-side-effect",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/follow-keeps-side-effect",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/follow-keeps-side-effect",
               "normalization": "not-normalized"
             },
             {
@@ -3692,7 +3692,7 @@
               "name": "full-package",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/full-package",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/full-package",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/full-package",
               "normalization": "not-normalized"
             },
             {
@@ -3700,7 +3700,7 @@
               "name": "ignore-side-effect-free-module",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/ignore-side-effect-free-module",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/ignore-side-effect-free-module",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/ignore-side-effect-free-module",
               "normalization": "not-normalized"
             },
             {
@@ -3708,7 +3708,7 @@
               "name": "local-reexports-side-effect-free",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/local-reexports-side-effect-free",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/local-reexports-side-effect-free",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/local-reexports-side-effect-free",
               "normalization": "not-normalized"
             },
             {
@@ -3716,7 +3716,7 @@
               "name": "mui-utils",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/mui-utils",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/mui-utils",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/mui-utils",
               "normalization": "not-normalized"
             },
             {
@@ -3724,7 +3724,7 @@
               "name": "named-reexports-side-effect-free",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/named-reexports-side-effect-free",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/named-reexports-side-effect-free",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/named-reexports-side-effect-free",
               "normalization": "not-normalized"
             },
             {
@@ -3732,7 +3732,7 @@
               "name": "namespace-value-reexport",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport",
               "normalization": "not-normalized"
             },
             {
@@ -3740,7 +3740,7 @@
               "name": "namespace-value-reexport-direct",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-direct",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-direct",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-direct",
               "normalization": "not-normalized"
             },
             {
@@ -3748,7 +3748,7 @@
               "name": "namespace-value-reexport-module-fragments",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-module-fragments",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-module-fragments",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-module-fragments",
               "normalization": "not-normalized"
             },
             {
@@ -3756,7 +3756,7 @@
               "name": "no-write-access",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/no-write-access",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/no-write-access",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/no-write-access",
               "normalization": "not-normalized"
             },
             {
@@ -3764,7 +3764,7 @@
               "name": "reexport-side-effects",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/reexport-side-effects",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/reexport-side-effects",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/reexport-side-effects",
               "normalization": "not-normalized"
             },
             {
@@ -3772,7 +3772,7 @@
               "name": "side-effects-glob",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/side-effects-glob",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/side-effects-glob",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/side-effects-glob",
               "normalization": "not-normalized"
             },
             {
@@ -3780,7 +3780,7 @@
               "name": "split-chunks",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks",
               "normalization": "not-normalized"
             },
             {
@@ -3788,7 +3788,7 @@
               "name": "split-chunks-shared-state",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks-shared-state",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks-shared-state",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks-shared-state",
               "normalization": "not-normalized"
             },
             {
@@ -3796,7 +3796,7 @@
               "name": "star-reexport-filtering",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-filtering",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-filtering",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-filtering",
               "normalization": "not-normalized"
             },
             {
@@ -3804,7 +3804,7 @@
               "name": "star-reexport-forwarding",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-forwarding",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-forwarding",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-forwarding",
               "normalization": "not-normalized"
             },
             {
@@ -3812,7 +3812,7 @@
               "name": "star-reexports-side-effect-free",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effect-free",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effect-free",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effect-free",
               "normalization": "not-normalized"
             },
             {
@@ -3820,7 +3820,7 @@
               "name": "star-reexports-side-effects",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effects",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effects",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effects",
               "normalization": "not-normalized"
             },
             {
@@ -3828,7 +3828,7 @@
               "name": "tla",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/tla",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/tla",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/tla",
               "normalization": "not-normalized"
             }
           ]
@@ -3846,7 +3846,7 @@
               "name": "basic",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/basic",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/basic",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/basic",
               "normalization": "not-normalized"
             },
             {
@@ -3854,7 +3854,7 @@
               "name": "circular-unused",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-unused",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-unused",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-unused",
               "normalization": "not-normalized"
             },
             {
@@ -3862,7 +3862,7 @@
               "name": "circular-used",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-used",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-used",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-used",
               "normalization": "not-normalized"
             },
             {
@@ -3870,7 +3870,7 @@
               "name": "import-star",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/import-star",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/import-star",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/import-star",
               "normalization": "not-normalized"
             },
             {
@@ -3878,7 +3878,7 @@
               "name": "member-call",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/member-call",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/member-call",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/member-call",
               "normalization": "not-normalized"
             },
             {
@@ -3886,7 +3886,7 @@
               "name": "rename",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/rename",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/rename",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/rename",
               "normalization": "not-normalized"
             },
             {
@@ -3894,7 +3894,7 @@
               "name": "side-effect-free-top-level",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-free-top-level",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-free-top-level",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-free-top-level",
               "normalization": "not-normalized"
             },
             {
@@ -3902,7 +3902,7 @@
               "name": "side-effect-only-import",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-only-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-only-import",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-only-import",
               "normalization": "not-normalized"
             },
             {
@@ -3910,7 +3910,7 @@
               "name": "simple-used",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/simple-used",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/simple-used",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/simple-used",
               "normalization": "not-normalized"
             },
             {
@@ -3918,7 +3918,7 @@
               "name": "transitive-unused",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/transitive-unused",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/transitive-unused",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/transitive-unused",
               "normalization": "not-normalized"
             }
           ]
@@ -3936,7 +3936,7 @@
               "name": "sibling-declarator",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/sibling-declarator",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/sibling-declarator",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/sibling-declarator",
               "normalization": "not-normalized"
             },
             {
@@ -3944,7 +3944,7 @@
               "name": "side-effect-require",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/side-effect-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/side-effect-require",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/side-effect-require",
               "normalization": "not-normalized"
             }
           ]
@@ -3962,7 +3962,7 @@
               "name": "named-import",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/named-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/named-import",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/named-import",
               "normalization": "not-normalized"
             },
             {
@@ -3970,7 +3970,7 @@
               "name": "require-binding",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-binding",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-binding",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-binding",
               "normalization": "not-normalized"
             },
             {
@@ -3978,7 +3978,7 @@
               "name": "require-narrow",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-narrow",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-narrow",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-narrow",
               "normalization": "not-normalized"
             }
           ]
@@ -3996,7 +3996,7 @@
               "name": "assignment",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/assignment",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/assignment",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/assignment",
               "normalization": "not-normalized"
             },
             {
@@ -4004,7 +4004,7 @@
               "name": "comptime",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/comptime",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/comptime",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/comptime",
               "normalization": "not-normalized"
             },
             {
@@ -4012,7 +4012,7 @@
               "name": "cycle",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle",
               "normalization": "not-normalized"
             },
             {
@@ -4020,7 +4020,7 @@
               "name": "cycle-order",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle-order",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle-order",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle-order",
               "normalization": "not-normalized"
             },
             {
@@ -4028,7 +4028,7 @@
               "name": "directive",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/directive",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/directive",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/directive",
               "normalization": "not-normalized"
             },
             {
@@ -4036,7 +4036,7 @@
               "name": "follow-keeps-side-effect",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/follow-keeps-side-effect",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/follow-keeps-side-effect",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/follow-keeps-side-effect",
               "normalization": "not-normalized"
             },
             {
@@ -4044,7 +4044,7 @@
               "name": "full-package",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/full-package",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/full-package",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/full-package",
               "normalization": "not-normalized"
             },
             {
@@ -4052,7 +4052,7 @@
               "name": "ieee754",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/ieee754",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/ieee754",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/ieee754",
               "normalization": "not-normalized"
             },
             {
@@ -4060,7 +4060,7 @@
               "name": "import-star",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/import-star",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/import-star",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/import-star",
               "normalization": "not-normalized"
             },
             {
@@ -4068,7 +4068,7 @@
               "name": "local-reexports-side-effect-free",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/local-reexports-side-effect-free",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/local-reexports-side-effect-free",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/local-reexports-side-effect-free",
               "normalization": "not-normalized"
             },
             {
@@ -4076,7 +4076,7 @@
               "name": "mui-utils",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/mui-utils",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/mui-utils",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/mui-utils",
               "normalization": "not-normalized"
             },
             {
@@ -4084,7 +4084,7 @@
               "name": "named-reexports-side-effect-free",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/named-reexports-side-effect-free",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/named-reexports-side-effect-free",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/named-reexports-side-effect-free",
               "normalization": "not-normalized"
             },
             {
@@ -4092,7 +4092,7 @@
               "name": "namespace-object-identity",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/namespace-object-identity",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/namespace-object-identity",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/namespace-object-identity",
               "normalization": "not-normalized"
             },
             {
@@ -4100,7 +4100,7 @@
               "name": "reexport-side-effects",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/reexport-side-effects",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/reexport-side-effects",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/reexport-side-effects",
               "normalization": "not-normalized"
             },
             {
@@ -4108,7 +4108,7 @@
               "name": "side-effect-free-packages",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-free-packages",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-free-packages",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-free-packages",
               "normalization": "not-normalized"
             },
             {
@@ -4116,7 +4116,7 @@
               "name": "side-effect-import",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-import",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-import",
               "normalization": "not-normalized"
             },
             {
@@ -4124,7 +4124,7 @@
               "name": "side-effects-glob",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effects-glob",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effects-glob",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effects-glob",
               "normalization": "not-normalized"
             },
             {
@@ -4132,7 +4132,7 @@
               "name": "star-reexports-side-effect-free",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effect-free",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effect-free",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effect-free",
               "normalization": "not-normalized"
             },
             {
@@ -4140,7 +4140,7 @@
               "name": "star-reexports-side-effects",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effects",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effects",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effects",
               "normalization": "not-normalized"
             },
             {
@@ -4148,7 +4148,7 @@
               "name": "tla",
               "path": "turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/tla",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/tla",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/tla",
               "normalization": "not-normalized"
             }
           ]
@@ -4166,7 +4166,7 @@
               "name": "bailouts",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/bailouts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/bailouts",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/bailouts",
               "normalization": "not-normalized"
             },
             {
@@ -4174,7 +4174,7 @@
               "name": "cjs-to-esm",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/cjs-to-esm",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/cjs-to-esm",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/cjs-to-esm",
               "normalization": "not-normalized"
             },
             {
@@ -4182,7 +4182,7 @@
               "name": "esm-to-cjs",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esm-to-cjs",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esm-to-cjs",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esm-to-cjs",
               "normalization": "not-normalized"
             },
             {
@@ -4190,7 +4190,7 @@
               "name": "esModule-getter",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esModule-getter",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esModule-getter",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esModule-getter",
               "normalization": "not-normalized"
             },
             {
@@ -4198,7 +4198,7 @@
               "name": "exports",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/exports",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/exports",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/exports",
               "normalization": "not-normalized"
             },
             {
@@ -4206,7 +4206,7 @@
               "name": "importing",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/importing",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/importing",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/importing",
               "normalization": "not-normalized"
             },
             {
@@ -4214,7 +4214,7 @@
               "name": "mutate",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/mutate",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/mutate",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/mutate",
               "normalization": "not-normalized"
             },
             {
@@ -4222,7 +4222,7 @@
               "name": "namespace",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/namespace",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/namespace",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/namespace",
               "normalization": "not-normalized"
             },
             {
@@ -4230,7 +4230,7 @@
               "name": "non-root-this",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/non-root-this",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/non-root-this",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/non-root-this",
               "normalization": "not-normalized"
             },
             {
@@ -4238,7 +4238,7 @@
               "name": "object-define-property-replace",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/object-define-property-replace",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/object-define-property-replace",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/object-define-property-replace",
               "normalization": "not-normalized"
             },
             {
@@ -4246,7 +4246,7 @@
               "name": "objects",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/objects",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/objects",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/objects",
               "normalization": "not-normalized"
             },
             {
@@ -4254,7 +4254,7 @@
               "name": "parsing",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/parsing",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/parsing",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/parsing",
               "normalization": "not-normalized"
             },
             {
@@ -4262,7 +4262,7 @@
               "name": "reexport-forwarding",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding",
               "normalization": "not-normalized"
             },
             {
@@ -4270,7 +4270,7 @@
               "name": "reexport-forwarding-disabled",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-disabled",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-disabled",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-disabled",
               "normalization": "not-normalized"
             },
             {
@@ -4278,7 +4278,7 @@
               "name": "reexport-forwarding-esm-consumer",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-esm-consumer",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-esm-consumer",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-esm-consumer",
               "normalization": "not-normalized"
             },
             {
@@ -4286,7 +4286,7 @@
               "name": "reexport-forwarding-nested-runtime",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-nested-runtime",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-nested-runtime",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-nested-runtime",
               "normalization": "not-normalized"
             },
             {
@@ -4294,7 +4294,7 @@
               "name": "reexport-forwarding-runtime",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-runtime",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-runtime",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-runtime",
               "normalization": "not-normalized"
             },
             {
@@ -4302,7 +4302,7 @@
               "name": "reexport-forwarding-syntax",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-syntax",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-syntax",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-syntax",
               "normalization": "not-normalized"
             },
             {
@@ -4310,7 +4310,7 @@
               "name": "reexport-require-binding",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-binding",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-binding",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-binding",
               "normalization": "not-normalized"
             },
             {
@@ -4318,7 +4318,7 @@
               "name": "reexport-require-json",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-json",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-json",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-json",
               "normalization": "not-normalized"
             },
             {
@@ -4326,7 +4326,7 @@
               "name": "reexports",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports",
               "normalization": "not-normalized"
             },
             {
@@ -4334,7 +4334,7 @@
               "name": "reexports-define-property",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports-define-property",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports-define-property",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports-define-property",
               "normalization": "not-normalized"
             },
             {
@@ -4342,7 +4342,7 @@
               "name": "require-destructuring",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-destructuring",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-destructuring",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-destructuring",
               "normalization": "not-normalized"
             },
             {
@@ -4350,7 +4350,7 @@
               "name": "require-member-access",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access",
               "normalization": "not-normalized"
             },
             {
@@ -4358,7 +4358,7 @@
               "name": "require-member-access-deferred",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access-deferred",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access-deferred",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access-deferred",
               "normalization": "not-normalized"
             },
             {
@@ -4366,7 +4366,7 @@
               "name": "this-in-exported-function",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function",
               "normalization": "not-normalized"
             },
             {
@@ -4374,7 +4374,7 @@
               "name": "this-in-exported-function-modern",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function-modern",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function-modern",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function-modern",
               "normalization": "not-normalized"
             },
             {
@@ -4382,7 +4382,7 @@
               "name": "transpiled",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/transpiled",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/transpiled",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/transpiled",
               "normalization": "not-normalized"
             },
             {
@@ -4390,18 +4390,18 @@
               "name": "weird-names",
               "path": "turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/weird-names",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/weird-names",
+              "sourceUrl": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/weird-names",
               "normalization": "not-normalized"
             }
           ]
         }
       ],
       "release": {
-        "tag": "v16.4.2",
-        "version": "v16.4.2",
-        "commit": "2864b1772c37242a9b40ab4d366eb7d368c2a070",
-        "publishedAt": "2026-10-15T20:44:37Z",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2"
+        "tag": "v16.4.3",
+        "version": "v16.4.3",
+        "commit": "29bbeab09981148ade186e8599ecdede15abc281",
+        "publishedAt": "2026-10-23T13:32:31Z",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3"
       },
       "count": 127,
       "directCount": 127,
@@ -25313,7 +25313,7 @@
               "name": "commonjs-exports",
               "path": "test/cases/cjs-tree-shaking/commonjs-exports",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/commonjs-exports",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/commonjs-exports",
               "normalization": "not-normalized"
             },
             {
@@ -25321,7 +25321,7 @@
               "name": "mutate",
               "path": "test/cases/cjs-tree-shaking/mutate",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/mutate",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/mutate",
               "normalization": "not-normalized"
             },
             {
@@ -25329,7 +25329,7 @@
               "name": "object-literal",
               "path": "test/cases/cjs-tree-shaking/object-literal",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal",
               "normalization": "not-normalized"
             },
             {
@@ -25337,7 +25337,7 @@
               "name": "object-literal-accessors",
               "path": "test/cases/cjs-tree-shaking/object-literal-accessors",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-accessors",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-accessors",
               "normalization": "not-normalized"
             },
             {
@@ -25345,7 +25345,7 @@
               "name": "object-literal-async-method",
               "path": "test/cases/cjs-tree-shaking/object-literal-async-method",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-async-method",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-async-method",
               "normalization": "not-normalized"
             },
             {
@@ -25353,7 +25353,7 @@
               "name": "object-literal-bailout",
               "path": "test/cases/cjs-tree-shaking/object-literal-bailout",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-bailout",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-bailout",
               "normalization": "not-normalized"
             },
             {
@@ -25361,7 +25361,7 @@
               "name": "object-literal-esmodule",
               "path": "test/cases/cjs-tree-shaking/object-literal-esmodule",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-esmodule",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-esmodule",
               "normalization": "not-normalized"
             },
             {
@@ -25369,7 +25369,7 @@
               "name": "object-literal-nested-require",
               "path": "test/cases/cjs-tree-shaking/object-literal-nested-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-nested-require",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-nested-require",
               "normalization": "not-normalized"
             },
             {
@@ -25377,7 +25377,7 @@
               "name": "object-literal-nested-require-kept",
               "path": "test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
               "normalization": "not-normalized"
             },
             {
@@ -25385,7 +25385,7 @@
               "name": "reexport-require-binding",
               "path": "test/cases/cjs-tree-shaking/reexport-require-binding",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/reexport-require-binding",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/reexport-require-binding",
               "normalization": "not-normalized"
             },
             {
@@ -25393,7 +25393,7 @@
               "name": "remove-unused-requires",
               "path": "test/cases/cjs-tree-shaking/remove-unused-requires",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/remove-unused-requires",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/remove-unused-requires",
               "normalization": "not-normalized"
             },
             {
@@ -25401,7 +25401,7 @@
               "name": "require-destructuring",
               "path": "test/cases/cjs-tree-shaking/require-destructuring",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/require-destructuring",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-destructuring",
               "normalization": "not-normalized"
             },
             {
@@ -25409,7 +25409,7 @@
               "name": "require-member-access",
               "path": "test/cases/cjs-tree-shaking/require-member-access",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/require-member-access",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-member-access",
               "normalization": "not-normalized"
             },
             {
@@ -25417,7 +25417,7 @@
               "name": "require-member-access-deferred",
               "path": "test/cases/cjs-tree-shaking/require-member-access-deferred",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/require-member-access-deferred",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-member-access-deferred",
               "normalization": "not-normalized"
             },
             {
@@ -25425,7 +25425,7 @@
               "name": "this-in-exported-function",
               "path": "test/cases/cjs-tree-shaking/this-in-exported-function",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/this-in-exported-function",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/this-in-exported-function",
               "normalization": "not-normalized"
             },
             {
@@ -25433,7 +25433,7 @@
               "name": "this-in-exported-function-modern",
               "path": "test/cases/cjs-tree-shaking/this-in-exported-function-modern",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/this-in-exported-function-modern",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/this-in-exported-function-modern",
               "normalization": "not-normalized"
             }
           ]
@@ -25451,7 +25451,7 @@
               "name": "class-dynamic-props",
               "path": "test/cases/inner-graph/class-dynamic-props",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/inner-graph/class-dynamic-props",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/class-dynamic-props",
               "normalization": "not-normalized"
             },
             {
@@ -25459,7 +25459,7 @@
               "name": "extend-class",
               "path": "test/cases/inner-graph/extend-class",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/inner-graph/extend-class",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/extend-class",
               "normalization": "not-normalized"
             },
             {
@@ -25467,7 +25467,7 @@
               "name": "extend-class2",
               "path": "test/cases/inner-graph/extend-class2",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/inner-graph/extend-class2",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/extend-class2",
               "normalization": "not-normalized"
             },
             {
@@ -25475,7 +25475,7 @@
               "name": "inner-graph-cases",
               "path": "test/cases/inner-graph/inner-graph-cases",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/inner-graph/inner-graph-cases",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/inner-graph-cases",
               "normalization": "not-normalized"
             }
           ]
@@ -25493,7 +25493,7 @@
               "name": "dynamic-reexports",
               "path": "test/cases/side-effects/dynamic-reexports",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/dynamic-reexports",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/dynamic-reexports",
               "normalization": "not-normalized"
             },
             {
@@ -25501,7 +25501,7 @@
               "name": "issue-11673",
               "path": "test/cases/side-effects/issue-11673",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-11673",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-11673",
               "normalization": "not-normalized"
             },
             {
@@ -25509,7 +25509,7 @@
               "name": "issue-12071",
               "path": "test/cases/side-effects/issue-12071",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-12071",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12071",
               "normalization": "not-normalized"
             },
             {
@@ -25517,7 +25517,7 @@
               "name": "issue-12114",
               "path": "test/cases/side-effects/issue-12114",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-12114",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12114",
               "normalization": "not-normalized"
             },
             {
@@ -25525,7 +25525,7 @@
               "name": "issue-12570",
               "path": "test/cases/side-effects/issue-12570",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-12570",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12570",
               "normalization": "not-normalized"
             },
             {
@@ -25533,7 +25533,7 @@
               "name": "issue-12570-second-try",
               "path": "test/cases/side-effects/issue-12570-second-try",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-12570-second-try",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12570-second-try",
               "normalization": "not-normalized"
             },
             {
@@ -25541,7 +25541,7 @@
               "name": "nested-namespace-reexport",
               "path": "test/cases/side-effects/nested-namespace-reexport",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/nested-namespace-reexport",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/nested-namespace-reexport",
               "normalization": "not-normalized"
             },
             {
@@ -25549,7 +25549,7 @@
               "name": "side-effects-cases",
               "path": "test/cases/side-effects/side-effects-cases",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/side-effects-cases",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/side-effects-cases",
               "normalization": "not-normalized"
             },
             {
@@ -25557,7 +25557,7 @@
               "name": "star-reexport-passthrough",
               "path": "test/cases/side-effects/star-reexport-passthrough",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/star-reexport-passthrough",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/star-reexport-passthrough",
               "normalization": "not-normalized"
             }
           ]
@@ -25566,8 +25566,8 @@
           "id": "config-cjs-tree-shaking",
           "root": "test/configCases/cjs-tree-shaking",
           "kind": "child-directories",
-          "count": 17,
-          "directCount": 17,
+          "count": 18,
+          "directCount": 18,
           "negativeCount": 0,
           "entries": [
             {
@@ -25575,7 +25575,7 @@
               "name": "drop-unused-require-edge-cases",
               "path": "test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
               "normalization": "not-normalized"
             },
             {
@@ -25583,7 +25583,7 @@
               "name": "object-literal-bailout-module-library",
               "path": "test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
               "normalization": "not-normalized"
             },
             {
@@ -25591,7 +25591,7 @@
               "name": "object-literal-local-alias",
               "path": "test/configCases/cjs-tree-shaking/object-literal-local-alias",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/object-literal-local-alias",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-local-alias",
               "normalization": "not-normalized"
             },
             {
@@ -25599,7 +25599,15 @@
               "name": "object-literal-no-spread",
               "path": "test/configCases/cjs-tree-shaking/object-literal-no-spread",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/object-literal-no-spread",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-no-spread",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/reexport-namespace-self-reference",
+              "name": "reexport-namespace-self-reference",
+              "path": "test/configCases/cjs-tree-shaking/reexport-namespace-self-reference",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/reexport-namespace-self-reference",
               "normalization": "not-normalized"
             },
             {
@@ -25607,7 +25615,7 @@
               "name": "reexport-require-binding-matrix",
               "path": "test/configCases/cjs-tree-shaking/reexport-require-binding-matrix",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/reexport-require-binding-matrix",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/reexport-require-binding-matrix",
               "normalization": "not-normalized"
             },
             {
@@ -25615,7 +25623,7 @@
               "name": "require-member-access-trimming",
               "path": "test/configCases/cjs-tree-shaking/require-member-access-trimming",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/require-member-access-trimming",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/require-member-access-trimming",
               "normalization": "not-normalized"
             },
             {
@@ -25623,7 +25631,7 @@
               "name": "side-effect-free-cyclic-unused-export-require",
               "path": "test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
               "normalization": "not-normalized"
             },
             {
@@ -25631,7 +25639,7 @@
               "name": "side-effect-free-dynamic-import",
               "path": "test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
               "normalization": "not-normalized"
             },
             {
@@ -25639,7 +25647,7 @@
               "name": "side-effect-free-dynamic-import-transitive",
               "path": "test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
               "normalization": "not-normalized"
             },
             {
@@ -25647,7 +25655,7 @@
               "name": "side-effect-free-unused-export-require",
               "path": "test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
               "normalization": "not-normalized"
             },
             {
@@ -25655,7 +25663,7 @@
               "name": "strict-this-context-on-require",
               "path": "test/configCases/cjs-tree-shaking/strict-this-context-on-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/strict-this-context-on-require",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/strict-this-context-on-require",
               "normalization": "not-normalized"
             },
             {
@@ -25663,7 +25671,7 @@
               "name": "unused-eager-reexport-keeps-effect",
               "path": "test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
               "normalization": "not-normalized"
             },
             {
@@ -25671,7 +25679,7 @@
               "name": "unused-getter-reexport-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
               "normalization": "not-normalized"
             },
             {
@@ -25679,7 +25687,7 @@
               "name": "unused-reexport-concatenated-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
               "normalization": "not-normalized"
             },
             {
@@ -25687,7 +25695,7 @@
               "name": "unused-reexport-forms-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
               "normalization": "not-normalized"
             },
             {
@@ -25695,7 +25703,7 @@
               "name": "unused-reexport-package-sideEffects-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
               "normalization": "not-normalized"
             },
             {
@@ -25703,7 +25711,7 @@
               "name": "unused-reexport-require-binding-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-reexport-require-binding-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-reexport-require-binding-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-require-binding-drop",
               "normalization": "not-normalized"
             }
           ]
@@ -25721,7 +25729,7 @@
               "name": "altaskitButton",
               "path": "test/configCases/inner-graph/altaskitButton",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/altaskitButton",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/altaskitButton",
               "normalization": "not-normalized"
             },
             {
@@ -25729,7 +25737,7 @@
               "name": "basic",
               "path": "test/configCases/inner-graph/basic",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/basic",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/basic",
               "normalization": "not-normalized"
             },
             {
@@ -25737,7 +25745,7 @@
               "name": "blockScopes",
               "path": "test/configCases/inner-graph/blockScopes",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/blockScopes",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/blockScopes",
               "normalization": "not-normalized"
             },
             {
@@ -25745,7 +25753,7 @@
               "name": "class",
               "path": "test/configCases/inner-graph/class",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/class",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/class",
               "normalization": "not-normalized"
             },
             {
@@ -25753,7 +25761,7 @@
               "name": "const",
               "path": "test/configCases/inner-graph/const",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/const",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/const",
               "normalization": "not-normalized"
             },
             {
@@ -25761,7 +25769,7 @@
               "name": "cross-module-pure-namespace-import",
               "path": "test/configCases/inner-graph/cross-module-pure-namespace-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/cross-module-pure-namespace-import",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-namespace-import",
               "normalization": "not-normalized"
             },
             {
@@ -25769,7 +25777,7 @@
               "name": "cross-module-pure-normal",
               "path": "test/configCases/inner-graph/cross-module-pure-normal",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/cross-module-pure-normal",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-normal",
               "normalization": "not-normalized"
             },
             {
@@ -25777,7 +25785,7 @@
               "name": "cross-module-pure-reexport-target",
               "path": "test/configCases/inner-graph/cross-module-pure-reexport-target",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/cross-module-pure-reexport-target",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-reexport-target",
               "normalization": "not-normalized"
             },
             {
@@ -25785,7 +25793,7 @@
               "name": "default-pure-expression",
               "path": "test/configCases/inner-graph/default-pure-expression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/default-pure-expression",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/default-pure-expression",
               "normalization": "not-normalized"
             },
             {
@@ -25793,7 +25801,7 @@
               "name": "defaultArrow",
               "path": "test/configCases/inner-graph/defaultArrow",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultArrow",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultArrow",
               "normalization": "not-normalized"
             },
             {
@@ -25801,7 +25809,7 @@
               "name": "defaultClass",
               "path": "test/configCases/inner-graph/defaultClass",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultClass",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultClass",
               "normalization": "not-normalized"
             },
             {
@@ -25809,7 +25817,7 @@
               "name": "defaultExpression",
               "path": "test/configCases/inner-graph/defaultExpression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultExpression",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultExpression",
               "normalization": "not-normalized"
             },
             {
@@ -25817,7 +25825,7 @@
               "name": "defaultFunction",
               "path": "test/configCases/inner-graph/defaultFunction",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultFunction",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultFunction",
               "normalization": "not-normalized"
             },
             {
@@ -25825,7 +25833,7 @@
               "name": "defaultFunctionExpression",
               "path": "test/configCases/inner-graph/defaultFunctionExpression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultFunctionExpression",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultFunctionExpression",
               "normalization": "not-normalized"
             },
             {
@@ -25833,7 +25841,7 @@
               "name": "defaultId",
               "path": "test/configCases/inner-graph/defaultId",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultId",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultId",
               "normalization": "not-normalized"
             },
             {
@@ -25841,7 +25849,7 @@
               "name": "defaultNamedFunction",
               "path": "test/configCases/inner-graph/defaultNamedFunction",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultNamedFunction",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultNamedFunction",
               "normalization": "not-normalized"
             },
             {
@@ -25849,7 +25857,7 @@
               "name": "defaultNamedFunctionExpression",
               "path": "test/configCases/inner-graph/defaultNamedFunctionExpression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultNamedFunctionExpression",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultNamedFunctionExpression",
               "normalization": "not-normalized"
             },
             {
@@ -25857,7 +25865,7 @@
               "name": "eval-bailout",
               "path": "test/configCases/inner-graph/eval-bailout",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/eval-bailout",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/eval-bailout",
               "normalization": "not-normalized"
             },
             {
@@ -25865,7 +25873,7 @@
               "name": "export",
               "path": "test/configCases/inner-graph/export",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/export",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/export",
               "normalization": "not-normalized"
             },
             {
@@ -25873,7 +25881,7 @@
               "name": "importAll",
               "path": "test/configCases/inner-graph/importAll",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/importAll",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/importAll",
               "normalization": "not-normalized"
             },
             {
@@ -25881,7 +25889,7 @@
               "name": "impure-symbol",
               "path": "test/configCases/inner-graph/impure-symbol",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/impure-symbol",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/impure-symbol",
               "normalization": "not-normalized"
             },
             {
@@ -25889,7 +25897,7 @@
               "name": "issue-11678",
               "path": "test/configCases/inner-graph/issue-11678",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-11678",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-11678",
               "normalization": "not-normalized"
             },
             {
@@ -25897,7 +25905,7 @@
               "name": "issue-12669",
               "path": "test/configCases/inner-graph/issue-12669",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-12669",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-12669",
               "normalization": "not-normalized"
             },
             {
@@ -25905,7 +25913,7 @@
               "name": "issue-12669-mini",
               "path": "test/configCases/inner-graph/issue-12669-mini",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-12669-mini",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-12669-mini",
               "normalization": "not-normalized"
             },
             {
@@ -25913,7 +25921,7 @@
               "name": "issue-17063",
               "path": "test/configCases/inner-graph/issue-17063",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-17063",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-17063",
               "normalization": "not-normalized"
             },
             {
@@ -25921,7 +25929,7 @@
               "name": "issue-17565",
               "path": "test/configCases/inner-graph/issue-17565",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-17565",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-17565",
               "normalization": "not-normalized"
             },
             {
@@ -25929,7 +25937,7 @@
               "name": "issue-20151",
               "path": "test/configCases/inner-graph/issue-20151",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-20151",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-20151",
               "normalization": "not-normalized"
             },
             {
@@ -25937,7 +25945,7 @@
               "name": "localReference",
               "path": "test/configCases/inner-graph/localReference",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/localReference",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/localReference",
               "normalization": "not-normalized"
             },
             {
@@ -25945,7 +25953,7 @@
               "name": "nested",
               "path": "test/configCases/inner-graph/nested",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/nested",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/nested",
               "normalization": "not-normalized"
             },
             {
@@ -25953,7 +25961,7 @@
               "name": "no-side-effects-annotation",
               "path": "test/configCases/inner-graph/no-side-effects-annotation",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/no-side-effects-annotation",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/no-side-effects-annotation",
               "normalization": "not-normalized"
             },
             {
@@ -25961,7 +25969,7 @@
               "name": "pr-18342",
               "path": "test/configCases/inner-graph/pr-18342",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pr-18342",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pr-18342",
               "normalization": "not-normalized"
             },
             {
@@ -25969,7 +25977,7 @@
               "name": "pure",
               "path": "test/configCases/inner-graph/pure",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure",
               "normalization": "not-normalized"
             },
             {
@@ -25977,7 +25985,7 @@
               "name": "pure-expressions",
               "path": "test/configCases/inner-graph/pure-expressions",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-expressions",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions",
               "normalization": "not-normalized"
             },
             {
@@ -25985,7 +25993,7 @@
               "name": "pure-expressions-extended",
               "path": "test/configCases/inner-graph/pure-expressions-extended",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-expressions-extended",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions-extended",
               "normalization": "not-normalized"
             },
             {
@@ -25993,7 +26001,7 @@
               "name": "pure-expressions-object-leak",
               "path": "test/configCases/inner-graph/pure-expressions-object-leak",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-expressions-object-leak",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions-object-leak",
               "normalization": "not-normalized"
             },
             {
@@ -26001,7 +26009,7 @@
               "name": "pure-functions-option",
               "path": "test/configCases/inner-graph/pure-functions-option",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-functions-option",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-functions-option",
               "normalization": "not-normalized"
             },
             {
@@ -26009,7 +26017,7 @@
               "name": "pure-template-literal",
               "path": "test/configCases/inner-graph/pure-template-literal",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-template-literal",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-template-literal",
               "normalization": "not-normalized"
             },
             {
@@ -26017,7 +26025,7 @@
               "name": "ramdaIdentical",
               "path": "test/configCases/inner-graph/ramdaIdentical",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/ramdaIdentical",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/ramdaIdentical",
               "normalization": "not-normalized"
             },
             {
@@ -26025,7 +26033,7 @@
               "name": "specifier",
               "path": "test/configCases/inner-graph/specifier",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/specifier",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/specifier",
               "normalization": "not-normalized"
             },
             {
@@ -26033,7 +26041,7 @@
               "name": "varNotWritten",
               "path": "test/configCases/inner-graph/varNotWritten",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/varNotWritten",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/varNotWritten",
               "normalization": "not-normalized"
             },
             {
@@ -26041,7 +26049,7 @@
               "name": "varWritten",
               "path": "test/configCases/inner-graph/varWritten",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/varWritten",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/varWritten",
               "normalization": "not-normalized"
             }
           ]
@@ -26059,7 +26067,7 @@
               "name": "0-pure-annotation-library",
               "path": "test/configCases/side-effects/0-pure-annotation-library",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/0-pure-annotation-library",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/0-pure-annotation-library",
               "normalization": "not-normalized"
             },
             {
@@ -26067,7 +26075,7 @@
               "name": "1-pure-annotation-consumer",
               "path": "test/configCases/side-effects/1-pure-annotation-consumer",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/1-pure-annotation-consumer",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/1-pure-annotation-consumer",
               "normalization": "not-normalized"
             },
             {
@@ -26075,7 +26083,7 @@
               "name": "asset-module",
               "path": "test/configCases/side-effects/asset-module",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/asset-module",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/asset-module",
               "normalization": "not-normalized"
             },
             {
@@ -26083,7 +26091,7 @@
               "name": "cache-optimization-bailout",
               "path": "test/configCases/side-effects/cache-optimization-bailout",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/cache-optimization-bailout",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/cache-optimization-bailout",
               "normalization": "not-normalized"
             },
             {
@@ -26091,7 +26099,7 @@
               "name": "deep-import-chain",
               "path": "test/configCases/side-effects/deep-import-chain",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/deep-import-chain",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/deep-import-chain",
               "normalization": "not-normalized"
             },
             {
@@ -26099,7 +26107,7 @@
               "name": "issue-13063",
               "path": "test/configCases/side-effects/issue-13063",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/issue-13063",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/issue-13063",
               "normalization": "not-normalized"
             },
             {
@@ -26107,7 +26115,7 @@
               "name": "issue-21869",
               "path": "test/configCases/side-effects/issue-21869",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/issue-21869",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/issue-21869",
               "normalization": "not-normalized"
             },
             {
@@ -26115,7 +26123,7 @@
               "name": "lazy-barrel-exports-presence-warn",
               "path": "test/configCases/side-effects/lazy-barrel-exports-presence-warn",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-exports-presence-warn",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-exports-presence-warn",
               "normalization": "not-normalized"
             },
             {
@@ -26123,7 +26131,7 @@
               "name": "lazy-barrel-missing-specifier",
               "path": "test/configCases/side-effects/lazy-barrel-missing-specifier",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-missing-specifier",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-missing-specifier",
               "normalization": "not-normalized"
             },
             {
@@ -26131,7 +26139,7 @@
               "name": "lazy-barrel-reexport-consumer",
               "path": "test/configCases/side-effects/lazy-barrel-reexport-consumer",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-reexport-consumer",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-reexport-consumer",
               "normalization": "not-normalized"
             },
             {
@@ -26139,7 +26147,7 @@
               "name": "lazy-barrel-requested-names",
               "path": "test/configCases/side-effects/lazy-barrel-requested-names",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-requested-names",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-requested-names",
               "normalization": "not-normalized"
             },
             {
@@ -26147,7 +26155,7 @@
               "name": "lazy-barrel-shared-target",
               "path": "test/configCases/side-effects/lazy-barrel-shared-target",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-shared-target",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-shared-target",
               "normalization": "not-normalized"
             },
             {
@@ -26155,7 +26163,7 @@
               "name": "lazy-barrel-side-effects-disabled",
               "path": "test/configCases/side-effects/lazy-barrel-side-effects-disabled",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-side-effects-disabled",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-side-effects-disabled",
               "normalization": "not-normalized"
             },
             {
@@ -26163,7 +26171,7 @@
               "name": "lazy-barrel-unused-specifier",
               "path": "test/configCases/side-effects/lazy-barrel-unused-specifier",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-unused-specifier",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-unused-specifier",
               "normalization": "not-normalized"
             },
             {
@@ -26171,7 +26179,7 @@
               "name": "nested-package-json-sideEffects",
               "path": "test/configCases/side-effects/nested-package-json-sideEffects",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/nested-package-json-sideEffects",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects",
               "normalization": "not-normalized"
             },
             {
@@ -26179,7 +26187,7 @@
               "name": "nested-package-json-sideEffects-outside-context",
               "path": "test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
               "normalization": "not-normalized"
             },
             {
@@ -26187,7 +26195,7 @@
               "name": "nested-package-json-sideEffects-symlinked",
               "path": "test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
               "normalization": "not-normalized"
             },
             {
@@ -26195,7 +26203,7 @@
               "name": "no-side-effects-annotation",
               "path": "test/configCases/side-effects/no-side-effects-annotation",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/no-side-effects-annotation",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/no-side-effects-annotation",
               "normalization": "not-normalized"
             },
             {
@@ -26203,7 +26211,7 @@
               "name": "pure-annotation-minified",
               "path": "test/configCases/side-effects/pure-annotation-minified",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-annotation-minified",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-annotation-minified",
               "normalization": "not-normalized"
             },
             {
@@ -26211,7 +26219,7 @@
               "name": "pure-deferred-import",
               "path": "test/configCases/side-effects/pure-deferred-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-deferred-import",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-deferred-import",
               "normalization": "not-normalized"
             },
             {
@@ -26219,7 +26227,7 @@
               "name": "pure-entry-not-inlined-bailout",
               "path": "test/configCases/side-effects/pure-entry-not-inlined-bailout",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-entry-not-inlined-bailout",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-entry-not-inlined-bailout",
               "normalization": "not-normalized"
             },
             {
@@ -26227,7 +26235,7 @@
               "name": "pure-harmony-import",
               "path": "test/configCases/side-effects/pure-harmony-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-harmony-import",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-harmony-import",
               "normalization": "not-normalized"
             },
             {
@@ -26235,7 +26243,7 @@
               "name": "pure-module-instantiation",
               "path": "test/configCases/side-effects/pure-module-instantiation",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-module-instantiation",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-module-instantiation",
               "normalization": "not-normalized"
             },
             {
@@ -26243,7 +26251,7 @@
               "name": "side-effects-globs",
               "path": "test/configCases/side-effects/side-effects-globs",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/side-effects-globs",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-globs",
               "normalization": "not-normalized"
             },
             {
@@ -26251,7 +26259,7 @@
               "name": "side-effects-override",
               "path": "test/configCases/side-effects/side-effects-override",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/side-effects-override",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-override",
               "normalization": "not-normalized"
             },
             {
@@ -26259,7 +26267,7 @@
               "name": "side-effects-unsorted-modules",
               "path": "test/configCases/side-effects/side-effects-unsorted-modules",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/side-effects-unsorted-modules",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-unsorted-modules",
               "normalization": "not-normalized"
             },
             {
@@ -26267,7 +26275,7 @@
               "name": "side-effects-values",
               "path": "test/configCases/side-effects/side-effects-values",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/side-effects-values",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-values",
               "normalization": "not-normalized"
             },
             {
@@ -26275,7 +26283,7 @@
               "name": "star-reexport-fan-out-skip",
               "path": "test/configCases/side-effects/star-reexport-fan-out-skip",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/star-reexport-fan-out-skip",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-fan-out-skip",
               "normalization": "not-normalized"
             },
             {
@@ -26283,7 +26291,7 @@
               "name": "star-reexport-passthrough-skip",
               "path": "test/configCases/side-effects/star-reexport-passthrough-skip",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/star-reexport-passthrough-skip",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip",
               "normalization": "not-normalized"
             },
             {
@@ -26291,7 +26299,7 @@
               "name": "star-reexport-passthrough-skip-mixed",
               "path": "test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
               "normalization": "not-normalized"
             },
             {
@@ -26299,7 +26307,7 @@
               "name": "star-reexport-passthrough-skip-multi",
               "path": "test/configCases/side-effects/star-reexport-passthrough-skip-multi",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/star-reexport-passthrough-skip-multi",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip-multi",
               "normalization": "not-normalized"
             },
             {
@@ -26307,7 +26315,7 @@
               "name": "type-reexports",
               "path": "test/configCases/side-effects/type-reexports",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/type-reexports",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/type-reexports",
               "normalization": "not-normalized"
             },
             {
@@ -26315,7 +26323,7 @@
               "name": "url",
               "path": "test/configCases/side-effects/url",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/url",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/url",
               "normalization": "not-normalized"
             }
           ]
@@ -26324,7 +26332,7 @@
           "id": "config-optimization-pipeline",
           "root": "test/configCases/optimization",
           "kind": "child-directories",
-          "count": 30,
+          "count": 37,
           "directCount": 0,
           "negativeCount": 0,
           "entries": [
@@ -26333,7 +26341,7 @@
               "name": "chunk",
               "path": "test/configCases/optimization/chunk",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/chunk",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/chunk",
               "normalization": "not-normalized"
             },
             {
@@ -26341,7 +26349,7 @@
               "name": "default-export-namespace",
               "path": "test/configCases/optimization/default-export-namespace",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/default-export-namespace",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/default-export-namespace",
               "normalization": "not-normalized"
             },
             {
@@ -26349,7 +26357,7 @@
               "name": "depend-on-runtimes",
               "path": "test/configCases/optimization/depend-on-runtimes",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/depend-on-runtimes",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/depend-on-runtimes",
               "normalization": "not-normalized"
             },
             {
@@ -26357,7 +26365,7 @@
               "name": "hashed-module-ids",
               "path": "test/configCases/optimization/hashed-module-ids",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/hashed-module-ids",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/hashed-module-ids",
               "normalization": "not-normalized"
             },
             {
@@ -26365,7 +26373,7 @@
               "name": "issue-19184",
               "path": "test/configCases/optimization/issue-19184",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/issue-19184",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/issue-19184",
               "normalization": "not-normalized"
             },
             {
@@ -26373,7 +26381,7 @@
               "name": "mangled-namespace-default-reexport",
               "path": "test/configCases/optimization/mangled-namespace-default-reexport",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/mangled-namespace-default-reexport",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/mangled-namespace-default-reexport",
               "normalization": "not-normalized"
             },
             {
@@ -26381,7 +26389,23 @@
               "name": "minified-hoisted-export-object",
               "path": "test/configCases/optimization/minified-hoisted-export-object",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minified-hoisted-export-object",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minified-hoisted-export-object",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/minify-assignment-targets",
+              "name": "minify-assignment-targets",
+              "path": "test/configCases/optimization/minify-assignment-targets",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-assignment-targets",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/minify-iife-arguments",
+              "name": "minify-iife-arguments",
+              "path": "test/configCases/optimization/minify-iife-arguments",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-iife-arguments",
               "normalization": "not-normalized"
             },
             {
@@ -26389,7 +26413,47 @@
               "name": "minify-kept-inferred-names",
               "path": "test/configCases/optimization/minify-kept-inferred-names",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minify-kept-inferred-names",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-kept-inferred-names",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/minify-number-constant-semantics",
+              "name": "minify-number-constant-semantics",
+              "path": "test/configCases/optimization/minify-number-constant-semantics",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-number-constant-semantics",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/minify-object-enumeration",
+              "name": "minify-object-enumeration",
+              "path": "test/configCases/optimization/minify-object-enumeration",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-object-enumeration",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/minify-optional-call-semantics",
+              "name": "minify-optional-call-semantics",
+              "path": "test/configCases/optimization/minify-optional-call-semantics",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-optional-call-semantics",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/minify-string-conversions",
+              "name": "minify-string-conversions",
+              "path": "test/configCases/optimization/minify-string-conversions",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-string-conversions",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/minify-traversal-work",
+              "name": "minify-traversal-work",
+              "path": "test/configCases/optimization/minify-traversal-work",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-traversal-work",
               "normalization": "not-normalized"
             },
             {
@@ -26397,7 +26461,7 @@
               "name": "minimize-arguments-parameter",
               "path": "test/configCases/optimization/minimize-arguments-parameter",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-arguments-parameter",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-arguments-parameter",
               "normalization": "not-normalized"
             },
             {
@@ -26405,7 +26469,7 @@
               "name": "minimize-bigint-errors",
               "path": "test/configCases/optimization/minimize-bigint-errors",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-bigint-errors",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-bigint-errors",
               "normalization": "not-normalized"
             },
             {
@@ -26413,7 +26477,7 @@
               "name": "minimize-css-only",
               "path": "test/configCases/optimization/minimize-css-only",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-css-only",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-css-only",
               "normalization": "not-normalized"
             },
             {
@@ -26421,7 +26485,7 @@
               "name": "minimize-html-only",
               "path": "test/configCases/optimization/minimize-html-only",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-html-only",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-html-only",
               "normalization": "not-normalized"
             },
             {
@@ -26429,7 +26493,7 @@
               "name": "minimize-javascript-apply-holes",
               "path": "test/configCases/optimization/minimize-javascript-apply-holes",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-javascript-apply-holes",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-javascript-apply-holes",
               "normalization": "not-normalized"
             },
             {
@@ -26437,7 +26501,7 @@
               "name": "minimize-javascript-future-defaults",
               "path": "test/configCases/optimization/minimize-javascript-future-defaults",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-javascript-future-defaults",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-javascript-future-defaults",
               "normalization": "not-normalized"
             },
             {
@@ -26445,7 +26509,7 @@
               "name": "minimize-javascript-only",
               "path": "test/configCases/optimization/minimize-javascript-only",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-javascript-only",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-javascript-only",
               "normalization": "not-normalized"
             },
             {
@@ -26453,7 +26517,7 @@
               "name": "minimize-javascript-options",
               "path": "test/configCases/optimization/minimize-javascript-options",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-javascript-options",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-javascript-options",
               "normalization": "not-normalized"
             },
             {
@@ -26461,7 +26525,7 @@
               "name": "minimize-json",
               "path": "test/configCases/optimization/minimize-json",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-json",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-json",
               "normalization": "not-normalized"
             },
             {
@@ -26469,7 +26533,7 @@
               "name": "minimize-module-name-cache",
               "path": "test/configCases/optimization/minimize-module-name-cache",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-module-name-cache",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-module-name-cache",
               "normalization": "not-normalized"
             },
             {
@@ -26477,7 +26541,7 @@
               "name": "minimize-new-target",
               "path": "test/configCases/optimization/minimize-new-target",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-new-target",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-new-target",
               "normalization": "not-normalized"
             },
             {
@@ -26485,7 +26549,7 @@
               "name": "minimize-nothing",
               "path": "test/configCases/optimization/minimize-nothing",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-nothing",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-nothing",
               "normalization": "not-normalized"
             },
             {
@@ -26493,7 +26557,7 @@
               "name": "minimize-resolved-boolean",
               "path": "test/configCases/optimization/minimize-resolved-boolean",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-resolved-boolean",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-resolved-boolean",
               "normalization": "not-normalized"
             },
             {
@@ -26501,7 +26565,7 @@
               "name": "minimize-svg-data-url",
               "path": "test/configCases/optimization/minimize-svg-data-url",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-svg-data-url",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-svg-data-url",
               "normalization": "not-normalized"
             },
             {
@@ -26509,7 +26573,7 @@
               "name": "minimize-xml",
               "path": "test/configCases/optimization/minimize-xml",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimize-xml",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-xml",
               "normalization": "not-normalized"
             },
             {
@@ -26517,7 +26581,7 @@
               "name": "minimizer",
               "path": "test/configCases/optimization/minimizer",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/minimizer",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimizer",
               "normalization": "not-normalized"
             },
             {
@@ -26525,7 +26589,7 @@
               "name": "named-modules",
               "path": "test/configCases/optimization/named-modules",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/named-modules",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/named-modules",
               "normalization": "not-normalized"
             },
             {
@@ -26533,7 +26597,7 @@
               "name": "nested-exports-info-path",
               "path": "test/configCases/optimization/nested-exports-info-path",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/nested-exports-info-path",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/nested-exports-info-path",
               "normalization": "not-normalized"
             },
             {
@@ -26541,7 +26605,7 @@
               "name": "runtime-specific-used-exports",
               "path": "test/configCases/optimization/runtime-specific-used-exports",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/runtime-specific-used-exports",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/runtime-specific-used-exports",
               "normalization": "not-normalized"
             },
             {
@@ -26549,7 +26613,7 @@
               "name": "runtime-specific-used-exports2",
               "path": "test/configCases/optimization/runtime-specific-used-exports2",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/runtime-specific-used-exports2",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/runtime-specific-used-exports2",
               "normalization": "not-normalized"
             },
             {
@@ -26557,7 +26621,7 @@
               "name": "static-export-bindings",
               "path": "test/configCases/optimization/static-export-bindings",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/static-export-bindings",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/static-export-bindings",
               "normalization": "not-normalized"
             },
             {
@@ -26565,21 +26629,21 @@
               "name": "sync-module-ids-plugin",
               "path": "test/configCases/optimization/sync-module-ids-plugin",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/optimization/sync-module-ids-plugin",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/sync-module-ids-plugin",
               "normalization": "not-normalized"
             }
           ]
         }
       ],
       "release": {
-        "tag": "v5.112.0",
-        "version": "v5.112.0",
-        "commit": "755c49ee70633cb17d98aedb801e8bf44a1fada2",
-        "publishedAt": "2026-10-15T22:22:39Z",
-        "url": "https://github.com/webpack/webpack/releases/tag/v5.112.0"
+        "tag": "v5.112.2",
+        "version": "v5.112.2",
+        "commit": "e95a7f2764281318c038e9384371797dfef0e48a",
+        "publishedAt": "2026-10-23T12:13:00Z",
+        "url": "https://github.com/webpack/webpack/releases/tag/v5.112.2"
       },
-      "count": 150,
-      "directCount": 120,
+      "count": 158,
+      "directCount": 121,
       "negativeCount": 0
     },
     {

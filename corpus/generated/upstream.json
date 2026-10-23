@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T21:24:48.694Z",
-  "inventoryGeneratedAt": "2026-10-22T21:24:41.587Z",
+  "generatedAt": "2026-10-23T21:16:26.619Z",
+  "inventoryGeneratedAt": "2026-10-23T21:16:19.593Z",
   "definition": "Deduplicated executable corpus generated from every configured upstream tree-shaking suite. Exact upstream paths remain attached as provenance.",
   "sourceCoverage": {
     "esbuild": {
@@ -35,8 +35,8 @@
       "negativeMapped": 0
     },
     "webpack": {
-      "direct": 120,
-      "mapped": 120,
+      "direct": 121,
+      "mapped": 121,
       "negative": 0,
       "negativeMapped": 0
     },
@@ -53,7 +53,7 @@
       "negativeMapped": 0
     }
   },
-  "count": 1215,
+  "count": 1216,
   "cases": [
     {
       "id": "upstream/esbuild/dce-ignore-annotations",
@@ -1944,7 +1944,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-functions-option",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-functions-option",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-functions-option",
           "upstreamStatus": "active"
         }
       ],
@@ -6015,7 +6015,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/class",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/class",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/class",
           "upstreamStatus": "active"
         }
       ],
@@ -6071,7 +6071,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultClass",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultClass",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultClass",
           "upstreamStatus": "active"
         }
       ],
@@ -6125,7 +6125,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/class-dynamic-props",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/inner-graph/class-dynamic-props",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/class-dynamic-props",
           "upstreamStatus": "active"
         }
       ],
@@ -6187,7 +6187,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/extend-class",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/inner-graph/extend-class",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/extend-class",
           "upstreamStatus": "active"
         }
       ],
@@ -6249,7 +6249,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/extend-class2",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/inner-graph/extend-class2",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/extend-class2",
           "upstreamStatus": "active"
         }
       ],
@@ -10054,7 +10054,7 @@
           "bundler": "turbopack",
           "suite": "cjs-remove-unused-exports",
           "caseId": "cjs-remove-unused-exports/named-import",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/named-import",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/named-import",
           "upstreamStatus": "active"
         }
       ],
@@ -10103,7 +10103,7 @@
           "bundler": "turbopack",
           "suite": "cjs-remove-unused-exports",
           "caseId": "cjs-remove-unused-exports/require-binding",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-binding",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-binding",
           "upstreamStatus": "active"
         }
       ],
@@ -10152,7 +10152,7 @@
           "bundler": "turbopack",
           "suite": "cjs-remove-unused-exports",
           "caseId": "cjs-remove-unused-exports/require-narrow",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-narrow",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-exports/require-narrow",
           "upstreamStatus": "active"
         }
       ],
@@ -10201,7 +10201,7 @@
           "bundler": "turbopack",
           "suite": "cjs-remove-unused-imports",
           "caseId": "cjs-remove-unused-imports/sibling-declarator",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/sibling-declarator",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/sibling-declarator",
           "upstreamStatus": "active"
         }
       ],
@@ -10249,7 +10249,7 @@
           "bundler": "turbopack",
           "suite": "cjs-remove-unused-imports",
           "caseId": "cjs-remove-unused-imports/side-effect-require",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/side-effect-require",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/cjs-remove-unused-imports/side-effect-require",
           "upstreamStatus": "active"
         }
       ],
@@ -10310,7 +10310,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/bailouts",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/bailouts",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/bailouts",
           "upstreamStatus": "active"
         }
       ],
@@ -10358,7 +10358,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/cjs-to-esm",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/cjs-to-esm",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/cjs-to-esm",
           "upstreamStatus": "active"
         }
       ],
@@ -10406,7 +10406,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/esModule-getter",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esModule-getter",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esModule-getter",
           "upstreamStatus": "active"
         }
       ],
@@ -10454,7 +10454,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/esm-to-cjs",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esm-to-cjs",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/esm-to-cjs",
           "upstreamStatus": "active"
         }
       ],
@@ -10519,7 +10519,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/exports",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/exports",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/exports",
           "upstreamStatus": "active"
         }
       ],
@@ -10567,7 +10567,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/importing",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/importing",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/importing",
           "upstreamStatus": "active"
         }
       ],
@@ -10616,7 +10616,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/mutate",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/mutate",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/mutate",
           "upstreamStatus": "active"
         }
       ],
@@ -10668,7 +10668,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/namespace",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/namespace",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/namespace",
           "upstreamStatus": "active"
         }
       ],
@@ -10716,7 +10716,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/non-root-this",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/non-root-this",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/non-root-this",
           "upstreamStatus": "active"
         }
       ],
@@ -10764,7 +10764,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/object-define-property-replace",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/object-define-property-replace",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/object-define-property-replace",
           "upstreamStatus": "active"
         }
       ],
@@ -10813,7 +10813,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/objects",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/objects",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/objects",
           "upstreamStatus": "active"
         }
       ],
@@ -10862,7 +10862,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/parsing",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/parsing",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/parsing",
           "upstreamStatus": "active"
         }
       ],
@@ -10923,7 +10923,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexport-forwarding",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding",
           "upstreamStatus": "active"
         }
       ],
@@ -10983,7 +10983,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexport-forwarding-disabled",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-disabled",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-disabled",
           "upstreamStatus": "active"
         }
       ],
@@ -11032,7 +11032,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexport-forwarding-esm-consumer",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-esm-consumer",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-esm-consumer",
           "upstreamStatus": "active"
         }
       ],
@@ -11102,7 +11102,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexport-forwarding-nested-runtime",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-nested-runtime",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-nested-runtime",
           "upstreamStatus": "active"
         }
       ],
@@ -11162,7 +11162,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexport-forwarding-runtime",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-runtime",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-runtime",
           "upstreamStatus": "active"
         }
       ],
@@ -11213,7 +11213,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexport-forwarding-syntax",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-syntax",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-forwarding-syntax",
           "upstreamStatus": "active"
         }
       ],
@@ -11275,7 +11275,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexport-require-binding",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-binding",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-binding",
           "upstreamStatus": "active"
         }
       ],
@@ -11335,7 +11335,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexport-require-json",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-json",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexport-require-json",
           "upstreamStatus": "active"
         }
       ],
@@ -11395,7 +11395,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexports",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -11456,7 +11456,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/reexports-define-property",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports-define-property",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/reexports-define-property",
           "upstreamStatus": "active"
         }
       ],
@@ -11507,7 +11507,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/require-destructuring",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-destructuring",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-destructuring",
           "upstreamStatus": "active"
         }
       ],
@@ -11566,7 +11566,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/require-member-access",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access",
           "upstreamStatus": "active"
         }
       ],
@@ -11624,7 +11624,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/require-member-access-deferred",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access-deferred",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/require-member-access-deferred",
           "upstreamStatus": "active"
         }
       ],
@@ -11691,7 +11691,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/this-in-exported-function",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function",
           "upstreamStatus": "active"
         }
       ],
@@ -11751,7 +11751,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/this-in-exported-function-modern",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function-modern",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/this-in-exported-function-modern",
           "upstreamStatus": "active"
         }
       ],
@@ -11810,7 +11810,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/transpiled",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/transpiled",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/transpiled",
           "upstreamStatus": "active"
         }
       ],
@@ -11858,7 +11858,7 @@
           "bundler": "turbopack",
           "suite": "webpack-cjs-port",
           "caseId": "webpack-cjs-port/weird-names",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/weird-names",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/webpack/cjs-tree-shaking/weird-names",
           "upstreamStatus": "active"
         }
       ],
@@ -12043,7 +12043,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/commonjs-exports",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/commonjs-exports",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/commonjs-exports",
           "upstreamStatus": "active"
         }
       ],
@@ -12100,7 +12100,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/mutate",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/mutate",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/mutate",
           "upstreamStatus": "active"
         }
       ],
@@ -12152,7 +12152,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal",
           "upstreamStatus": "active"
         }
       ],
@@ -12209,7 +12209,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-accessors",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-accessors",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-accessors",
           "upstreamStatus": "active"
         }
       ],
@@ -12266,7 +12266,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-async-method",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-async-method",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-async-method",
           "upstreamStatus": "active"
         }
       ],
@@ -12326,7 +12326,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-bailout",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-bailout",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -12383,7 +12383,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-esmodule",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-esmodule",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-esmodule",
           "upstreamStatus": "active"
         }
       ],
@@ -12441,7 +12441,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-nested-require",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-nested-require",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-nested-require",
           "upstreamStatus": "active"
         }
       ],
@@ -12499,7 +12499,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/object-literal-nested-require-kept",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
           "upstreamStatus": "active"
         }
       ],
@@ -12562,7 +12562,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/reexport-require-binding",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/reexport-require-binding",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/reexport-require-binding",
           "upstreamStatus": "active"
         }
       ],
@@ -12623,7 +12623,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/remove-unused-requires",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/remove-unused-requires",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/remove-unused-requires",
           "upstreamStatus": "active"
         }
       ],
@@ -12687,7 +12687,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/require-destructuring",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/require-destructuring",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-destructuring",
           "upstreamStatus": "active"
         }
       ],
@@ -12746,7 +12746,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/require-member-access",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/require-member-access",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-member-access",
           "upstreamStatus": "active"
         }
       ],
@@ -12804,7 +12804,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/require-member-access-deferred",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/require-member-access-deferred",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-member-access-deferred",
           "upstreamStatus": "active"
         }
       ],
@@ -12872,7 +12872,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/this-in-exported-function",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/this-in-exported-function",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/this-in-exported-function",
           "upstreamStatus": "active"
         }
       ],
@@ -12932,7 +12932,7 @@
           "bundler": "webpack",
           "suite": "cjs-tree-shaking",
           "caseId": "cjs-tree-shaking/this-in-exported-function-modern",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/cjs-tree-shaking/this-in-exported-function-modern",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/this-in-exported-function-modern",
           "upstreamStatus": "active"
         }
       ],
@@ -12990,7 +12990,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/drop-unused-require-edge-cases",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
           "upstreamStatus": "active"
         }
       ],
@@ -13047,7 +13047,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/object-literal-bailout-module-library",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
           "upstreamStatus": "active"
         }
       ],
@@ -13095,7 +13095,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/object-literal-local-alias",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/object-literal-local-alias",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-local-alias",
           "upstreamStatus": "active"
         }
       ],
@@ -13143,7 +13143,62 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/object-literal-no-spread",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/object-literal-no-spread",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-no-spread",
+          "upstreamStatus": "active"
+        }
+      ],
+      "portabilityIssues": [],
+      "unsupportedBundlers": [],
+      "buildOptions": {
+        "external": []
+      }
+    },
+    {
+      "id": "upstream/webpack/config-cjs-tree-shaking-reexport-namespace-self-reference",
+      "title": "reexport-namespace-self-reference",
+      "category": "commonjs",
+      "description": "Imported from webpack/config-cjs-tree-shaking.",
+      "module": "esm",
+      "entries": [
+        "index.js"
+      ],
+      "entry": "index.js",
+      "files": {
+        "deep/inner.cjs": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Signature = void 0;\nexports.Signature = require(\"./signature.cjs\");\n",
+        "deep/outer.cjs": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Inner = void 0;\nexports.Inner = require(\"./inner.cjs\");\n",
+        "deep/signature.cjs": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.magic = void 0;\nexports.wrap = wrap;\nconst version = require(\"../version.cjs\");\nexports.magic = \"deep\";\nfunction wrap(value) {\n\treturn `${value}:${exports.magic}:${version.version}`;\n}\n",
+        "effectful/lib.cjs": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Signature = void 0;\nexports.Signature = require(\"./signature.cjs\");\n",
+        "effectful/signature.cjs": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.magic = void 0;\nexports.wrap = wrap;\nconst version = require(\"../version.cjs\");\nexports.magic = \"effectful\";\nfunction wrap(value) {\n\treturn `${value}:${exports.magic}:${version.version}`;\n}\n",
+        "index.js": "const lib = require(\"./lib.cjs\");\n\nit(\"marks the self-references of a module used through a namespace re-export\", () => {\n\texpect(lib.Signature.wrap(\"sig\")).toBe(\"sig:magic:1\");\n});\n\nit(\"keeps the re-export's own __esModule marker\", () => {\n\texpect(lib.Signature.__esModule).toBe(true);\n});\n\nit(\"follows a namespace re-export of a namespace re-export\", () => {\n\texpect(require(\"./deep/outer.cjs\").Inner.Signature.wrap(\"sig\")).toBe(\n\t\t\"sig:deep:1\"\n\t);\n});\n\nit(\"marks the self-references of a module with side effects\", () => {\n\texpect(require(\"./effectful/lib.cjs\").Signature.wrap(\"sig\")).toBe(\n\t\t\"sig:effectful:1\"\n\t);\n});\n",
+        "lib.cjs": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Signature = void 0;\nexports.Signature = require(\"./signature.cjs\");\n",
+        "signature.cjs": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.magic = void 0;\nexports.wrap = wrap;\nconst version = require(\"./version.cjs\");\nexports.magic = \"magic\";\nfunction wrap(value) {\n\treturn `${value}:${exports.magic}:${version.version}`;\n}\n",
+        "version.cjs": "\"use strict\";\nexports.version = 1;\n"
+      },
+      "execution": {
+        "kind": "test-harness",
+        "runtime": true
+      },
+      "expect": {
+        "value": {
+          "passed": true
+        },
+        "absent": [],
+        "present": []
+      },
+      "oracle": {
+        "kind": "explicit-markers",
+        "absent": [],
+        "present": [],
+        "stringMarkers": [],
+        "upstreamExpected": false,
+        "runtimeHarness": true
+      },
+      "provenance": [
+        {
+          "bundler": "webpack",
+          "suite": "config-cjs-tree-shaking",
+          "caseId": "config-cjs-tree-shaking/reexport-namespace-self-reference",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/reexport-namespace-self-reference",
           "upstreamStatus": "active"
         }
       ],
@@ -13241,7 +13296,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/reexport-require-binding-matrix",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/reexport-require-binding-matrix",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/reexport-require-binding-matrix",
           "upstreamStatus": "active"
         }
       ],
@@ -13304,7 +13359,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/require-member-access-trimming",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/require-member-access-trimming",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/require-member-access-trimming",
           "upstreamStatus": "active"
         }
       ],
@@ -13364,7 +13419,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
           "upstreamStatus": "active"
         }
       ],
@@ -13421,7 +13476,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effect-free-dynamic-import",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
           "upstreamStatus": "active"
         }
       ],
@@ -13479,7 +13534,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
           "upstreamStatus": "active"
         }
       ],
@@ -13537,7 +13592,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/side-effect-free-unused-export-require",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
           "upstreamStatus": "active"
         }
       ],
@@ -13595,7 +13650,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/strict-this-context-on-require",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/strict-this-context-on-require",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/strict-this-context-on-require",
           "upstreamStatus": "active"
         }
       ],
@@ -13653,7 +13708,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-eager-reexport-keeps-effect",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
           "upstreamStatus": "active"
         }
       ],
@@ -13711,7 +13766,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-getter-reexport-drop",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -13769,7 +13824,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-reexport-concatenated-drop",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -13827,7 +13882,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-reexport-forms-drop",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -13886,7 +13941,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -13946,7 +14001,7 @@
           "bundler": "webpack",
           "suite": "config-cjs-tree-shaking",
           "caseId": "config-cjs-tree-shaking/unused-reexport-require-binding-drop",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/cjs-tree-shaking/unused-reexport-require-binding-drop",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-require-binding-drop",
           "upstreamStatus": "active"
         }
       ],
@@ -17783,7 +17838,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/altaskitButton",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/altaskitButton",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/altaskitButton",
           "upstreamStatus": "active"
         }
       ],
@@ -17850,7 +17905,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/basic",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/basic",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/basic",
           "upstreamStatus": "active"
         }
       ],
@@ -17906,7 +17961,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/blockScopes",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/blockScopes",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/blockScopes",
           "upstreamStatus": "active"
         }
       ],
@@ -17962,7 +18017,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/const",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/const",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/const",
           "upstreamStatus": "active"
         }
       ],
@@ -18014,7 +18069,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/cross-module-pure-normal",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/cross-module-pure-normal",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-normal",
           "upstreamStatus": "active"
         }
       ],
@@ -18068,7 +18123,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultArrow",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultArrow",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultArrow",
           "upstreamStatus": "active"
         }
       ],
@@ -18117,7 +18172,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultExpression",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultExpression",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -18166,7 +18221,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultId",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultId",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultId",
           "upstreamStatus": "active"
         }
       ],
@@ -18215,7 +18270,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/default-pure-expression",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/default-pure-expression",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/default-pure-expression",
           "upstreamStatus": "active"
         }
       ],
@@ -18264,7 +18319,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/eval-bailout",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/eval-bailout",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/eval-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -18320,7 +18375,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/impure-symbol",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/impure-symbol",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/impure-symbol",
           "upstreamStatus": "active"
         }
       ],
@@ -18381,7 +18436,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-11678",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-11678",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-11678",
           "upstreamStatus": "active"
         }
       ],
@@ -18479,7 +18534,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-12669",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-12669",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-12669",
           "upstreamStatus": "active"
         }
       ],
@@ -18539,7 +18594,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-12669-mini",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-12669-mini",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-12669-mini",
           "upstreamStatus": "active"
         }
       ],
@@ -18595,7 +18650,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-17063",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-17063",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-17063",
           "upstreamStatus": "active"
         }
       ],
@@ -18651,7 +18706,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-17565",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-17565",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-17565",
           "upstreamStatus": "active"
         }
       ],
@@ -18709,7 +18764,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/issue-20151",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/issue-20151",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-20151",
           "upstreamStatus": "active"
         }
       ],
@@ -18758,7 +18813,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/localReference",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/localReference",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/localReference",
           "upstreamStatus": "active"
         }
       ],
@@ -18814,7 +18869,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/nested",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/nested",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/nested",
           "upstreamStatus": "active"
         }
       ],
@@ -18875,7 +18930,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pr-18342",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pr-18342",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pr-18342",
           "upstreamStatus": "active"
         }
       ],
@@ -18920,7 +18975,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure",
           "upstreamStatus": "active"
         }
       ],
@@ -18976,7 +19031,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-expressions",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-expressions",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions",
           "upstreamStatus": "active"
         }
       ],
@@ -19025,7 +19080,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-expressions-extended",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-expressions-extended",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions-extended",
           "upstreamStatus": "active"
         }
       ],
@@ -19074,7 +19129,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/ramdaIdentical",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/ramdaIdentical",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/ramdaIdentical",
           "upstreamStatus": "active"
         }
       ],
@@ -19130,7 +19185,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/specifier",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/specifier",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/specifier",
           "upstreamStatus": "active"
         }
       ],
@@ -19186,7 +19241,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/varNotWritten",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/varNotWritten",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/varNotWritten",
           "upstreamStatus": "active"
         }
       ],
@@ -19235,7 +19290,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/varWritten",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/varWritten",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/varWritten",
           "upstreamStatus": "active"
         }
       ],
@@ -19340,7 +19395,7 @@
           "bundler": "webpack",
           "suite": "inner-graph",
           "caseId": "inner-graph/inner-graph-cases",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/inner-graph/inner-graph-cases",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/inner-graph-cases",
           "upstreamStatus": "active"
         }
       ],
@@ -20881,7 +20936,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/dynamic-import",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/dynamic-import",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/dynamic-import",
           "upstreamStatus": "active"
         }
       ],
@@ -20940,7 +20995,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/split-chunks",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks",
           "upstreamStatus": "active"
         }
       ],
@@ -20991,7 +21046,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/split-chunks-shared-state",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks-shared-state",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/split-chunks-shared-state",
           "upstreamStatus": "active"
         }
       ],
@@ -26483,7 +26538,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/basic",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/basic",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/basic",
           "upstreamStatus": "active"
         }
       ],
@@ -26532,7 +26587,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/circular-unused",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-unused",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-unused",
           "upstreamStatus": "active"
         }
       ],
@@ -26581,7 +26636,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/circular-used",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-used",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/circular-used",
           "upstreamStatus": "active"
         }
       ],
@@ -26633,7 +26688,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/import-star",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/import-star",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/import-star",
           "upstreamStatus": "active"
         }
       ],
@@ -26682,7 +26737,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/member-call",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/member-call",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/member-call",
           "upstreamStatus": "active"
         }
       ],
@@ -26732,7 +26787,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/rename",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/rename",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/rename",
           "upstreamStatus": "active"
         }
       ],
@@ -26780,7 +26835,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/simple-used",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/simple-used",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/simple-used",
           "upstreamStatus": "active"
         }
       ],
@@ -26832,7 +26887,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/transitive-unused",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/transitive-unused",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/transitive-unused",
           "upstreamStatus": "active"
         }
       ],
@@ -26877,7 +26932,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/combined-export",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/combined-export",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/combined-export",
           "upstreamStatus": "active"
         }
       ],
@@ -26922,7 +26977,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/export-named",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/export-named",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/export-named",
           "upstreamStatus": "active"
         }
       ],
@@ -26978,7 +27033,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/import-with-clause",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/import-with-clause",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/import-with-clause",
           "upstreamStatus": "active"
         }
       ],
@@ -27034,7 +27089,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/multi-export",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/multi-export",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/multi-export",
           "upstreamStatus": "active"
         }
       ],
@@ -27097,7 +27152,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/namespace-value-reexport",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport",
           "upstreamStatus": "active"
         }
       ],
@@ -27155,7 +27210,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/namespace-value-reexport-direct",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-direct",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-direct",
           "upstreamStatus": "active"
         }
       ],
@@ -27217,7 +27272,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/namespace-value-reexport-module-fragments",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-module-fragments",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/namespace-value-reexport-module-fragments",
           "upstreamStatus": "active"
         }
       ],
@@ -27266,7 +27321,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/star-reexport-filtering",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-filtering",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-filtering",
           "upstreamStatus": "active"
         }
       ],
@@ -27324,7 +27379,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/star-reexport-forwarding",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-forwarding",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexport-forwarding",
           "upstreamStatus": "active"
         }
       ],
@@ -27381,7 +27436,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/cross-module-pure-namespace-import",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/cross-module-pure-namespace-import",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-namespace-import",
           "upstreamStatus": "active"
         }
       ],
@@ -27440,7 +27495,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/cross-module-pure-reexport-target",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/cross-module-pure-reexport-target",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-reexport-target",
           "upstreamStatus": "active"
         }
       ],
@@ -27494,7 +27549,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/export",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/export",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/export",
           "upstreamStatus": "active"
         }
       ],
@@ -27550,7 +27605,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/importAll",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/importAll",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/importAll",
           "upstreamStatus": "active"
         }
       ],
@@ -31878,7 +31933,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultFunction",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultFunction",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultFunction",
           "upstreamStatus": "active"
         }
       ],
@@ -31927,7 +31982,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultFunctionExpression",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultFunctionExpression",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultFunctionExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -31976,7 +32031,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultNamedFunction",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultNamedFunction",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultNamedFunction",
           "upstreamStatus": "active"
         }
       ],
@@ -32025,7 +32080,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/defaultNamedFunctionExpression",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/defaultNamedFunctionExpression",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultNamedFunctionExpression",
           "upstreamStatus": "active"
         }
       ],
@@ -36702,7 +36757,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-expressions-object-leak",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-expressions-object-leak",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions-object-leak",
           "upstreamStatus": "active"
         }
       ],
@@ -52812,7 +52867,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/side-effect-free-top-level",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-free-top-level",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-free-top-level",
           "upstreamStatus": "active"
         }
       ],
@@ -52861,7 +52916,7 @@
           "bundler": "turbopack",
           "suite": "remove-unused-imports",
           "caseId": "remove-unused-imports/side-effect-only-import",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-only-import",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/remove-unused-imports/side-effect-only-import",
           "upstreamStatus": "active"
         }
       ],
@@ -52908,7 +52963,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/assignment",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/assignment",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/assignment",
           "upstreamStatus": "active"
         }
       ],
@@ -52959,7 +53014,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/comptime",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/comptime",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/comptime",
           "upstreamStatus": "active"
         }
       ],
@@ -53018,7 +53073,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/cycle",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle",
           "upstreamStatus": "active"
         }
       ],
@@ -53069,7 +53124,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/cycle-order",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle-order",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/cycle-order",
           "upstreamStatus": "active"
         }
       ],
@@ -53119,7 +53174,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/directive",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/directive",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/directive",
           "upstreamStatus": "active"
         }
       ],
@@ -53180,7 +53235,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/follow-keeps-side-effect",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/follow-keeps-side-effect",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/follow-keeps-side-effect",
           "upstreamStatus": "active"
         }
       ],
@@ -53227,7 +53282,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/full-package",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/full-package",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/full-package",
           "upstreamStatus": "active"
         }
       ],
@@ -53287,7 +53342,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/ieee754",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/ieee754",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/ieee754",
           "upstreamStatus": "active"
         }
       ],
@@ -53337,7 +53392,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/import-star",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/import-star",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/import-star",
           "upstreamStatus": "active"
         }
       ],
@@ -53394,7 +53449,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/local-reexports-side-effect-free",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/local-reexports-side-effect-free",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/local-reexports-side-effect-free",
           "upstreamStatus": "active"
         }
       ],
@@ -53459,7 +53514,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/mui-utils",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/mui-utils",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/mui-utils",
           "upstreamStatus": "active"
         }
       ],
@@ -53506,7 +53561,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/named-reexports-side-effect-free",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/named-reexports-side-effect-free",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/named-reexports-side-effect-free",
           "upstreamStatus": "active"
         }
       ],
@@ -53565,7 +53620,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/namespace-object-identity",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/namespace-object-identity",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/namespace-object-identity",
           "upstreamStatus": "active"
         }
       ],
@@ -53612,7 +53667,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/reexport-side-effects",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/reexport-side-effects",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/reexport-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -53670,7 +53725,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/side-effect-free-packages",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-free-packages",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-free-packages",
           "upstreamStatus": "active"
         }
       ],
@@ -53733,7 +53788,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/side-effect-import",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-import",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effect-import",
           "upstreamStatus": "active"
         }
       ],
@@ -53780,7 +53835,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/side-effects-glob",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effects-glob",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/side-effects-glob",
           "upstreamStatus": "active"
         }
       ],
@@ -53838,7 +53893,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/star-reexports-side-effect-free",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effect-free",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effect-free",
           "upstreamStatus": "active"
         }
       ],
@@ -53896,7 +53951,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/star-reexports-side-effects",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effects",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/star-reexports-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -53954,7 +54009,7 @@
           "bundler": "turbopack",
           "suite": "side-effects-optimization",
           "caseId": "side-effects-optimization/tla",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/tla",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/side-effects-optimization/tla",
           "upstreamStatus": "active"
         }
       ],
@@ -54010,7 +54065,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/shared-and-side-effects",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-and-side-effects",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-and-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -54055,7 +54110,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/follow-keeps-side-effect",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/follow-keeps-side-effect",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/follow-keeps-side-effect",
           "upstreamStatus": "active"
         }
       ],
@@ -54123,7 +54178,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/ignore-side-effect-free-module",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/ignore-side-effect-free-module",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/ignore-side-effect-free-module",
           "upstreamStatus": "active"
         }
       ],
@@ -54178,7 +54233,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/local-reexports-side-effect-free",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/local-reexports-side-effect-free",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/local-reexports-side-effect-free",
           "upstreamStatus": "active"
         }
       ],
@@ -54234,7 +54289,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/named-reexports-side-effect-free",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/named-reexports-side-effect-free",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/named-reexports-side-effect-free",
           "upstreamStatus": "active"
         }
       ],
@@ -54290,7 +54345,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/reexport-side-effects",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/reexport-side-effects",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/reexport-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -54346,7 +54401,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/side-effects-glob",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/side-effects-glob",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/side-effects-glob",
           "upstreamStatus": "active"
         }
       ],
@@ -54402,7 +54457,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/star-reexports-side-effect-free",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effect-free",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effect-free",
           "upstreamStatus": "active"
         }
       ],
@@ -54458,7 +54513,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/star-reexports-side-effects",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effects",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/star-reexports-side-effects",
           "upstreamStatus": "active"
         }
       ],
@@ -54514,7 +54569,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/no-side-effects-annotation",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/no-side-effects-annotation",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/no-side-effects-annotation",
           "upstreamStatus": "active"
         }
       ],
@@ -54571,7 +54626,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/0-pure-annotation-library",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/0-pure-annotation-library",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/0-pure-annotation-library",
           "upstreamStatus": "active"
         }
       ],
@@ -54616,7 +54671,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/1-pure-annotation-consumer",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/1-pure-annotation-consumer",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/1-pure-annotation-consumer",
           "upstreamStatus": "active"
         }
       ],
@@ -54668,7 +54723,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/asset-module",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/asset-module",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/asset-module",
           "upstreamStatus": "active"
         }
       ],
@@ -54725,7 +54780,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/cache-optimization-bailout",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/cache-optimization-bailout",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/cache-optimization-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -54772,7 +54827,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/deep-import-chain",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/deep-import-chain",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/deep-import-chain",
           "upstreamStatus": "active"
         }
       ],
@@ -54835,7 +54890,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/issue-13063",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/issue-13063",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/issue-13063",
           "upstreamStatus": "active"
         }
       ],
@@ -54886,7 +54941,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/issue-21869",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/issue-21869",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/issue-21869",
           "upstreamStatus": "active"
         }
       ],
@@ -54940,7 +54995,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-exports-presence-warn",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-exports-presence-warn",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-exports-presence-warn",
           "upstreamStatus": "active"
         }
       ],
@@ -55009,7 +55064,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-missing-specifier",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-missing-specifier",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-missing-specifier",
           "upstreamStatus": "active"
         }
       ],
@@ -55072,7 +55127,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-reexport-consumer",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-reexport-consumer",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-reexport-consumer",
           "upstreamStatus": "active"
         }
       ],
@@ -55147,7 +55202,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-requested-names",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-requested-names",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-requested-names",
           "upstreamStatus": "active"
         }
       ],
@@ -55200,7 +55255,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-shared-target",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-shared-target",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-shared-target",
           "upstreamStatus": "active"
         }
       ],
@@ -55263,7 +55318,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-side-effects-disabled",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-side-effects-disabled",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-side-effects-disabled",
           "upstreamStatus": "active"
         }
       ],
@@ -55338,7 +55393,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/lazy-barrel-unused-specifier",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/lazy-barrel-unused-specifier",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-unused-specifier",
           "upstreamStatus": "active"
         }
       ],
@@ -55436,7 +55491,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/nested-package-json-sideEffects",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/nested-package-json-sideEffects",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects",
           "upstreamStatus": "active"
         }
       ],
@@ -55500,7 +55555,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/nested-package-json-sideEffects-outside-context",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
           "upstreamStatus": "active"
         }
       ],
@@ -55562,7 +55617,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/nested-package-json-sideEffects-symlinked",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
           "upstreamStatus": "active"
         }
       ],
@@ -55622,7 +55677,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/no-side-effects-annotation",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/no-side-effects-annotation",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/no-side-effects-annotation",
           "upstreamStatus": "active"
         }
       ],
@@ -55679,7 +55734,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/pure-annotation-minified",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-annotation-minified",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-annotation-minified",
           "upstreamStatus": "active"
         }
       ],
@@ -55729,7 +55784,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/pure-deferred-import",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-deferred-import",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-deferred-import",
           "upstreamStatus": "active"
         }
       ],
@@ -55777,7 +55832,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/pure-entry-not-inlined-bailout",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-entry-not-inlined-bailout",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-entry-not-inlined-bailout",
           "upstreamStatus": "active"
         }
       ],
@@ -55837,7 +55892,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/pure-harmony-import",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-harmony-import",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-harmony-import",
           "upstreamStatus": "active"
         }
       ],
@@ -55886,7 +55941,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/pure-module-instantiation",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/pure-module-instantiation",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-module-instantiation",
           "upstreamStatus": "active"
         }
       ],
@@ -55955,7 +56010,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-globs",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/side-effects-globs",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-globs",
           "upstreamStatus": "active"
         }
       ],
@@ -56014,7 +56069,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-override",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/side-effects-override",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-override",
           "upstreamStatus": "active"
         }
       ],
@@ -56067,7 +56122,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-unsorted-modules",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/side-effects-unsorted-modules",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-unsorted-modules",
           "upstreamStatus": "active"
         }
       ],
@@ -56126,7 +56181,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/side-effects-values",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/side-effects-values",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-values",
           "upstreamStatus": "active"
         }
       ],
@@ -56181,7 +56236,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/star-reexport-fan-out-skip",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/star-reexport-fan-out-skip",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-fan-out-skip",
           "upstreamStatus": "active"
         }
       ],
@@ -56245,7 +56300,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/star-reexport-passthrough-skip",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/star-reexport-passthrough-skip",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip",
           "upstreamStatus": "active"
         }
       ],
@@ -56309,7 +56364,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/star-reexport-passthrough-skip-mixed",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
           "upstreamStatus": "active"
         }
       ],
@@ -56374,7 +56429,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/star-reexport-passthrough-skip-multi",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/star-reexport-passthrough-skip-multi",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip-multi",
           "upstreamStatus": "active"
         }
       ],
@@ -56436,7 +56491,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/type-reexports",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/type-reexports",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/type-reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -56495,7 +56550,7 @@
           "bundler": "webpack",
           "suite": "config-side-effects",
           "caseId": "config-side-effects/url",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/side-effects/url",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/url",
           "upstreamStatus": "active"
         }
       ],
@@ -56594,7 +56649,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/dynamic-reexports",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/dynamic-reexports",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/dynamic-reexports",
           "upstreamStatus": "active"
         }
       ],
@@ -56654,7 +56709,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-11673",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-11673",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-11673",
           "upstreamStatus": "active"
         }
       ],
@@ -56706,7 +56761,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-12071",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-12071",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12071",
           "upstreamStatus": "active"
         }
       ],
@@ -56759,7 +56814,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-12114",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-12114",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12114",
           "upstreamStatus": "active"
         }
       ],
@@ -56823,7 +56878,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-12570",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-12570",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12570",
           "upstreamStatus": "active"
         }
       ],
@@ -56878,7 +56933,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/issue-12570-second-try",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/issue-12570-second-try",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12570-second-try",
           "upstreamStatus": "active"
         }
       ],
@@ -56929,7 +56984,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/nested-namespace-reexport",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/nested-namespace-reexport",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/nested-namespace-reexport",
           "upstreamStatus": "active"
         }
       ],
@@ -56997,7 +57052,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/side-effects-cases",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/side-effects-cases",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/side-effects-cases",
           "upstreamStatus": "active"
         }
       ],
@@ -57049,7 +57104,7 @@
           "bundler": "webpack",
           "suite": "side-effects",
           "caseId": "side-effects/star-reexport-passthrough",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/cases/side-effects/star-reexport-passthrough",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/star-reexport-passthrough",
           "upstreamStatus": "active"
         }
       ],
@@ -66504,7 +66559,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/1",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/1",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/1",
           "upstreamStatus": "active"
         }
       ],
@@ -66549,7 +66604,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/2",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/2",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/2",
           "upstreamStatus": "active"
         }
       ],
@@ -66605,7 +66660,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/3",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/3",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/3",
           "upstreamStatus": "active"
         }
       ],
@@ -66650,7 +66705,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/amphtml-document",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/amphtml-document",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/amphtml-document",
           "upstreamStatus": "active"
         }
       ],
@@ -66699,7 +66754,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/app-route",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/app-route",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/app-route",
           "upstreamStatus": "active"
         }
       ],
@@ -66758,7 +66813,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/assign-before-decl-fn",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-fn",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-fn",
           "upstreamStatus": "active"
         }
       ],
@@ -66803,7 +66858,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/assign-before-decl-var",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-var",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/assign-before-decl-var",
           "upstreamStatus": "active"
         }
       ],
@@ -66848,7 +66903,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/complex",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/complex",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/complex",
           "upstreamStatus": "active"
         }
       ],
@@ -66893,7 +66948,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/dce",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/dce",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/dce",
           "upstreamStatus": "active"
         }
       ],
@@ -66949,7 +67004,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/effects-1",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/effects-1",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/effects-1",
           "upstreamStatus": "active"
         }
       ],
@@ -66994,7 +67049,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/failed-1",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-1",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-1",
           "upstreamStatus": "active"
         }
       ],
@@ -67039,7 +67094,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/failed-2",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-2",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-2",
           "upstreamStatus": "active"
         }
       ],
@@ -67095,7 +67150,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/failed-3",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-3",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/failed-3",
           "upstreamStatus": "active"
         }
       ],
@@ -67151,7 +67206,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/grouping",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/grouping",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/grouping",
           "upstreamStatus": "active"
         }
       ],
@@ -67196,7 +67251,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/ipc-evaluate",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-evaluate",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-evaluate",
           "upstreamStatus": "active"
         }
       ],
@@ -67252,7 +67307,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/ipc-index",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-index",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/ipc-index",
           "upstreamStatus": "active"
         }
       ],
@@ -67308,7 +67363,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/let-bug-1",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/let-bug-1",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/let-bug-1",
           "upstreamStatus": "active"
         }
       ],
@@ -67353,7 +67408,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/logger",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/logger",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/logger",
           "upstreamStatus": "active"
         }
       ],
@@ -67398,7 +67453,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/mui-sys",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/mui-sys",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/mui-sys",
           "upstreamStatus": "active"
         }
       ],
@@ -67454,7 +67509,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/nanoid",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nanoid",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nanoid",
           "upstreamStatus": "active"
         }
       ],
@@ -67510,7 +67565,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/next-response",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/next-response",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/next-response",
           "upstreamStatus": "active"
         }
       ],
@@ -67566,7 +67621,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/nextjs-tracer",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nextjs-tracer",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/nextjs-tracer",
           "upstreamStatus": "active"
         }
       ],
@@ -67626,7 +67681,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/node-fetch",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-fetch",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-fetch",
           "upstreamStatus": "active"
         }
       ],
@@ -67671,7 +67726,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/node-globals",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-globals",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/node-globals",
           "upstreamStatus": "active"
         }
       ],
@@ -67716,7 +67771,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/otel-core",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/otel-core",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/otel-core",
           "upstreamStatus": "active"
         }
       ],
@@ -67772,7 +67827,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/route-handler",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-handler",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-handler",
           "upstreamStatus": "active"
         }
       ],
@@ -67821,7 +67876,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/route-kind",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-kind",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/route-kind",
           "upstreamStatus": "active"
         }
       ],
@@ -67866,7 +67921,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/shared-2",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-2",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-2",
           "upstreamStatus": "active"
         }
       ],
@@ -67911,7 +67966,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/shared-regression",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-regression",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/shared-regression",
           "upstreamStatus": "active"
         }
       ],
@@ -67956,7 +68011,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/simple",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple",
           "upstreamStatus": "active"
         }
       ],
@@ -68001,7 +68056,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/simple-vars-1",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple-vars-1",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/simple-vars-1",
           "upstreamStatus": "active"
         }
       ],
@@ -68046,7 +68101,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/template-pages",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/template-pages",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/template-pages",
           "upstreamStatus": "active"
         }
       ],
@@ -68114,7 +68169,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/test-config-1",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/test-config-1",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/test-config-1",
           "upstreamStatus": "active"
         }
       ],
@@ -68159,7 +68214,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/tla-1",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/tla-1",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/tla-1",
           "upstreamStatus": "active"
         }
       ],
@@ -68204,7 +68259,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/typeof-1",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/typeof-1",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/typeof-1",
           "upstreamStatus": "active"
         }
       ],
@@ -68264,7 +68319,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaker-analyzer",
           "caseId": "tree-shaker-analyzer/write-order",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/write-order",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-ecmascript/tests/tree-shaker/analyzer/write-order",
           "upstreamStatus": "active"
         }
       ],
@@ -68309,7 +68364,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/comptime",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/comptime",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/comptime",
           "upstreamStatus": "active"
         }
       ],
@@ -68369,7 +68424,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/duplicate-modules",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/duplicate-modules",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/duplicate-modules",
           "upstreamStatus": "active"
         }
       ],
@@ -68414,7 +68469,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/full-package",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/full-package",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/full-package",
           "upstreamStatus": "active"
         }
       ],
@@ -68470,7 +68525,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/mui-utils",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/mui-utils",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/mui-utils",
           "upstreamStatus": "active"
         }
       ],
@@ -68529,7 +68584,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/no-write-access",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/no-write-access",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/no-write-access",
           "upstreamStatus": "active"
         }
       ],
@@ -68574,7 +68629,7 @@
           "bundler": "turbopack",
           "suite": "tree-shaking-execution",
           "caseId": "tree-shaking-execution/tla",
-          "url": "https://github.com/vercel/next.js/tree/2864b1772c37242a9b40ab4d366eb7d368c2a070/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/tla",
+          "url": "https://github.com/vercel/next.js/tree/29bbeab09981148ade186e8599ecdede15abc281/turbopack/crates/turbopack-tests/tests/execution/turbopack/tree-shaking/tla",
           "upstreamStatus": "active"
         }
       ],
@@ -68630,7 +68685,7 @@
           "bundler": "webpack",
           "suite": "config-inner-graph",
           "caseId": "config-inner-graph/pure-template-literal",
-          "url": "https://github.com/webpack/webpack/tree/755c49ee70633cb17d98aedb801e8bf44a1fada2/test/configCases/inner-graph/pure-template-literal",
+          "url": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-template-literal",
           "upstreamStatus": "active"
         }
       ],
