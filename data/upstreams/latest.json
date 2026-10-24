@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T21:16:19.593Z",
+  "generatedAt": "2026-10-24T20:33:19.489Z",
   "definition": {
     "direct": "Explicit DCE/tree-shaking suites or path-selected semantic tests.",
     "pipeline": "Broader suites that exercise the bundler pipeline but are not counted as direct evidence.",
