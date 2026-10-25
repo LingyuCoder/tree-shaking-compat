@@ -1,6 +1,6 @@
 # Latest tree-shaking conformance report
 
-Generated: `2026-10-24T20:42:37.090Z`
+Generated: `2026-10-25T20:49:40.126Z`
 
 This production-only report contains **510 source-calibrated cases**: 469 exact-release upstream fixtures and 41 focused cross-bundler probes. A case enters the matrix only after at least one of its source bundlers passes the same portable oracle. Every reportable case appears exactly once in Table 3.
 
@@ -19,10 +19,10 @@ Each source row contains only cases that pass that source bundler's own baseline
 | Source | Calibrated cases | Rollup | Rolldown | webpack | Rspack | esbuild | Parcel | Bun | Turbopack |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | [rollup](https://github.com/rollup/rollup) | 190 | 190/190 (100.0%) | 94/190 (49.5%) | 129/190 (67.9%) | 127/190 (66.8%) | 58/190 (30.5%) | 136/190 (71.6%) | 60/190 (31.6%) | 45/125 (36.0%) |
-| [rolldown](https://github.com/rolldown/rolldown) | 108 | 94/108 (87.0%) | 108/108 (100.0%) | 96/108 (88.9%) | 98/108 (90.7%) | 90/108 (83.3%) | 87/104 (83.7%) | 85/108 (78.7%) | 61/80 (76.3%) |
-| [webpack](https://github.com/webpack/webpack) | 73 | 40/51 (78.4%) | 39/51 (76.5%) | 73/73 (100.0%) | 57/73 (78.1%) | 36/51 (70.6%) | 26/51 (51.0%) | 34/51 (66.7%) | 41/51 (80.4%) |
-| [rspack](https://github.com/web-infra-dev/rspack) | 143 | 103/126 (81.7%) | 96/126 (76.2%) | 136/143 (95.1%) | 143/143 (100.0%) | 107/126 (84.9%) | 60/126 (47.6%) | 96/126 (76.2%) | 107/125 (85.6%) |
-| [esbuild](https://github.com/evanw/esbuild) | 85 | 69/85 (81.2%) | 78/85 (91.8%) | 75/85 (88.2%) | 76/85 (89.4%) | 85/85 (100.0%) | 69/81 (85.2%) | 73/85 (85.9%) | 47/56 (83.9%) |
+| [rolldown](https://github.com/rolldown/rolldown) | 108 | 94/108 (87.0%) | 108/108 (100.0%) | 96/108 (88.9%) | 98/108 (90.7%) | 90/108 (83.3%) | 88/104 (84.6%) | 85/108 (78.7%) | 61/80 (76.3%) |
+| [webpack](https://github.com/webpack/webpack) | 73 | 40/51 (78.4%) | 39/51 (76.5%) | 73/73 (100.0%) | 57/73 (78.1%) | 36/51 (70.6%) | 27/51 (52.9%) | 34/51 (66.7%) | 41/51 (80.4%) |
+| [rspack](https://github.com/web-infra-dev/rspack) | 143 | 103/126 (81.7%) | 96/126 (76.2%) | 136/143 (95.1%) | 143/143 (100.0%) | 107/126 (84.9%) | 61/126 (48.4%) | 96/126 (76.2%) | 107/125 (85.6%) |
+| [esbuild](https://github.com/evanw/esbuild) | 85 | 69/85 (81.2%) | 78/85 (91.8%) | 75/85 (88.2%) | 76/85 (89.4%) | 85/85 (100.0%) | 70/81 (86.4%) | 73/85 (85.9%) | 47/56 (83.9%) |
 | [parcel](https://github.com/parcel-bundler/parcel) | 19 | 16/19 (84.2%) | 17/19 (89.5%) | 19/19 (100.0%) | 19/19 (100.0%) | 16/19 (84.2%) | 19/19 (100.0%) | 17/19 (89.5%) | 17/19 (89.5%) |
 | [bun](https://github.com/oven-sh/bun) | 78 | 62/78 (79.5%) | 64/78 (82.1%) | 63/78 (80.8%) | 64/78 (82.1%) | 68/78 (87.2%) | 60/74 (81.1%) | 78/78 (100.0%) | 42/54 (77.8%) |
 | [turbopack](https://github.com/vercel/next.js) | 57 | 51/57 (89.5%) | 53/57 (93.0%) | 55/57 (96.5%) | 56/57 (98.2%) | 51/57 (89.5%) | 15/57 (26.3%) | 54/57 (94.7%) | 57/57 (100.0%) |
@@ -35,7 +35,7 @@ Each source row contains only cases that pass that source bundler's own baseline
 | side-effects | 127 | 111/124 (89.5%) | 91/124 (73.4%) | 102/127 (80.3%) | 104/127 (81.9%) | 83/124 (66.9%) | 66/124 (53.2%) | 75/124 (60.5%) | 81/107 (75.7%) |
 | dynamic-import | 13 | 10/13 (76.9%) | 9/13 (69.2%) | 6/13 (46.2%) | 5/13 (38.5%) | 2/13 (15.4%) | 2/13 (15.4%) | 10/13 (76.9%) | 4/13 (30.8%) |
 | commonjs | 91 | 51/72 (70.8%) | 48/72 (66.7%) | 85/91 (93.4%) | 77/91 (84.6%) | 58/72 (80.6%) | 20/72 (27.8%) | 56/72 (77.8%) | 57/71 (80.3%) |
-| annotations | 13 | 10/12 (83.3%) | 12/12 (100.0%) | 11/13 (84.6%) | 9/13 (69.2%) | 12/12 (100.0%) | 7/12 (58.3%) | 8/12 (66.7%) | 4/8 (50.0%) |
+| annotations | 13 | 10/12 (83.3%) | 12/12 (100.0%) | 11/13 (84.6%) | 9/13 (69.2%) | 12/12 (100.0%) | 8/12 (66.7%) | 8/12 (66.7%) | 4/8 (50.0%) |
 | classes | 35 | 25/31 (80.6%) | 21/31 (67.7%) | 26/35 (74.3%) | 24/35 (68.6%) | 17/31 (54.8%) | 19/31 (61.3%) | 16/31 (51.6%) | 9/15 (60.0%) |
 | functions | 17 | 15/17 (88.2%) | 10/17 (58.8%) | 13/17 (76.5%) | 13/17 (76.5%) | 7/17 (41.2%) | 15/17 (88.2%) | 4/17 (23.5%) | 2/5 (40.0%) |
 | object-paths | 37 | 35/37 (94.6%) | 10/37 (27.0%) | 19/37 (51.4%) | 20/37 (54.1%) | 8/37 (21.6%) | 21/37 (56.8%) | 10/37 (27.0%) | 9/24 (37.5%) |
@@ -340,7 +340,7 @@ Rows are grouped by capability family and put Rspack failures/misses first, so e
 | [upstream/rollup/form-pipeline-pure-comment-line-break](https://github.com/rollup/rollup/tree/9aac09a39dc1fa297a7b06f1ad6907f7bd41b310/test/form/samples/pure-comment-line-break) | rollup | annotations | snapshot markers | ✅ | ✅ | ✅ | ✅ | ◐ | ✅ | ◐ | ◐ | kept drop3 |
 | [upstream/rollup/form-pipeline-pure-comment-scenarios-complex](https://github.com/rollup/rollup/tree/9aac09a39dc1fa297a7b06f1ad6907f7bd41b310/test/form/samples/pure-comment-scenarios-complex) | rollup | annotations | snapshot markers | ✅ | ✅ | ✅ | ✅ | ◐ | ◐ | ◐ | ◐ | kept iife0 |
 | [annotations/direct-eval-bailout](https://github.com/evanw/esbuild/blob/master/internal/bundler_tests/bundler_dce_test.go) | esbuild, bun, parcel, turbopack, rolldown, webpack, rspack | annotations | runtime + DCE markers | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [annotations/no-side-effects-function](https://github.com/evanw/esbuild/blob/master/internal/bundler_tests/bundler_dce_test.go) | esbuild, rolldown, webpack, rspack | annotations | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ❌ | ◐ | ✅ | ✅ |  |
+| [annotations/no-side-effects-function](https://github.com/evanw/esbuild/blob/master/internal/bundler_tests/bundler_dce_test.go) | esbuild, rolldown, webpack, rspack | annotations | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ | ✅ | ✅ |  |
 | [annotations/pure-call](https://github.com/evanw/esbuild/blob/master/internal/bundler_tests/bundler_dce_test.go) | esbuild, bun, parcel, turbopack, rolldown, rollup, webpack, rspack | annotations | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [annotations/pure-new](https://github.com/evanw/esbuild/blob/master/internal/bundler_tests/bundler_dce_test.go) | esbuild, bun, parcel, rolldown, rollup, webpack, rspack | annotations | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [upstream/esbuild/dce-tree-shaking-react-elements](https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go) | bun, esbuild, rolldown | annotations | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | — | ✅ |  |
