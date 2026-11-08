@@ -1,6 +1,6 @@
 # Latest tree-shaking conformance report
 
-Generated: `2026-11-07T21:50:00.347Z`
+Generated: `2026-11-08T22:04:13.195Z`
 
 This production-only report contains **515 source-calibrated cases**: 474 exact-release upstream fixtures and 41 focused cross-bundler probes. A case enters the matrix only after at least one of its source bundlers passes the same portable oracle. Every reportable case appears exactly once in Table 3.
 
@@ -24,7 +24,7 @@ Each source row contains only cases that pass that source bundler's own baseline
 | [rspack](https://github.com/web-infra-dev/rspack) | 143 | 103/126 (81.7%) | 97/126 (77.0%) | 136/143 (95.1%) | 143/143 (100.0%) | 108/126 (85.7%) | 61/126 (48.4%) | 97/126 (77.0%) | 108/125 (86.4%) |
 | [esbuild](https://github.com/evanw/esbuild) | 85 | 69/85 (81.2%) | 78/85 (91.8%) | 75/85 (88.2%) | 76/85 (89.4%) | 85/85 (100.0%) | 71/81 (87.7%) | 73/85 (85.9%) | 47/56 (83.9%) |
 | [parcel](https://github.com/parcel-bundler/parcel) | 19 | 16/19 (84.2%) | 17/19 (89.5%) | 19/19 (100.0%) | 19/19 (100.0%) | 16/19 (84.2%) | 19/19 (100.0%) | 17/19 (89.5%) | 17/19 (89.5%) |
-| [bun](https://github.com/oven-sh/bun) | 78 | 62/78 (79.5%) | 64/78 (82.1%) | 63/78 (80.8%) | 65/78 (83.3%) | 68/78 (87.2%) | 60/74 (81.1%) | 78/78 (100.0%) | 42/54 (77.8%) |
+| [bun](https://github.com/oven-sh/bun) | 78 | 62/78 (79.5%) | 64/78 (82.1%) | 64/78 (82.1%) | 65/78 (83.3%) | 68/78 (87.2%) | 60/74 (81.1%) | 78/78 (100.0%) | 42/54 (77.8%) |
 | [turbopack](https://github.com/vercel/next.js) | 57 | 51/57 (89.5%) | 53/57 (93.0%) | 55/57 (96.5%) | 56/57 (98.2%) | 51/57 (89.5%) | 15/57 (26.3%) | 54/57 (94.7%) | 57/57 (100.0%) |
 
 ## 2. Pass rate by capability family (production)
@@ -32,7 +32,7 @@ Each source row contains only cases that pass that source bundler's own baseline
 | Capability family | Cases | Rollup | Rolldown | webpack | Rspack | esbuild | Parcel | Bun | Turbopack |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | esm | 56 | 46/49 (93.9%) | 43/49 (87.8%) | 48/56 (85.7%) | 48/56 (85.7%) | 34/49 (69.4%) | 30/49 (61.2%) | 37/49 (75.5%) | 30/43 (69.8%) |
-| side-effects | 128 | 111/125 (88.8%) | 92/125 (73.6%) | 103/128 (80.5%) | 105/128 (82.0%) | 84/125 (67.2%) | 66/125 (52.8%) | 76/125 (60.8%) | 82/108 (75.9%) |
+| side-effects | 128 | 111/125 (88.8%) | 92/125 (73.6%) | 104/128 (81.3%) | 105/128 (82.0%) | 84/125 (67.2%) | 66/125 (52.8%) | 76/125 (60.8%) | 82/108 (75.9%) |
 | dynamic-import | 13 | 10/13 (76.9%) | 9/13 (69.2%) | 6/13 (46.2%) | 4/13 (30.8%) | 2/13 (15.4%) | 2/13 (15.4%) | 10/13 (76.9%) | 4/13 (30.8%) |
 | commonjs | 93 | 52/74 (70.3%) | 50/74 (67.6%) | 86/93 (92.5%) | 78/93 (83.9%) | 59/74 (79.7%) | 21/74 (28.4%) | 57/74 (77.0%) | 58/73 (79.5%) |
 | annotations | 13 | 10/12 (83.3%) | 12/12 (100.0%) | 11/13 (84.6%) | 9/13 (69.2%) | 12/12 (100.0%) | 9/12 (75.0%) | 8/12 (66.7%) | 4/8 (50.0%) |
@@ -151,7 +151,7 @@ Rows are grouped by capability family and put Rspack failures/misses first, so e
 | [upstream/esbuild/dce-package-json-side-effects-false-remove-bare-import-es6](https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go) | bun, esbuild, rolldown | side-effects | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [upstream/esbuild/dce-package-json-side-effects-false-remove-named-import-es6](https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go) | bun, esbuild, rolldown | side-effects | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [upstream/esbuild/dce-package-json-side-effects-false-remove-star-import-es6](https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go) | bun, esbuild, rolldown | side-effects | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [upstream/esbuild/dce-package-json-side-effects-glob-invalid-pattern](https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts) | bun | side-effects | runtime | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [upstream/esbuild/dce-package-json-side-effects-glob-invalid-pattern](https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts) | bun | side-effects | runtime | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [upstream/esbuild/dce-package-json-side-effects-nested-directory-remove](https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go) | esbuild, rolldown | side-effects | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |  |
 | [upstream/esbuild/dce-package-json-side-effects-true-keep-es6](https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go) | bun, esbuild, rolldown | side-effects | runtime + DCE markers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [upstream/esbuild/no-side-effects-comment-unused-calls](https://github.com/evanw/esbuild/blob/609683d892977362a0f99026cb74b96263d728a9/internal/bundler_tests/bundler_dce_test.go) | esbuild, rolldown | side-effects | snapshot markers | ✅ | ✅ | ◐ | ✅ | ✅ | ◐ | ✅ | ✅ |  |
