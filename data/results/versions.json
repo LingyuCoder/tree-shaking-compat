@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "resolvedAt": "2026-11-12T23:26:20.276Z",
+  "resolvedAt": "2026-11-13T23:26:13.875Z",
   "policy": "latest stable npm dist-tag and latest non-prerelease GitHub release",
   "node": "v22.23.4",
   "bundlers": {
-    "rollup": "4.68.2",
+    "rollup": "4.68.3",
     "rolldown": "1.3.2",
     "webpack": "5.112.2",
     "rspack": "2.3.2",
@@ -25,7 +25,7 @@
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "rolldown": "1.3.2",
-    "rollup": "4.68.2",
+    "rollup": "4.68.3",
     "webpack": "5.112.2"
   },
   "bun": {
