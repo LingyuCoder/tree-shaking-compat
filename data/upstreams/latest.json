@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T00:09:06.173Z",
+  "generatedAt": "2026-11-20T00:31:01.820Z",
   "definition": {
     "direct": "Explicit DCE/tree-shaking suites or path-selected semantic tests.",
     "pipeline": "Broader suites that exercise the bundler pipeline but are not counted as direct evidence.",
@@ -25968,8 +25968,8 @@
           "id": "cjs-tree-shaking",
           "root": "test/cases/cjs-tree-shaking",
           "kind": "child-directories",
-          "count": 16,
-          "directCount": 16,
+          "count": 18,
+          "directCount": 18,
           "negativeCount": 0,
           "entries": [
             {
@@ -25977,7 +25977,23 @@
               "name": "commonjs-exports",
               "path": "test/cases/cjs-tree-shaking/commonjs-exports",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/commonjs-exports",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/commonjs-exports",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "cjs-tree-shaking/conditional-reexport",
+              "name": "conditional-reexport",
+              "path": "test/cases/cjs-tree-shaking/conditional-reexport",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/conditional-reexport",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "cjs-tree-shaking/conditional-reexport-logical-assignment",
+              "name": "conditional-reexport-logical-assignment",
+              "path": "test/cases/cjs-tree-shaking/conditional-reexport-logical-assignment",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/conditional-reexport-logical-assignment",
               "normalization": "not-normalized"
             },
             {
@@ -25985,7 +26001,7 @@
               "name": "mutate",
               "path": "test/cases/cjs-tree-shaking/mutate",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/mutate",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/mutate",
               "normalization": "not-normalized"
             },
             {
@@ -25993,7 +26009,7 @@
               "name": "object-literal",
               "path": "test/cases/cjs-tree-shaking/object-literal",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/object-literal",
               "normalization": "not-normalized"
             },
             {
@@ -26001,7 +26017,7 @@
               "name": "object-literal-accessors",
               "path": "test/cases/cjs-tree-shaking/object-literal-accessors",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-accessors",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/object-literal-accessors",
               "normalization": "not-normalized"
             },
             {
@@ -26009,7 +26025,7 @@
               "name": "object-literal-async-method",
               "path": "test/cases/cjs-tree-shaking/object-literal-async-method",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-async-method",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/object-literal-async-method",
               "normalization": "not-normalized"
             },
             {
@@ -26017,7 +26033,7 @@
               "name": "object-literal-bailout",
               "path": "test/cases/cjs-tree-shaking/object-literal-bailout",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-bailout",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/object-literal-bailout",
               "normalization": "not-normalized"
             },
             {
@@ -26025,7 +26041,7 @@
               "name": "object-literal-esmodule",
               "path": "test/cases/cjs-tree-shaking/object-literal-esmodule",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-esmodule",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/object-literal-esmodule",
               "normalization": "not-normalized"
             },
             {
@@ -26033,7 +26049,7 @@
               "name": "object-literal-nested-require",
               "path": "test/cases/cjs-tree-shaking/object-literal-nested-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-nested-require",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/object-literal-nested-require",
               "normalization": "not-normalized"
             },
             {
@@ -26041,7 +26057,7 @@
               "name": "object-literal-nested-require-kept",
               "path": "test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/object-literal-nested-require-kept",
               "normalization": "not-normalized"
             },
             {
@@ -26049,7 +26065,7 @@
               "name": "reexport-require-binding",
               "path": "test/cases/cjs-tree-shaking/reexport-require-binding",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/reexport-require-binding",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/reexport-require-binding",
               "normalization": "not-normalized"
             },
             {
@@ -26057,7 +26073,7 @@
               "name": "remove-unused-requires",
               "path": "test/cases/cjs-tree-shaking/remove-unused-requires",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/remove-unused-requires",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/remove-unused-requires",
               "normalization": "not-normalized"
             },
             {
@@ -26065,7 +26081,7 @@
               "name": "require-destructuring",
               "path": "test/cases/cjs-tree-shaking/require-destructuring",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-destructuring",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/require-destructuring",
               "normalization": "not-normalized"
             },
             {
@@ -26073,7 +26089,7 @@
               "name": "require-member-access",
               "path": "test/cases/cjs-tree-shaking/require-member-access",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-member-access",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/require-member-access",
               "normalization": "not-normalized"
             },
             {
@@ -26081,7 +26097,7 @@
               "name": "require-member-access-deferred",
               "path": "test/cases/cjs-tree-shaking/require-member-access-deferred",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/require-member-access-deferred",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/require-member-access-deferred",
               "normalization": "not-normalized"
             },
             {
@@ -26089,7 +26105,7 @@
               "name": "this-in-exported-function",
               "path": "test/cases/cjs-tree-shaking/this-in-exported-function",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/this-in-exported-function",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/this-in-exported-function",
               "normalization": "not-normalized"
             },
             {
@@ -26097,7 +26113,7 @@
               "name": "this-in-exported-function-modern",
               "path": "test/cases/cjs-tree-shaking/this-in-exported-function-modern",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/cjs-tree-shaking/this-in-exported-function-modern",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/cjs-tree-shaking/this-in-exported-function-modern",
               "normalization": "not-normalized"
             }
           ]
@@ -26115,7 +26131,7 @@
               "name": "class-dynamic-props",
               "path": "test/cases/inner-graph/class-dynamic-props",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/class-dynamic-props",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/inner-graph/class-dynamic-props",
               "normalization": "not-normalized"
             },
             {
@@ -26123,7 +26139,7 @@
               "name": "extend-class",
               "path": "test/cases/inner-graph/extend-class",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/extend-class",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/inner-graph/extend-class",
               "normalization": "not-normalized"
             },
             {
@@ -26131,7 +26147,7 @@
               "name": "extend-class2",
               "path": "test/cases/inner-graph/extend-class2",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/extend-class2",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/inner-graph/extend-class2",
               "normalization": "not-normalized"
             },
             {
@@ -26139,7 +26155,7 @@
               "name": "inner-graph-cases",
               "path": "test/cases/inner-graph/inner-graph-cases",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/inner-graph/inner-graph-cases",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/inner-graph/inner-graph-cases",
               "normalization": "not-normalized"
             }
           ]
@@ -26157,7 +26173,7 @@
               "name": "dynamic-reexports",
               "path": "test/cases/side-effects/dynamic-reexports",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/dynamic-reexports",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/dynamic-reexports",
               "normalization": "not-normalized"
             },
             {
@@ -26165,7 +26181,7 @@
               "name": "issue-11673",
               "path": "test/cases/side-effects/issue-11673",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-11673",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/issue-11673",
               "normalization": "not-normalized"
             },
             {
@@ -26173,7 +26189,7 @@
               "name": "issue-12071",
               "path": "test/cases/side-effects/issue-12071",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12071",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/issue-12071",
               "normalization": "not-normalized"
             },
             {
@@ -26181,7 +26197,7 @@
               "name": "issue-12114",
               "path": "test/cases/side-effects/issue-12114",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12114",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/issue-12114",
               "normalization": "not-normalized"
             },
             {
@@ -26189,7 +26205,7 @@
               "name": "issue-12570",
               "path": "test/cases/side-effects/issue-12570",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12570",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/issue-12570",
               "normalization": "not-normalized"
             },
             {
@@ -26197,7 +26213,7 @@
               "name": "issue-12570-second-try",
               "path": "test/cases/side-effects/issue-12570-second-try",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/issue-12570-second-try",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/issue-12570-second-try",
               "normalization": "not-normalized"
             },
             {
@@ -26205,7 +26221,7 @@
               "name": "nested-namespace-reexport",
               "path": "test/cases/side-effects/nested-namespace-reexport",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/nested-namespace-reexport",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/nested-namespace-reexport",
               "normalization": "not-normalized"
             },
             {
@@ -26213,7 +26229,7 @@
               "name": "side-effects-cases",
               "path": "test/cases/side-effects/side-effects-cases",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/side-effects-cases",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/side-effects-cases",
               "normalization": "not-normalized"
             },
             {
@@ -26221,7 +26237,7 @@
               "name": "star-reexport-passthrough",
               "path": "test/cases/side-effects/star-reexport-passthrough",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/cases/side-effects/star-reexport-passthrough",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/cases/side-effects/star-reexport-passthrough",
               "normalization": "not-normalized"
             }
           ]
@@ -26230,16 +26246,88 @@
           "id": "config-cjs-tree-shaking",
           "root": "test/configCases/cjs-tree-shaking",
           "kind": "child-directories",
-          "count": 18,
-          "directCount": 18,
+          "count": 34,
+          "directCount": 34,
           "negativeCount": 0,
           "entries": [
+            {
+              "id": "config-cjs-tree-shaking/call-receiver-context",
+              "name": "call-receiver-context",
+              "path": "test/configCases/cjs-tree-shaking/call-receiver-context",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/call-receiver-context",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/call-receiver-this",
+              "name": "call-receiver-this",
+              "path": "test/configCases/cjs-tree-shaking/call-receiver-this",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/call-receiver-this",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/commonjs-method-this",
+              "name": "commonjs-method-this",
+              "path": "test/configCases/cjs-tree-shaking/commonjs-method-this",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/commonjs-method-this",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/constant-condition-reexport",
+              "name": "constant-condition-reexport",
+              "path": "test/configCases/cjs-tree-shaking/constant-condition-reexport",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/constant-condition-reexport",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/context-call-and-read",
+              "name": "context-call-and-read",
+              "path": "test/configCases/cjs-tree-shaking/context-call-and-read",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/context-call-and-read",
+              "normalization": "not-normalized"
+            },
             {
               "id": "config-cjs-tree-shaking/drop-unused-require-edge-cases",
               "name": "drop-unused-require-edge-cases",
               "path": "test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/drop-unused-require-edge-cases",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/json-reexport-optional-methods",
+              "name": "json-reexport-optional-methods",
+              "path": "test/configCases/cjs-tree-shaking/json-reexport-optional-methods",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/json-reexport-optional-methods",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/json-reexport-property-access",
+              "name": "json-reexport-property-access",
+              "path": "test/configCases/cjs-tree-shaking/json-reexport-property-access",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/json-reexport-property-access",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/json-reexport-prototype-methods",
+              "name": "json-reexport-prototype-methods",
+              "path": "test/configCases/cjs-tree-shaking/json-reexport-prototype-methods",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/json-reexport-prototype-methods",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/namespace-reexport-cycle",
+              "name": "namespace-reexport-cycle",
+              "path": "test/configCases/cjs-tree-shaking/namespace-reexport-cycle",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/namespace-reexport-cycle",
               "normalization": "not-normalized"
             },
             {
@@ -26247,7 +26335,7 @@
               "name": "object-literal-bailout-module-library",
               "path": "test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/object-literal-bailout-module-library",
               "normalization": "not-normalized"
             },
             {
@@ -26255,7 +26343,7 @@
               "name": "object-literal-local-alias",
               "path": "test/configCases/cjs-tree-shaking/object-literal-local-alias",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-local-alias",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/object-literal-local-alias",
               "normalization": "not-normalized"
             },
             {
@@ -26263,7 +26351,47 @@
               "name": "object-literal-no-spread",
               "path": "test/configCases/cjs-tree-shaking/object-literal-no-spread",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/object-literal-no-spread",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/object-literal-no-spread",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/reexport-esm-cycle",
+              "name": "reexport-esm-cycle",
+              "path": "test/configCases/cjs-tree-shaking/reexport-esm-cycle",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/reexport-esm-cycle",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/reexport-esm-cycle-concatenated",
+              "name": "reexport-esm-cycle-concatenated",
+              "path": "test/configCases/cjs-tree-shaking/reexport-esm-cycle-concatenated",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/reexport-esm-cycle-concatenated",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/reexport-esm-cycle-development",
+              "name": "reexport-esm-cycle-development",
+              "path": "test/configCases/cjs-tree-shaking/reexport-esm-cycle-development",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/reexport-esm-cycle-development",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/reexport-esm-cycle-minimized",
+              "name": "reexport-esm-cycle-minimized",
+              "path": "test/configCases/cjs-tree-shaking/reexport-esm-cycle-minimized",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/reexport-esm-cycle-minimized",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/reexport-esm-cycle-plain",
+              "name": "reexport-esm-cycle-plain",
+              "path": "test/configCases/cjs-tree-shaking/reexport-esm-cycle-plain",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/reexport-esm-cycle-plain",
               "normalization": "not-normalized"
             },
             {
@@ -26271,7 +26399,7 @@
               "name": "reexport-namespace-self-reference",
               "path": "test/configCases/cjs-tree-shaking/reexport-namespace-self-reference",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/reexport-namespace-self-reference",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/reexport-namespace-self-reference",
               "normalization": "not-normalized"
             },
             {
@@ -26279,7 +26407,7 @@
               "name": "reexport-require-binding-matrix",
               "path": "test/configCases/cjs-tree-shaking/reexport-require-binding-matrix",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/reexport-require-binding-matrix",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/reexport-require-binding-matrix",
               "normalization": "not-normalized"
             },
             {
@@ -26287,7 +26415,7 @@
               "name": "require-member-access-trimming",
               "path": "test/configCases/cjs-tree-shaking/require-member-access-trimming",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/require-member-access-trimming",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/require-member-access-trimming",
               "normalization": "not-normalized"
             },
             {
@@ -26295,7 +26423,7 @@
               "name": "side-effect-free-cyclic-unused-export-require",
               "path": "test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/side-effect-free-cyclic-unused-export-require",
               "normalization": "not-normalized"
             },
             {
@@ -26303,7 +26431,7 @@
               "name": "side-effect-free-dynamic-import",
               "path": "test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import",
               "normalization": "not-normalized"
             },
             {
@@ -26311,7 +26439,7 @@
               "name": "side-effect-free-dynamic-import-transitive",
               "path": "test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/side-effect-free-dynamic-import-transitive",
               "normalization": "not-normalized"
             },
             {
@@ -26319,7 +26447,7 @@
               "name": "side-effect-free-unused-export-require",
               "path": "test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/side-effect-free-unused-export-require",
               "normalization": "not-normalized"
             },
             {
@@ -26327,7 +26455,15 @@
               "name": "strict-this-context-on-require",
               "path": "test/configCases/cjs-tree-shaking/strict-this-context-on-require",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/strict-this-context-on-require",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/strict-this-context-on-require",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/unknown-star-reexport-namespace-call",
+              "name": "unknown-star-reexport-namespace-call",
+              "path": "test/configCases/cjs-tree-shaking/unknown-star-reexport-namespace-call",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/unknown-star-reexport-namespace-call",
               "normalization": "not-normalized"
             },
             {
@@ -26335,7 +26471,7 @@
               "name": "unused-eager-reexport-keeps-effect",
               "path": "test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/unused-eager-reexport-keeps-effect",
               "normalization": "not-normalized"
             },
             {
@@ -26343,7 +26479,15 @@
               "name": "unused-getter-reexport-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/unused-getter-reexport-drop",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-cjs-tree-shaking/unused-method-require-value",
+              "name": "unused-method-require-value",
+              "path": "test/configCases/cjs-tree-shaking/unused-method-require-value",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/unused-method-require-value",
               "normalization": "not-normalized"
             },
             {
@@ -26351,7 +26495,7 @@
               "name": "unused-reexport-concatenated-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/unused-reexport-concatenated-drop",
               "normalization": "not-normalized"
             },
             {
@@ -26359,7 +26503,7 @@
               "name": "unused-reexport-forms-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/unused-reexport-forms-drop",
               "normalization": "not-normalized"
             },
             {
@@ -26367,7 +26511,7 @@
               "name": "unused-reexport-package-sideEffects-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/unused-reexport-package-sideEffects-drop",
               "normalization": "not-normalized"
             },
             {
@@ -26375,7 +26519,7 @@
               "name": "unused-reexport-require-binding-drop",
               "path": "test/configCases/cjs-tree-shaking/unused-reexport-require-binding-drop",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/cjs-tree-shaking/unused-reexport-require-binding-drop",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/cjs-tree-shaking/unused-reexport-require-binding-drop",
               "normalization": "not-normalized"
             }
           ]
@@ -26384,8 +26528,8 @@
           "id": "config-inner-graph",
           "root": "test/configCases/inner-graph",
           "kind": "child-directories",
-          "count": 41,
-          "directCount": 41,
+          "count": 42,
+          "directCount": 42,
           "negativeCount": 0,
           "entries": [
             {
@@ -26393,7 +26537,7 @@
               "name": "altaskitButton",
               "path": "test/configCases/inner-graph/altaskitButton",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/altaskitButton",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/altaskitButton",
               "normalization": "not-normalized"
             },
             {
@@ -26401,7 +26545,7 @@
               "name": "basic",
               "path": "test/configCases/inner-graph/basic",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/basic",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/basic",
               "normalization": "not-normalized"
             },
             {
@@ -26409,7 +26553,7 @@
               "name": "blockScopes",
               "path": "test/configCases/inner-graph/blockScopes",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/blockScopes",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/blockScopes",
               "normalization": "not-normalized"
             },
             {
@@ -26417,7 +26561,7 @@
               "name": "class",
               "path": "test/configCases/inner-graph/class",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/class",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/class",
               "normalization": "not-normalized"
             },
             {
@@ -26425,7 +26569,7 @@
               "name": "const",
               "path": "test/configCases/inner-graph/const",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/const",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/const",
               "normalization": "not-normalized"
             },
             {
@@ -26433,7 +26577,7 @@
               "name": "cross-module-pure-namespace-import",
               "path": "test/configCases/inner-graph/cross-module-pure-namespace-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-namespace-import",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/cross-module-pure-namespace-import",
               "normalization": "not-normalized"
             },
             {
@@ -26441,7 +26585,7 @@
               "name": "cross-module-pure-normal",
               "path": "test/configCases/inner-graph/cross-module-pure-normal",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-normal",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/cross-module-pure-normal",
               "normalization": "not-normalized"
             },
             {
@@ -26449,7 +26593,7 @@
               "name": "cross-module-pure-reexport-target",
               "path": "test/configCases/inner-graph/cross-module-pure-reexport-target",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/cross-module-pure-reexport-target",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/cross-module-pure-reexport-target",
               "normalization": "not-normalized"
             },
             {
@@ -26457,7 +26601,7 @@
               "name": "default-pure-expression",
               "path": "test/configCases/inner-graph/default-pure-expression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/default-pure-expression",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/default-pure-expression",
               "normalization": "not-normalized"
             },
             {
@@ -26465,7 +26609,7 @@
               "name": "defaultArrow",
               "path": "test/configCases/inner-graph/defaultArrow",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultArrow",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/defaultArrow",
               "normalization": "not-normalized"
             },
             {
@@ -26473,7 +26617,7 @@
               "name": "defaultClass",
               "path": "test/configCases/inner-graph/defaultClass",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultClass",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/defaultClass",
               "normalization": "not-normalized"
             },
             {
@@ -26481,7 +26625,7 @@
               "name": "defaultExpression",
               "path": "test/configCases/inner-graph/defaultExpression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultExpression",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/defaultExpression",
               "normalization": "not-normalized"
             },
             {
@@ -26489,7 +26633,7 @@
               "name": "defaultFunction",
               "path": "test/configCases/inner-graph/defaultFunction",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultFunction",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/defaultFunction",
               "normalization": "not-normalized"
             },
             {
@@ -26497,7 +26641,7 @@
               "name": "defaultFunctionExpression",
               "path": "test/configCases/inner-graph/defaultFunctionExpression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultFunctionExpression",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/defaultFunctionExpression",
               "normalization": "not-normalized"
             },
             {
@@ -26505,7 +26649,7 @@
               "name": "defaultId",
               "path": "test/configCases/inner-graph/defaultId",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultId",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/defaultId",
               "normalization": "not-normalized"
             },
             {
@@ -26513,7 +26657,7 @@
               "name": "defaultNamedFunction",
               "path": "test/configCases/inner-graph/defaultNamedFunction",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultNamedFunction",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/defaultNamedFunction",
               "normalization": "not-normalized"
             },
             {
@@ -26521,7 +26665,7 @@
               "name": "defaultNamedFunctionExpression",
               "path": "test/configCases/inner-graph/defaultNamedFunctionExpression",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/defaultNamedFunctionExpression",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/defaultNamedFunctionExpression",
               "normalization": "not-normalized"
             },
             {
@@ -26529,7 +26673,7 @@
               "name": "eval-bailout",
               "path": "test/configCases/inner-graph/eval-bailout",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/eval-bailout",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/eval-bailout",
               "normalization": "not-normalized"
             },
             {
@@ -26537,7 +26681,7 @@
               "name": "export",
               "path": "test/configCases/inner-graph/export",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/export",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/export",
               "normalization": "not-normalized"
             },
             {
@@ -26545,7 +26689,7 @@
               "name": "importAll",
               "path": "test/configCases/inner-graph/importAll",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/importAll",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/importAll",
               "normalization": "not-normalized"
             },
             {
@@ -26553,7 +26697,7 @@
               "name": "impure-symbol",
               "path": "test/configCases/inner-graph/impure-symbol",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/impure-symbol",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/impure-symbol",
               "normalization": "not-normalized"
             },
             {
@@ -26561,7 +26705,7 @@
               "name": "issue-11678",
               "path": "test/configCases/inner-graph/issue-11678",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-11678",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/issue-11678",
               "normalization": "not-normalized"
             },
             {
@@ -26569,7 +26713,7 @@
               "name": "issue-12669",
               "path": "test/configCases/inner-graph/issue-12669",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-12669",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/issue-12669",
               "normalization": "not-normalized"
             },
             {
@@ -26577,7 +26721,7 @@
               "name": "issue-12669-mini",
               "path": "test/configCases/inner-graph/issue-12669-mini",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-12669-mini",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/issue-12669-mini",
               "normalization": "not-normalized"
             },
             {
@@ -26585,7 +26729,7 @@
               "name": "issue-17063",
               "path": "test/configCases/inner-graph/issue-17063",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-17063",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/issue-17063",
               "normalization": "not-normalized"
             },
             {
@@ -26593,7 +26737,7 @@
               "name": "issue-17565",
               "path": "test/configCases/inner-graph/issue-17565",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-17565",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/issue-17565",
               "normalization": "not-normalized"
             },
             {
@@ -26601,7 +26745,7 @@
               "name": "issue-20151",
               "path": "test/configCases/inner-graph/issue-20151",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/issue-20151",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/issue-20151",
               "normalization": "not-normalized"
             },
             {
@@ -26609,7 +26753,7 @@
               "name": "localReference",
               "path": "test/configCases/inner-graph/localReference",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/localReference",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/localReference",
               "normalization": "not-normalized"
             },
             {
@@ -26617,7 +26761,7 @@
               "name": "nested",
               "path": "test/configCases/inner-graph/nested",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/nested",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/nested",
               "normalization": "not-normalized"
             },
             {
@@ -26625,7 +26769,7 @@
               "name": "no-side-effects-annotation",
               "path": "test/configCases/inner-graph/no-side-effects-annotation",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/no-side-effects-annotation",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/no-side-effects-annotation",
               "normalization": "not-normalized"
             },
             {
@@ -26633,7 +26777,7 @@
               "name": "pr-18342",
               "path": "test/configCases/inner-graph/pr-18342",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pr-18342",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/pr-18342",
               "normalization": "not-normalized"
             },
             {
@@ -26641,7 +26785,7 @@
               "name": "pure",
               "path": "test/configCases/inner-graph/pure",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/pure",
               "normalization": "not-normalized"
             },
             {
@@ -26649,7 +26793,7 @@
               "name": "pure-expressions",
               "path": "test/configCases/inner-graph/pure-expressions",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/pure-expressions",
               "normalization": "not-normalized"
             },
             {
@@ -26657,7 +26801,7 @@
               "name": "pure-expressions-extended",
               "path": "test/configCases/inner-graph/pure-expressions-extended",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions-extended",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/pure-expressions-extended",
               "normalization": "not-normalized"
             },
             {
@@ -26665,7 +26809,7 @@
               "name": "pure-expressions-object-leak",
               "path": "test/configCases/inner-graph/pure-expressions-object-leak",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-expressions-object-leak",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/pure-expressions-object-leak",
               "normalization": "not-normalized"
             },
             {
@@ -26673,7 +26817,7 @@
               "name": "pure-functions-option",
               "path": "test/configCases/inner-graph/pure-functions-option",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-functions-option",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/pure-functions-option",
               "normalization": "not-normalized"
             },
             {
@@ -26681,7 +26825,7 @@
               "name": "pure-template-literal",
               "path": "test/configCases/inner-graph/pure-template-literal",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/pure-template-literal",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/pure-template-literal",
               "normalization": "not-normalized"
             },
             {
@@ -26689,7 +26833,7 @@
               "name": "ramdaIdentical",
               "path": "test/configCases/inner-graph/ramdaIdentical",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/ramdaIdentical",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/ramdaIdentical",
               "normalization": "not-normalized"
             },
             {
@@ -26697,7 +26841,15 @@
               "name": "specifier",
               "path": "test/configCases/inner-graph/specifier",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/specifier",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/specifier",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-inner-graph/undeclared-identifier",
+              "name": "undeclared-identifier",
+              "path": "test/configCases/inner-graph/undeclared-identifier",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/undeclared-identifier",
               "normalization": "not-normalized"
             },
             {
@@ -26705,7 +26857,7 @@
               "name": "varNotWritten",
               "path": "test/configCases/inner-graph/varNotWritten",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/varNotWritten",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/varNotWritten",
               "normalization": "not-normalized"
             },
             {
@@ -26713,7 +26865,7 @@
               "name": "varWritten",
               "path": "test/configCases/inner-graph/varWritten",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/inner-graph/varWritten",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/inner-graph/varWritten",
               "normalization": "not-normalized"
             }
           ]
@@ -26722,8 +26874,8 @@
           "id": "config-side-effects",
           "root": "test/configCases/side-effects",
           "kind": "child-directories",
-          "count": 33,
-          "directCount": 33,
+          "count": 48,
+          "directCount": 48,
           "negativeCount": 0,
           "entries": [
             {
@@ -26731,7 +26883,7 @@
               "name": "0-pure-annotation-library",
               "path": "test/configCases/side-effects/0-pure-annotation-library",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/0-pure-annotation-library",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/0-pure-annotation-library",
               "normalization": "not-normalized"
             },
             {
@@ -26739,7 +26891,7 @@
               "name": "1-pure-annotation-consumer",
               "path": "test/configCases/side-effects/1-pure-annotation-consumer",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/1-pure-annotation-consumer",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/1-pure-annotation-consumer",
               "normalization": "not-normalized"
             },
             {
@@ -26747,7 +26899,7 @@
               "name": "asset-module",
               "path": "test/configCases/side-effects/asset-module",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/asset-module",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/asset-module",
               "normalization": "not-normalized"
             },
             {
@@ -26755,7 +26907,103 @@
               "name": "cache-optimization-bailout",
               "path": "test/configCases/side-effects/cache-optimization-bailout",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/cache-optimization-bailout",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/cache-optimization-bailout",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports",
+              "name": "commonjs-exports",
+              "path": "test/configCases/side-effects/commonjs-exports",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-concatenate",
+              "name": "commonjs-exports-concatenate",
+              "path": "test/configCases/side-effects/commonjs-exports-concatenate",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-concatenate",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-consumers",
+              "name": "commonjs-exports-consumers",
+              "path": "test/configCases/side-effects/commonjs-exports-consumers",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-consumers",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-define-conflicts",
+              "name": "commonjs-exports-define-conflicts",
+              "path": "test/configCases/side-effects/commonjs-exports-define-conflicts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-define-conflicts",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-effects",
+              "name": "commonjs-exports-effects",
+              "path": "test/configCases/side-effects/commonjs-exports-effects",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-effects",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-effects-modern",
+              "name": "commonjs-exports-effects-modern",
+              "path": "test/configCases/side-effects/commonjs-exports-effects-modern",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-effects-modern",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-esm-output",
+              "name": "commonjs-exports-esm-output",
+              "path": "test/configCases/side-effects/commonjs-exports-esm-output",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-esm-output",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-flags",
+              "name": "commonjs-exports-flags",
+              "path": "test/configCases/side-effects/commonjs-exports-flags",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-flags",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-interop",
+              "name": "commonjs-exports-interop",
+              "path": "test/configCases/side-effects/commonjs-exports-interop",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-interop",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-rebinding",
+              "name": "commonjs-exports-rebinding",
+              "path": "test/configCases/side-effects/commonjs-exports-rebinding",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-rebinding",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-exports-require-ensure",
+              "name": "commonjs-exports-require-ensure",
+              "path": "test/configCases/side-effects/commonjs-exports-require-ensure",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-exports-require-ensure",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/commonjs-require-effects",
+              "name": "commonjs-require-effects",
+              "path": "test/configCases/side-effects/commonjs-require-effects",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/commonjs-require-effects",
               "normalization": "not-normalized"
             },
             {
@@ -26763,7 +27011,15 @@
               "name": "deep-import-chain",
               "path": "test/configCases/side-effects/deep-import-chain",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/deep-import-chain",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/deep-import-chain",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/invalid-side-effects-values",
+              "name": "invalid-side-effects-values",
+              "path": "test/configCases/side-effects/invalid-side-effects-values",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/invalid-side-effects-values",
               "normalization": "not-normalized"
             },
             {
@@ -26771,7 +27027,7 @@
               "name": "issue-13063",
               "path": "test/configCases/side-effects/issue-13063",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/issue-13063",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/issue-13063",
               "normalization": "not-normalized"
             },
             {
@@ -26779,7 +27035,7 @@
               "name": "issue-21869",
               "path": "test/configCases/side-effects/issue-21869",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/issue-21869",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/issue-21869",
               "normalization": "not-normalized"
             },
             {
@@ -26787,7 +27043,7 @@
               "name": "lazy-barrel-exports-presence-warn",
               "path": "test/configCases/side-effects/lazy-barrel-exports-presence-warn",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-exports-presence-warn",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/lazy-barrel-exports-presence-warn",
               "normalization": "not-normalized"
             },
             {
@@ -26795,7 +27051,7 @@
               "name": "lazy-barrel-missing-specifier",
               "path": "test/configCases/side-effects/lazy-barrel-missing-specifier",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-missing-specifier",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/lazy-barrel-missing-specifier",
               "normalization": "not-normalized"
             },
             {
@@ -26803,7 +27059,7 @@
               "name": "lazy-barrel-reexport-consumer",
               "path": "test/configCases/side-effects/lazy-barrel-reexport-consumer",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-reexport-consumer",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/lazy-barrel-reexport-consumer",
               "normalization": "not-normalized"
             },
             {
@@ -26811,7 +27067,7 @@
               "name": "lazy-barrel-requested-names",
               "path": "test/configCases/side-effects/lazy-barrel-requested-names",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-requested-names",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/lazy-barrel-requested-names",
               "normalization": "not-normalized"
             },
             {
@@ -26819,7 +27075,7 @@
               "name": "lazy-barrel-shared-target",
               "path": "test/configCases/side-effects/lazy-barrel-shared-target",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-shared-target",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/lazy-barrel-shared-target",
               "normalization": "not-normalized"
             },
             {
@@ -26827,7 +27083,7 @@
               "name": "lazy-barrel-side-effects-disabled",
               "path": "test/configCases/side-effects/lazy-barrel-side-effects-disabled",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-side-effects-disabled",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/lazy-barrel-side-effects-disabled",
               "normalization": "not-normalized"
             },
             {
@@ -26835,7 +27091,15 @@
               "name": "lazy-barrel-unused-specifier",
               "path": "test/configCases/side-effects/lazy-barrel-unused-specifier",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/lazy-barrel-unused-specifier",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/lazy-barrel-unused-specifier",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/namespace-reexport-chain",
+              "name": "namespace-reexport-chain",
+              "path": "test/configCases/side-effects/namespace-reexport-chain",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/namespace-reexport-chain",
               "normalization": "not-normalized"
             },
             {
@@ -26843,7 +27107,7 @@
               "name": "nested-package-json-sideEffects",
               "path": "test/configCases/side-effects/nested-package-json-sideEffects",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/nested-package-json-sideEffects",
               "normalization": "not-normalized"
             },
             {
@@ -26851,7 +27115,7 @@
               "name": "nested-package-json-sideEffects-outside-context",
               "path": "test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/nested-package-json-sideEffects-outside-context",
               "normalization": "not-normalized"
             },
             {
@@ -26859,7 +27123,7 @@
               "name": "nested-package-json-sideEffects-symlinked",
               "path": "test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/nested-package-json-sideEffects-symlinked",
               "normalization": "not-normalized"
             },
             {
@@ -26867,7 +27131,7 @@
               "name": "no-side-effects-annotation",
               "path": "test/configCases/side-effects/no-side-effects-annotation",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/no-side-effects-annotation",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/no-side-effects-annotation",
               "normalization": "not-normalized"
             },
             {
@@ -26875,7 +27139,7 @@
               "name": "pure-annotation-minified",
               "path": "test/configCases/side-effects/pure-annotation-minified",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-annotation-minified",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/pure-annotation-minified",
               "normalization": "not-normalized"
             },
             {
@@ -26883,7 +27147,7 @@
               "name": "pure-deferred-import",
               "path": "test/configCases/side-effects/pure-deferred-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-deferred-import",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/pure-deferred-import",
               "normalization": "not-normalized"
             },
             {
@@ -26891,7 +27155,7 @@
               "name": "pure-entry-not-inlined-bailout",
               "path": "test/configCases/side-effects/pure-entry-not-inlined-bailout",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-entry-not-inlined-bailout",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/pure-entry-not-inlined-bailout",
               "normalization": "not-normalized"
             },
             {
@@ -26899,7 +27163,7 @@
               "name": "pure-harmony-import",
               "path": "test/configCases/side-effects/pure-harmony-import",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-harmony-import",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/pure-harmony-import",
               "normalization": "not-normalized"
             },
             {
@@ -26907,7 +27171,7 @@
               "name": "pure-module-instantiation",
               "path": "test/configCases/side-effects/pure-module-instantiation",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/pure-module-instantiation",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/pure-module-instantiation",
               "normalization": "not-normalized"
             },
             {
@@ -26915,7 +27179,7 @@
               "name": "side-effects-globs",
               "path": "test/configCases/side-effects/side-effects-globs",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-globs",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/side-effects-globs",
               "normalization": "not-normalized"
             },
             {
@@ -26923,7 +27187,7 @@
               "name": "side-effects-override",
               "path": "test/configCases/side-effects/side-effects-override",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-override",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/side-effects-override",
               "normalization": "not-normalized"
             },
             {
@@ -26931,7 +27195,7 @@
               "name": "side-effects-unsorted-modules",
               "path": "test/configCases/side-effects/side-effects-unsorted-modules",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-unsorted-modules",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/side-effects-unsorted-modules",
               "normalization": "not-normalized"
             },
             {
@@ -26939,7 +27203,7 @@
               "name": "side-effects-values",
               "path": "test/configCases/side-effects/side-effects-values",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/side-effects-values",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/side-effects-values",
               "normalization": "not-normalized"
             },
             {
@@ -26947,7 +27211,7 @@
               "name": "star-reexport-fan-out-skip",
               "path": "test/configCases/side-effects/star-reexport-fan-out-skip",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-fan-out-skip",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/star-reexport-fan-out-skip",
               "normalization": "not-normalized"
             },
             {
@@ -26955,7 +27219,7 @@
               "name": "star-reexport-passthrough-skip",
               "path": "test/configCases/side-effects/star-reexport-passthrough-skip",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/star-reexport-passthrough-skip",
               "normalization": "not-normalized"
             },
             {
@@ -26963,7 +27227,7 @@
               "name": "star-reexport-passthrough-skip-mixed",
               "path": "test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/star-reexport-passthrough-skip-mixed",
               "normalization": "not-normalized"
             },
             {
@@ -26971,7 +27235,7 @@
               "name": "star-reexport-passthrough-skip-multi",
               "path": "test/configCases/side-effects/star-reexport-passthrough-skip-multi",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/star-reexport-passthrough-skip-multi",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/star-reexport-passthrough-skip-multi",
               "normalization": "not-normalized"
             },
             {
@@ -26979,7 +27243,7 @@
               "name": "type-reexports",
               "path": "test/configCases/side-effects/type-reexports",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/type-reexports",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/type-reexports",
               "normalization": "not-normalized"
             },
             {
@@ -26987,7 +27251,15 @@
               "name": "url",
               "path": "test/configCases/side-effects/url",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/side-effects/url",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/url",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-side-effects/wrapped-evaluation-order",
+              "name": "wrapped-evaluation-order",
+              "path": "test/configCases/side-effects/wrapped-evaluation-order",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/side-effects/wrapped-evaluation-order",
               "normalization": "not-normalized"
             }
           ]
@@ -26996,8 +27268,8 @@
           "id": "config-optimization-pipeline",
           "root": "test/configCases/optimization",
           "kind": "child-directories",
-          "count": 37,
-          "directCount": 0,
+          "count": 31,
+          "directCount": 1,
           "negativeCount": 0,
           "entries": [
             {
@@ -27005,7 +27277,7 @@
               "name": "chunk",
               "path": "test/configCases/optimization/chunk",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/chunk",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/chunk",
               "normalization": "not-normalized"
             },
             {
@@ -27013,7 +27285,7 @@
               "name": "default-export-namespace",
               "path": "test/configCases/optimization/default-export-namespace",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/default-export-namespace",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/default-export-namespace",
               "normalization": "not-normalized"
             },
             {
@@ -27021,7 +27293,23 @@
               "name": "depend-on-runtimes",
               "path": "test/configCases/optimization/depend-on-runtimes",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/depend-on-runtimes",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/depend-on-runtimes",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/flag-included-chunks-used-exports",
+              "name": "flag-included-chunks-used-exports",
+              "path": "test/configCases/optimization/flag-included-chunks-used-exports",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/flag-included-chunks-used-exports",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/flag-included-entry-chunk",
+              "name": "flag-included-entry-chunk",
+              "path": "test/configCases/optimization/flag-included-entry-chunk",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/flag-included-entry-chunk",
               "normalization": "not-normalized"
             },
             {
@@ -27029,7 +27317,7 @@
               "name": "hashed-module-ids",
               "path": "test/configCases/optimization/hashed-module-ids",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/hashed-module-ids",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/hashed-module-ids",
               "normalization": "not-normalized"
             },
             {
@@ -27037,7 +27325,7 @@
               "name": "issue-19184",
               "path": "test/configCases/optimization/issue-19184",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/issue-19184",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/issue-19184",
               "normalization": "not-normalized"
             },
             {
@@ -27045,7 +27333,7 @@
               "name": "mangled-namespace-default-reexport",
               "path": "test/configCases/optimization/mangled-namespace-default-reexport",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/mangled-namespace-default-reexport",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/mangled-namespace-default-reexport",
               "normalization": "not-normalized"
             },
             {
@@ -27053,87 +27341,31 @@
               "name": "minified-hoisted-export-object",
               "path": "test/configCases/optimization/minified-hoisted-export-object",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minified-hoisted-export-object",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minified-hoisted-export-object",
               "normalization": "not-normalized"
             },
             {
-              "id": "config-optimization-pipeline/minify-assignment-targets",
-              "name": "minify-assignment-targets",
-              "path": "test/configCases/optimization/minify-assignment-targets",
+              "id": "config-optimization-pipeline/minify-constant-reads",
+              "name": "minify-constant-reads",
+              "path": "test/configCases/optimization/minify-constant-reads",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-assignment-targets",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minify-constant-reads",
               "normalization": "not-normalized"
             },
             {
-              "id": "config-optimization-pipeline/minify-iife-arguments",
-              "name": "minify-iife-arguments",
-              "path": "test/configCases/optimization/minify-iife-arguments",
+              "id": "config-optimization-pipeline/minify-javascript",
+              "name": "minify-javascript",
+              "path": "test/configCases/optimization/minify-javascript",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-iife-arguments",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minify-javascript",
               "normalization": "not-normalized"
             },
             {
-              "id": "config-optimization-pipeline/minify-kept-inferred-names",
-              "name": "minify-kept-inferred-names",
-              "path": "test/configCases/optimization/minify-kept-inferred-names",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-kept-inferred-names",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minify-number-constant-semantics",
-              "name": "minify-number-constant-semantics",
-              "path": "test/configCases/optimization/minify-number-constant-semantics",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-number-constant-semantics",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minify-object-enumeration",
-              "name": "minify-object-enumeration",
-              "path": "test/configCases/optimization/minify-object-enumeration",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-object-enumeration",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minify-optional-call-semantics",
-              "name": "minify-optional-call-semantics",
-              "path": "test/configCases/optimization/minify-optional-call-semantics",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-optional-call-semantics",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minify-string-conversions",
-              "name": "minify-string-conversions",
-              "path": "test/configCases/optimization/minify-string-conversions",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-string-conversions",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minify-traversal-work",
-              "name": "minify-traversal-work",
-              "path": "test/configCases/optimization/minify-traversal-work",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minify-traversal-work",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minimize-arguments-parameter",
-              "name": "minimize-arguments-parameter",
-              "path": "test/configCases/optimization/minimize-arguments-parameter",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-arguments-parameter",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minimize-bigint-errors",
-              "name": "minimize-bigint-errors",
-              "path": "test/configCases/optimization/minimize-bigint-errors",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-bigint-errors",
+              "id": "config-optimization-pipeline/minify-unused-parts",
+              "name": "minify-unused-parts",
+              "path": "test/configCases/optimization/minify-unused-parts",
+              "relevance": "direct",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minify-unused-parts",
               "normalization": "not-normalized"
             },
             {
@@ -27141,7 +27373,7 @@
               "name": "minimize-css-only",
               "path": "test/configCases/optimization/minimize-css-only",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-css-only",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-css-only",
               "normalization": "not-normalized"
             },
             {
@@ -27149,15 +27381,7 @@
               "name": "minimize-html-only",
               "path": "test/configCases/optimization/minimize-html-only",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-html-only",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minimize-javascript-apply-holes",
-              "name": "minimize-javascript-apply-holes",
-              "path": "test/configCases/optimization/minimize-javascript-apply-holes",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-javascript-apply-holes",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-html-only",
               "normalization": "not-normalized"
             },
             {
@@ -27165,7 +27389,7 @@
               "name": "minimize-javascript-future-defaults",
               "path": "test/configCases/optimization/minimize-javascript-future-defaults",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-javascript-future-defaults",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-javascript-future-defaults",
               "normalization": "not-normalized"
             },
             {
@@ -27173,7 +27397,7 @@
               "name": "minimize-javascript-only",
               "path": "test/configCases/optimization/minimize-javascript-only",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-javascript-only",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-javascript-only",
               "normalization": "not-normalized"
             },
             {
@@ -27181,7 +27405,7 @@
               "name": "minimize-javascript-options",
               "path": "test/configCases/optimization/minimize-javascript-options",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-javascript-options",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-javascript-options",
               "normalization": "not-normalized"
             },
             {
@@ -27189,7 +27413,7 @@
               "name": "minimize-json",
               "path": "test/configCases/optimization/minimize-json",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-json",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-json",
               "normalization": "not-normalized"
             },
             {
@@ -27197,7 +27421,7 @@
               "name": "minimize-module-name-cache",
               "path": "test/configCases/optimization/minimize-module-name-cache",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-module-name-cache",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-module-name-cache",
               "normalization": "not-normalized"
             },
             {
@@ -27205,7 +27429,7 @@
               "name": "minimize-new-target",
               "path": "test/configCases/optimization/minimize-new-target",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-new-target",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-new-target",
               "normalization": "not-normalized"
             },
             {
@@ -27213,15 +27437,7 @@
               "name": "minimize-nothing",
               "path": "test/configCases/optimization/minimize-nothing",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-nothing",
-              "normalization": "not-normalized"
-            },
-            {
-              "id": "config-optimization-pipeline/minimize-resolved-boolean",
-              "name": "minimize-resolved-boolean",
-              "path": "test/configCases/optimization/minimize-resolved-boolean",
-              "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-resolved-boolean",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-nothing",
               "normalization": "not-normalized"
             },
             {
@@ -27229,7 +27445,7 @@
               "name": "minimize-svg-data-url",
               "path": "test/configCases/optimization/minimize-svg-data-url",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-svg-data-url",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-svg-data-url",
               "normalization": "not-normalized"
             },
             {
@@ -27237,7 +27453,7 @@
               "name": "minimize-xml",
               "path": "test/configCases/optimization/minimize-xml",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimize-xml",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimize-xml",
               "normalization": "not-normalized"
             },
             {
@@ -27245,7 +27461,15 @@
               "name": "minimizer",
               "path": "test/configCases/optimization/minimizer",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/minimizer",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/minimizer",
+              "normalization": "not-normalized"
+            },
+            {
+              "id": "config-optimization-pipeline/named-chunks-in-sync",
+              "name": "named-chunks-in-sync",
+              "path": "test/configCases/optimization/named-chunks-in-sync",
+              "relevance": "pipeline",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/named-chunks-in-sync",
               "normalization": "not-normalized"
             },
             {
@@ -27253,7 +27477,7 @@
               "name": "named-modules",
               "path": "test/configCases/optimization/named-modules",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/named-modules",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/named-modules",
               "normalization": "not-normalized"
             },
             {
@@ -27261,7 +27485,7 @@
               "name": "nested-exports-info-path",
               "path": "test/configCases/optimization/nested-exports-info-path",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/nested-exports-info-path",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/nested-exports-info-path",
               "normalization": "not-normalized"
             },
             {
@@ -27269,7 +27493,7 @@
               "name": "runtime-specific-used-exports",
               "path": "test/configCases/optimization/runtime-specific-used-exports",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/runtime-specific-used-exports",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/runtime-specific-used-exports",
               "normalization": "not-normalized"
             },
             {
@@ -27277,7 +27501,7 @@
               "name": "runtime-specific-used-exports2",
               "path": "test/configCases/optimization/runtime-specific-used-exports2",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/runtime-specific-used-exports2",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/runtime-specific-used-exports2",
               "normalization": "not-normalized"
             },
             {
@@ -27285,7 +27509,7 @@
               "name": "static-export-bindings",
               "path": "test/configCases/optimization/static-export-bindings",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/static-export-bindings",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/static-export-bindings",
               "normalization": "not-normalized"
             },
             {
@@ -27293,21 +27517,21 @@
               "name": "sync-module-ids-plugin",
               "path": "test/configCases/optimization/sync-module-ids-plugin",
               "relevance": "pipeline",
-              "sourceUrl": "https://github.com/webpack/webpack/tree/e95a7f2764281318c038e9384371797dfef0e48a/test/configCases/optimization/sync-module-ids-plugin",
+              "sourceUrl": "https://github.com/webpack/webpack/tree/e9f0c9b25456ae5d80739ba7f498ae5b623ca194/test/configCases/optimization/sync-module-ids-plugin",
               "normalization": "not-normalized"
             }
           ]
         }
       ],
       "release": {
-        "tag": "v5.112.2",
-        "version": "v5.112.2",
-        "commit": "e95a7f2764281318c038e9384371797dfef0e48a",
-        "publishedAt": "2026-10-23T12:13:00Z",
-        "url": "https://github.com/webpack/webpack/releases/tag/v5.112.2"
+        "tag": "v5.113.0",
+        "version": "v5.113.0",
+        "commit": "e9f0c9b25456ae5d80739ba7f498ae5b623ca194",
+        "publishedAt": "2026-11-19T21:33:45Z",
+        "url": "https://github.com/webpack/webpack/releases/tag/v5.113.0"
       },
-      "count": 158,
-      "directCount": 121,
+      "count": 186,
+      "directCount": 156,
       "negativeCount": 0
     },
     {
@@ -29531,7 +29755,7 @@
               "name": "dce/Base64LoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29539,7 +29763,7 @@
               "name": "dce/CallWithNoArg",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29547,7 +29771,7 @@
               "name": "dce/ConstructWithNoArg",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29555,7 +29779,7 @@
               "name": "dce/ConstValueInliningAssign",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29563,7 +29787,7 @@
               "name": "dce/ConstValueInliningBundle",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29571,7 +29795,7 @@
               "name": "dce/ConstValueInliningDirectEval",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29579,7 +29803,7 @@
               "name": "dce/ConstValueInliningNoBundle",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29587,7 +29811,7 @@
               "name": "dce/CrossModuleConstantFolding",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29595,7 +29819,7 @@
               "name": "dce/DataURLLoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29603,7 +29827,7 @@
               "name": "dce/DCEClassStaticBlocks",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29611,7 +29835,7 @@
               "name": "dce/DCEOfDestructuring",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29619,7 +29843,7 @@
               "name": "dce/DCEOfDestructuringOfImportNamespace",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29627,7 +29851,7 @@
               "name": "dce/DCEOfDestructuringOfUnwrappedRequire",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29635,7 +29859,7 @@
               "name": "dce/DCEOfDestructuringSideEffects",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29643,7 +29867,7 @@
               "name": "dce/DCETemplateLiteral",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29651,7 +29875,7 @@
               "name": "dce/DCETypeOf",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29659,7 +29883,7 @@
               "name": "dce/DCETypeOfCompareStringGuardCondition",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29667,7 +29891,7 @@
               "name": "dce/DCETypeOfEqualsString",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29675,7 +29899,7 @@
               "name": "dce/DCETypeOfEqualsStringGuardCondition",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29683,7 +29907,7 @@
               "name": "dce/DCETypeOfEqualsStringMangle",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29691,7 +29915,7 @@
               "name": "dce/DCEVarExports",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29699,7 +29923,7 @@
               "name": "dce/DeadCodeFollowingJump",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29707,7 +29931,7 @@
               "name": "dce/DestructuringOfForOfReboundUnwrappedRequire",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29715,7 +29939,7 @@
               "name": "dce/DestructuringOfImportNamespaceDirectEval",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29723,7 +29947,7 @@
               "name": "dce/DestructuringOfImportNamespaceRuntime",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29731,7 +29955,7 @@
               "name": "dce/DestructuringOfReboundUnwrappedRequire",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29739,7 +29963,7 @@
               "name": "dce/FileLoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29747,7 +29971,7 @@
               "name": "dce/IgnoreAnnotations",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29755,7 +29979,7 @@
               "name": "dce/IgnoreAnnotationsDoesNotApplyToRuntime",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29763,7 +29987,7 @@
               "name": "dce/ImportReExportOfNamespaceImport",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29771,7 +29995,7 @@
               "name": "dce/InlineEmptyFunctionCalls",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29779,7 +30003,7 @@
               "name": "dce/InlineFunctionCallBehaviorChanges",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29787,7 +30011,7 @@
               "name": "dce/InlineFunctionCallForInitDecl",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29795,7 +30019,7 @@
               "name": "dce/InlineIdentityFunctionCalls",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29803,7 +30027,7 @@
               "name": "dce/JSONLoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29811,7 +30035,7 @@
               "name": "dce/MultipleDeclarationTreeShaking",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29819,7 +30043,7 @@
               "name": "dce/MultipleDeclarationTreeShakingMinifySyntax",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29827,7 +30051,7 @@
               "name": "dce/NestedFunctionInliningWithSpread",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29835,7 +30059,7 @@
               "name": "dce/PackageJsonSideEffectsArrayGlob",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29843,7 +30067,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeep",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29851,7 +30075,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepMainImplicitMain",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29859,7 +30083,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepMainImplicitModule",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29867,7 +30091,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepMainUseMain",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29875,7 +30099,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepMainUseModule",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29883,7 +30107,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepModuleImplicitMain",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29891,7 +30115,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepModuleImplicitModule",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29899,7 +30123,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepModuleUseMain",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29907,7 +30131,7 @@
               "name": "dce/PackageJsonSideEffectsArrayKeepModuleUseModule",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29915,7 +30139,7 @@
               "name": "dce/PackageJsonSideEffectsArrayRemove",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29923,7 +30147,7 @@
               "name": "dce/PackageJsonSideEffectsFalseAllFork",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29931,7 +30155,7 @@
               "name": "dce/PackageJsonSideEffectsFalseCrossPlatformSlash",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29939,7 +30163,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesChainAll",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29947,7 +30171,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesChainOne",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29955,7 +30179,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesDiamond",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29963,7 +30187,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29971,7 +30195,7 @@
               "name": "dce/PackageJsonSideEffectsFalseIntermediateFilesUsed",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29979,7 +30203,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepBareImportAndRequireCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29987,7 +30211,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepBareImportAndRequireES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -29995,7 +30219,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepNamedImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30003,7 +30227,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepNamedImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30011,7 +30235,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepStarImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30019,7 +30243,7 @@
               "name": "dce/PackageJsonSideEffectsFalseKeepStarImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30027,7 +30251,7 @@
               "name": "dce/PackageJsonSideEffectsFalseNoWarningInNodeModulesESBuildIssue999",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30035,7 +30259,7 @@
               "name": "dce/PackageJsonSideEffectsFalseOneFork",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30043,7 +30267,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveBareImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30051,7 +30275,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveBareImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30059,7 +30283,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveNamedImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30067,7 +30291,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveNamedImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30075,7 +30299,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveStarImportCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30083,7 +30307,7 @@
               "name": "dce/PackageJsonSideEffectsFalseRemoveStarImportES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30091,7 +30315,7 @@
               "name": "dce/PackageJsonSideEffectsGlobBasicPattern",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30099,7 +30323,7 @@
               "name": "dce/PackageJsonSideEffectsGlobBraceExpansion",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30107,7 +30331,7 @@
               "name": "dce/PackageJsonSideEffectsGlobDeepPattern",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30115,7 +30339,7 @@
               "name": "dce/PackageJsonSideEffectsGlobExtensionPattern",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30123,7 +30347,7 @@
               "name": "dce/PackageJsonSideEffectsGlobInvalidPattern",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30131,7 +30355,7 @@
               "name": "dce/PackageJsonSideEffectsGlobMixedPatterns",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30139,7 +30363,7 @@
               "name": "dce/PackageJsonSideEffectsGlobNoMatches",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30147,7 +30371,7 @@
               "name": "dce/PackageJsonSideEffectsGlobQuestionMark",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30155,7 +30379,7 @@
               "name": "dce/PackageJsonSideEffectsKeepExportDefaultExpr",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30163,7 +30387,7 @@
               "name": "dce/PackageJsonSideEffectsNestedDirectoryRemove",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30171,7 +30395,7 @@
               "name": "dce/PackageJsonSideEffectsTrueKeepCommonJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30179,7 +30403,7 @@
               "name": "dce/PackageJsonSideEffectsTrueKeepES6",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30187,7 +30411,7 @@
               "name": "dce/PureCallsWithSpread",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30195,7 +30419,7 @@
               "name": "dce/RemoveTrailingReturn",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30203,7 +30427,7 @@
               "name": "dce/RemoveUnusedImportMeta",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30211,7 +30435,7 @@
               "name": "dce/RemoveUnusedImports",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30219,7 +30443,7 @@
               "name": "dce/RemoveUnusedImportsEval",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30227,7 +30451,7 @@
               "name": "dce/RemoveUnusedImportsEvalTS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30235,7 +30459,7 @@
               "name": "dce/TextLoaderRemoveUnused",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30243,7 +30467,7 @@
               "name": "dce/TopLevelFunctionInliningWithSpread",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30251,7 +30475,7 @@
               "name": "dce/TreeShakingBinaryOperators",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30259,7 +30483,7 @@
               "name": "dce/TreeShakingClassComputedKeyReference",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30267,7 +30491,7 @@
               "name": "dce/TreeShakingClassEnumKey",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30275,7 +30499,7 @@
               "name": "dce/TreeShakingClassPrivateProperty",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30283,7 +30507,7 @@
               "name": "dce/TreeShakingClassPrivatePropertyDeclaration",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30291,7 +30515,7 @@
               "name": "dce/TreeShakingClassProperty",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30299,7 +30523,7 @@
               "name": "dce/TreeShakingClassStaticProperty",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30307,7 +30531,7 @@
               "name": "dce/TreeShakingImportIdentifier",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30315,7 +30539,7 @@
               "name": "dce/TreeShakingInESMWrapper",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30323,7 +30547,7 @@
               "name": "dce/TreeShakingLoweredClassStaticField",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30331,7 +30555,7 @@
               "name": "dce/TreeShakingLoweredClassStaticFieldAssignment",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30339,7 +30563,7 @@
               "name": "dce/TreeShakingLoweredClassStaticFieldMinified",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30347,7 +30571,7 @@
               "name": "dce/TreeShakingNoBundleCJS",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30355,7 +30579,7 @@
               "name": "dce/TreeShakingNoBundleESM",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30363,7 +30587,7 @@
               "name": "dce/TreeShakingNoBundleIIFE",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30371,7 +30595,7 @@
               "name": "dce/TreeShakingObjectProperty",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30379,7 +30603,7 @@
               "name": "dce/TreeShakingReactElements",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30387,7 +30611,7 @@
               "name": "dce/TreeShakingUnaryOperators",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             },
             {
@@ -30395,18 +30619,18 @@
               "name": "dce/UnreferencedObjectLiteral",
               "path": "test/bundler/esbuild/dce.test.ts",
               "relevance": "direct",
-              "sourceUrl": "https://github.com/oven-sh/bun/blob/38afee6c84fcf48c0edb2466aa4b27d287a59c30/test/bundler/esbuild/dce.test.ts",
+              "sourceUrl": "https://github.com/oven-sh/bun/blob/a7733435cf40429e3b35c36072769df2052b80f1/test/bundler/esbuild/dce.test.ts",
               "normalization": "not-normalized"
             }
           ]
         }
       ],
       "release": {
-        "tag": "bun-v1.4.4",
-        "version": "Bun v1.4.4",
-        "commit": "38afee6c84fcf48c0edb2466aa4b27d287a59c30",
-        "publishedAt": "2026-10-22T10:11:32Z",
-        "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.4"
+        "tag": "bun-v1.4.5",
+        "version": "Bun v1.4.5",
+        "commit": "a7733435cf40429e3b35c36072769df2052b80f1",
+        "publishedAt": "2026-11-19T08:47:28Z",
+        "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.5"
       },
       "count": 109,
       "directCount": 109,
