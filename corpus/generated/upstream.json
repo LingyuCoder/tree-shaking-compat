@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-20T00:31:07.515Z",
-  "inventoryGeneratedAt": "2026-11-20T00:31:01.820Z",
+  "generatedAt": "2026-11-20T23:53:51.618Z",
+  "inventoryGeneratedAt": "2026-11-20T23:53:45.805Z",
   "definition": "Deduplicated executable corpus generated from every configured upstream tree-shaking suite. Exact upstream paths remain attached as provenance.",
   "sourceCoverage": {
     "esbuild": {
